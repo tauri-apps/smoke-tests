@@ -6,7 +6,6 @@ The `todomvc` folder is composed of baseline apps from the [todomvc](https://git
  - angular2
  - polymer
  - react
- - typescript-backbone 
  - vanillajs
 
 They have not been modified in any way.
