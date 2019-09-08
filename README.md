@@ -116,7 +116,7 @@ After you have installed Rust and the build toolchain, it is wise to open a new 
 
 Setup the bundler:
 ```bash
-$ cargo install --path node_modules/@quasar/tauri/tools/rust/cargo-tauri-bundle --force
+$ cargo install --path node_modules/@tauri-apps/tauri/tools/rust/cargo-tauri-bundle --force
 ```
 
 Want to debug?
