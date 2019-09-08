@@ -43,3 +43,8 @@ path = "src/updater.rs"
 [[bin]]
 name = "app"
 path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
