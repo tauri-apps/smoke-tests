@@ -10,11 +10,14 @@ The `todomvc` folder is composed of baseline apps from the [todomvc](https://git
 
 They have not been modified in any way.
 
-## vanillajs/monolith
+### vanillajs/monolith
 This is a hand-made monolithic html file. It should be good to just drop in. Soon we'll have a webpack and babel approach to do this as well.
 
-## vanillajs/duolith
+### vanillajs/duolith
 This splits the monolith into an `index.html` and `js/app.js` files
+
+### quasar/monolith
+This is a Quasar app that has been transpiled and un-chunked to make a single monolithic file. The toolchain to do this is not yet available.
 
 ## test-drive
 Assuming you have cargo and rust installed. If not, see below/
@@ -139,6 +142,7 @@ $ cargo build
 ## experimental anti-bloat features
 
 see: https://github.com/RazrFalcon/cargo-bloat
+https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html
 
 add this to your `/src-tauri/Cargo.toml` (currently being used in the /test project)
 ```

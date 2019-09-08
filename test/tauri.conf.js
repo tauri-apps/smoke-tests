@@ -1,5 +1,6 @@
 const
   path = require('path'),
+  // distDir = path.resolve(__dirname, '../quasar/compiled-web')
   distDir = path.resolve(__dirname, '../todomvc/vanillajs/monolith')
 
 module.exports = function () {
@@ -13,7 +14,7 @@ module.exports = function () {
     ctx: {},
     tauri: {
       embeddedServer: {
-        active: false
+        active: true
       },
       bundle: {
         active: true
@@ -25,7 +26,7 @@ module.exports = function () {
         title: "Tauri App"
       },
       security: {
-        csp: 'default-src data: filesystem: ws: \'unsafe-eval\' \'unsafe-inline\''
+        csp: 'default-src data: filesystem: ws: http: https: \'unsafe-eval\' \'unsafe-inline\''
       }
     }
   }
