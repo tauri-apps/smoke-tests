@@ -21,6 +21,7 @@ This splits the monolith into an `index.html` and `js/app.js` files
 $ git clone https://github.com/tauri-apps/smoke-tests
 $ cd smoke-tests/test
 $ yarn
+$ cargo install --path node_modules/@quasar/tauri/tools/rust/cargo-tauri-bundle --force
 $ yarn tauri build
 ```
 After tauri has compiled its rust resources, look in the `src-tauri/target/release/bundle`.
