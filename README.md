@@ -24,7 +24,7 @@ Assuming you have cargo and rust installed. If not, see below/
 
 ```bash
 $ git clone https://github.com/tauri-apps/smoke-tests
-$ cd smoke-tests/test
+$ cd test
 $ yarn
 $ cargo install --path node_modules/@tauri-apps/tauri/tools/rust/cargo-tauri-bundle --force
 $ yarn tauri build
@@ -141,16 +141,18 @@ $ cargo build
 
 ## experimental anti-bloat features
 
-see: https://github.com/RazrFalcon/cargo-bloat
-https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html
-https://doc.rust-lang.org/cargo/reference/manifest.html#the-profile-sections
+- https://github.com/RazrFalcon/cargo-bloat
+- https://lifthrasiir.github.io/rustlog/why-is-a-rust-executable-large.html
+- https://doc.rust-lang.org/cargo/reference/manifest.html#the-profile-sections
 
-### Bundler
 add this to your `/src-tauri/Cargo.toml` (currently being used in the /test project)
 ```
+[profile.release]
 panic = "abort"
 codegen-units = 1
 lto = true
+incremental = false
+opt-level = "z"
 ```
 
 ### upx

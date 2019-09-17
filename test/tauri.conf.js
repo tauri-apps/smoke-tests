@@ -1,7 +1,9 @@
 const
   path = require('path'),
-  // distDir = path.resolve(__dirname, '../quasar/compiled-web')
-  distDir = path.resolve(__dirname, '../todomvc/vanillajs/monolith')
+  // distDir = path.resolve(__dirname, '../smoke/quasar/compiled-web')
+  distDir = path.resolve(__dirname, '../smoke/todomvc/vanillajs/monolith')
+  // distDir = path.resolve(__dirname, '../smoke/yew/monolith')
+  // distDir = path.resolve(__dirname, './src-tauri/compiled-web')
 
 module.exports = function () {
   return {
@@ -9,7 +11,7 @@ module.exports = function () {
     },
     build: {
       distDir: distDir,
-      APP_URL: 'http://localhost:4000'
+      APP_URL: 'http://localhost:4000/'
     },
     ctx: {},
     tauri: {
