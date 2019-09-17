@@ -2,7 +2,7 @@
 A collection of frameworks used as a suite of smoke-tests for tauri
 
 ## Basic Tests
-The `todomvc` folder is composed of baseline apps from the [todomvc](https://github.com/tastejs/todomvc) projects. At the moment we're building:
+The `smoke/todomvc` folder is composed of baseline apps from the [todomvc](https://github.com/tastejs/todomvc) projects. At the moment we're building:
  - angular2
  - polymer
  - react
@@ -10,13 +10,13 @@ The `todomvc` folder is composed of baseline apps from the [todomvc](https://git
 
 They have not been modified in any way.
 
-### vanillajs/monolith
+### smoke/todomvc/vanillajs/monolith
 This is a hand-made monolithic html file. It should be good to just drop in. Soon we'll have a webpack and babel approach to do this as well.
 
-### vanillajs/duolith
+### smoke/todomvc/vanillajs/duolith
 This splits the monolith into an `index.html` and `js/app.js` files
 
-### quasar/monolith
+### smoke/quasar/compiled-web
 This is a Quasar app that has been transpiled and un-chunked to make a single monolithic file. The toolchain to do this is not yet available.
 
 ## test-drive
