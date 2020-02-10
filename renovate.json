@@ -17,7 +17,7 @@
       "packagePatterns": ["*"],
       "groupName": "Rust Deps",
       "groupSlug": "allRust",
-      "commitMessagePrefix": "chore(examples)
+      "commitMessagePrefix": "chore(examples)"
     },
     {
       "enabled": true,
