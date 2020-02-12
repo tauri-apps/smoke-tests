@@ -1,0 +1,9 @@
+{
+  "name": "tauri-yew",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tauri": "^0.4.0"
+  }
+}

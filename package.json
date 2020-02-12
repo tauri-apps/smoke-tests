@@ -4,7 +4,9 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "tauri/node/**",
-    "tauri/rust/**"
+    "node/**",
+    "rust/**"
   ]
+  "name": "root",
+  "private": true
 }
