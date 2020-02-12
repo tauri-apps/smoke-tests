@@ -6,7 +6,7 @@
   "workspaces": [
     "node/**",
     "rust/**"
-  ]
+  ],
   "name": "root",
   "private": true
 }
