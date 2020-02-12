@@ -1,0 +1,45 @@
+[tasks.install]
+script = [
+  "cargo install cargo-web",
+  "yarn install",
+  "yarn add tauri"
+]
+
+[tasks.build-todomvc]
+script = [ 
+  "cd todomvc",
+  "cargo web deploy"
+]
+
+[tasks.clean-todomvc]
+script = [ 
+  "cd todomvc",
+  "cargo clean"
+]
+
+[tasks.build-tauri]
+command = "yarn"
+args = ["tauri", "build"]
+
+[tasks.clean-tauri]
+script = [
+  "cd src-tauri",
+  "cargo clean"
+]
+
+[tasks.deploy]
+dependencies = [
+  "install",
+  "build-todomvc",
+  "build-tauri",
+]
+
+[tasks.reset]
+dependencies = [
+  "clean-todomvc",
+  "clean-tauri",
+]
+
+[tasks.run]
+command = "src-tauri/target/release/app"
+dependencies = ["deploy"]
