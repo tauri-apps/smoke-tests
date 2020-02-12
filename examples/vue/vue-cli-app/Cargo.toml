@@ -1,7 +1,0 @@
-[workspace]
-members = [
-  "tauri",
-  "tauri-api",
-  "tauri-updater",
-  "tauri-utils"
-]
