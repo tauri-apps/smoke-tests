@@ -1,7 +1,12 @@
 {
-  "name": "root",
+  "name": "tauri-examples",
+  "description": "Examples of Tauri in use.",
+  "license": "MIT",
   "private": true,
-  "devDependencies": {
-    "lerna": "^3.20.2"
-  }
+  "workspaces": [
+    "node/**",
+    "rust/**"
+  ],
+  "name": "root",
+  "private": true
 }
