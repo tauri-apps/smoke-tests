@@ -8,7 +8,7 @@
     "build": "echo \"No build is necessary for Vanillajs, skipping.\"",
     "html:dev": "quasar serve ./dist",
     "tauri:prod": "tauri",
-    "tauri:source": "node ../../../cli/tauri.js/bin/tauri",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
     "tauri:source:init": "yarn tauri:source init --tauriPath ../../../tauri",
     "tauri:prod:init": "yarn tauri:prod init",
     "tauri:source:dev": "yarn tauri:source dev",

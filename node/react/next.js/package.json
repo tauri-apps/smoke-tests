@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "tauri:prod": "tauri",
-    "tauri:source": "node ../../../cli/tauri.js/bin/tauri",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
     "tauri:source:init": "yarn tauri:source init --tauriPath ../../../tauri",
     "tauri:prod:init": "yarn tauri:prod init",
     "tauri:source:dev": "yarn tauri:source dev",
