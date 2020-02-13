@@ -3,6 +3,9 @@
   "schedule": "before 3am",
   "ignorePaths": [],
   "labels": ["chore"],
+  "cargo": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "packagePatterns": ["*"],
@@ -11,12 +14,6 @@
     {
       "enabled": true,
       "enabledManagers": ["cargo"],
-      "cargo": {
-        "enabled": true
-      },
-      "npm": {
-        "enabled": false
-      },
       "paths": ["**/src-tauri/Cargo.toml"],
       "groupName": "Rust Deps",
       "groupSlug": "allRust",
@@ -25,13 +22,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/react/gatsby*/**"],
+      "paths": ["node/react/gatsby*/package.json"],
       "groupName": "Gatsby Examples",
       "groupSlug": "allGatsby",
       "commitMessagePrefix": "chore(examples)",
@@ -45,13 +36,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/react/create-react-app*/**"],
+      "paths": ["node/react/create-react-app*/package.json"],
       "groupName": "CRA Examples",
       "groupSlug": "allCRA",
       "commitMessagePrefix": "chore(examples)",
@@ -65,13 +50,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/react/next*/**"],
+      "paths": ["node/react/next*/package.json"],
       "groupName": "Next.js Examples",
       "groupSlug": "allNextjs",
       "commitMessagePrefix": "chore(examples)",
@@ -85,13 +64,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/vue/**"],
+      "paths": ["node/vue/**/package.json"],
       "groupName": "Vue Examples",
       "groupSlug": "allVue",
       "commitMessagePrefix": "chore(examples)",
@@ -105,13 +78,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/vanillajs/**"],
+      "paths": ["node/vanillajs/**/package.json"],
       "groupName": "VanillaJS Examples",
       "groupSlug": "allVanilla",
       "commitMessagePrefix": "chore(examples)",
@@ -125,13 +92,7 @@
     {
       "enabled": true,
       "enabledManagers": ["npm"],
-      "cargo": {
-        "enabled": false
-      },
-      "npm": {
-        "enabled": true
-      },
-      "paths": ["node/svelte/**"],
+      "paths": ["node/svelte/**/package.json"],
       "groupName": "Svelte Examples",
       "groupSlug": "allSvelte",
       "commitMessagePrefix": "chore(examples)",
