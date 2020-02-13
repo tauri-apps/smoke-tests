@@ -17,7 +17,7 @@
       "npm": {
         "enabled": false
       },
-      "packagePatterns": ["node/**/src-tauri/Cargo.toml"],
+      "paths": ["**/src-tauri/Cargo.toml"],
       "groupName": "Rust Deps",
       "groupSlug": "allRust",
       "commitMessagePrefix": "chore(examples)"
