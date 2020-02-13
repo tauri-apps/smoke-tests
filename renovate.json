@@ -102,6 +102,20 @@
       "prPriority": -1,
       "automerge": true,
       "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["cargo"],
+      "paths": ["rust/**/Cargo.toml"],
+      "groupName": "Rust Examples",
+      "groupSlug": "allRustExamples",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
     }
   ]
 }
