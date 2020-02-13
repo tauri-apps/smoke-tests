@@ -45,15 +45,15 @@ jobs:
             ext: .x86.msi
 
     steps:
-      - name: checkout examples
-        uses: actions/checkout@v2
-        with:
-          path: examples
       - name: checkout tauri
         uses: actions/checkout@v2
         with:
           repository: tauri-apps/tauri
           ref: dev
+      - name: checkout examples
+        uses: actions/checkout@v2
+        with:
+          path: examples
       - name: install rust stable
         uses: actions-rs/toolchain@v1
         with:
