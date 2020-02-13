@@ -105,8 +105,8 @@
     },
     {
       "enabled": true,
-      "enabledManagers": ["cargo"],
-      "paths": ["rust/**/Cargo.toml"],
+      "enabledManagers": ["cargo", "npm"],
+      "paths": ["rust/**"],
       "groupName": "Rust Examples",
       "groupSlug": "allRustExamples",
       "commitMessagePrefix": "chore(examples)",
