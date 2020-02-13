@@ -17,7 +17,7 @@
       "npm": {
         "enabled": false
       },
-      "packagePatterns": ["*"],
+      "packagePatterns": ["node/**/src-tauri/*"],
       "groupName": "Rust Deps",
       "groupSlug": "allRust",
       "commitMessagePrefix": "chore(examples)"
@@ -31,7 +31,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/react/gatsby*/**"],
+      "paths": ["node/react/gatsby*/**"],
       "groupName": "Gatsby Examples",
       "groupSlug": "allGatsby",
       "commitMessagePrefix": "chore(examples)",
@@ -51,7 +51,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/react/create-react-app*/**"],
+      "paths": ["node/react/create-react-app*/**"],
       "groupName": "CRA Examples",
       "groupSlug": "allCRA",
       "commitMessagePrefix": "chore(examples)",
@@ -71,7 +71,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/react/next*/**"],
+      "paths": ["node/react/next*/**"],
       "groupName": "Next.js Examples",
       "groupSlug": "allNextjs",
       "commitMessagePrefix": "chore(examples)",
@@ -91,7 +91,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/vue/**"],
+      "paths": ["node/vue/**"],
       "groupName": "Vue Examples",
       "groupSlug": "allVue",
       "commitMessagePrefix": "chore(examples)",
@@ -111,7 +111,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/vanillajs/**"],
+      "paths": ["node/vanillajs/**"],
       "groupName": "VanillaJS Examples",
       "groupSlug": "allVanilla",
       "commitMessagePrefix": "chore(examples)",
@@ -131,7 +131,7 @@
       "npm": {
         "enabled": true
       },
-      "paths": ["examples/svelte/**"],
+      "paths": ["node/svelte/**"],
       "groupName": "Svelte Examples",
       "groupSlug": "allSvelte",
       "commitMessagePrefix": "chore(examples)",
