@@ -2,9 +2,5 @@
   "name": "tauri-examples",
   "description": "Examples of Tauri in use.",
   "license": "MIT",
-  "private": true,
-  "workspaces": [
-    "node/**",
-    "rust/**"
-  ]
+  "private": true
 }

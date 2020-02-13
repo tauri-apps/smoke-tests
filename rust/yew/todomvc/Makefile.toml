@@ -2,7 +2,8 @@
 script = [
   "cargo install cargo-web",
   "yarn install",
-  "yarn add tauri"
+  "yarn add tauri",
+  "cargo install tauri-bundler"
 ]
 
 [tasks.build-todomvc]
@@ -18,8 +19,9 @@ script = [
 ]
 
 [tasks.build-tauri]
-command = "yarn"
-args = ["tauri", "build"]
+script = [
+  "yarn tauri build"
+]
 
 [tasks.clean-tauri]
 script = [
