@@ -13,13 +13,13 @@ jobs:
         platform: [ubuntu-latest, macos-latest, windows-latest]
         example:
           - name: GatsbyThemedSite
-            folder: react/gatsby-themed-site
+            folder: node/react/gatsby-themed-site
             executable: gatsby-themed-site-app
           - name: CRAApp
             folder: react/create-react-app
             executable: app
           - name: NextjsApp
-            folder: react/next.js
+            folder: node/react/next.js
             executable: app
           - name: VanillajsMonolithApp
             folder: vanillajs/monolith
