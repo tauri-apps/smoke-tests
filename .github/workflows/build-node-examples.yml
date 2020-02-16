@@ -15,34 +15,11 @@ jobs:
           - name: GatsbyThemedSite
             folder: react/gatsby-themed-site
             executable: gatsby-themed-site-app
-          - name: CRAApp
-            folder: react/create-react-app
-            executable: app
-          - name: NextjsApp
-            folder: react/next.js
-            executable: app
-          - name: VanillajsMonolithApp
-            folder: vanillajs/monolith
-            executable: app
-          - name: quasar-app
-            folder: vue/quasar-app
-            executable: app
-          - name: svelte-app
-            folder: svelte/svelte-app
-            executable: app
         include:
           - platform: ubuntu-latest
             CARGO_HOME: ~/.cargo
             releaseFolder: target/release/bundle/deb
             ext: _0.1.0_amd64.deb
-          - platform: macos-latest
-            CARGO_HOME: ~/.cargo
-            releaseFolder: target/release/bundle/osx
-            ext: .app
-          - platform: windows-latest
-            CARGO_HOME: ~/.cargo
-            releaseFolder: target/release
-            ext: .x86.msi
 
     steps:
       - name: checkout tauri
@@ -52,7 +29,8 @@ jobs:
           ref: dev
       - name: checkout examples
         uses: actions/checkout@v2
-        
+        with:
+          path: examples
       - name: install rust stable
         uses: actions-rs/toolchain@v1
         with:
