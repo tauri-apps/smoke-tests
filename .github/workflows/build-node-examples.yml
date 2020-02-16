@@ -52,8 +52,7 @@ jobs:
           ref: dev
       - name: checkout examples
         uses: actions/checkout@v2
-        with:
-          path: examples
+        
       - name: install rust stable
         uses: actions-rs/toolchain@v1
         with:
