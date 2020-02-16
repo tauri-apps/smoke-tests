@@ -91,20 +91,20 @@ jobs:
       - name: cache node modules
         uses: actions/cache@v1
         with:
-          path: ${{ format('examples/node/{0}/node_modules', matrix.example.folder) }}
-          key: ${{ runner.OS }}-build-${{ hashFiles(format('examples/node/{0}/yarn.lock', matrix.example.folder)) }}
+          path: ${{ format('node/{0}/node_modules', matrix.example.folder) }}
+          key: ${{ runner.OS }}-build-${{ hashFiles(format('node/{0}/yarn.lock', matrix.example.folder)) }}
           restore-keys: ${{ runner.OS }}-build-${{ env.cache-name }}-
       - name: install via yarn
-        working-directory: ./examples/node/${{ matrix.example.folder }}
+        working-directory: ./node/${{ matrix.example.folder }}
         run: yarn
       - name: build example
-        working-directory: ./examples/node/${{ matrix.example.folder }}
+        working-directory: ./node/${{ matrix.example.folder }}
         run: yarn build
       - name: yarn tauri build
-        working-directory: ./examples/node/${{ matrix.example.folder }}
+        working-directory: ./node/${{ matrix.example.folder }}
         run: yarn tauri:source:build
       - uses: actions/upload-artifact@v1
         if: success()
         with:
           name: ${{ matrix.example.name }}(${{ matrix.platform }})
-          path: ${{ format('./examples/node/{0}/src-tauri/{1}/{2}{3}', matrix.example.folder, matrix.releaseFolder, matrix.example.executable, matrix.ext ) }}
+          path: ${{ format('./node/{0}/src-tauri/{1}/{2}{3}', matrix.example.folder, matrix.releaseFolder, matrix.example.executable, matrix.ext ) }}
