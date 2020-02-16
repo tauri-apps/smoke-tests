@@ -1,0 +1,121 @@
+{
+  "extends": ["config:base"],
+  "schedule": "before 3am",
+  "ignorePaths": [],
+  "labels": ["chore"],
+  "cargo": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "enabled": false
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["cargo"],
+      "paths": ["**/src-tauri/Cargo.toml"],
+      "groupName": "Rust Deps",
+      "groupSlug": "allRust",
+      "commitMessagePrefix": "chore(examples)"
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/react/gatsby*/package.json"],
+      "groupName": "Gatsby Examples",
+      "groupSlug": "allGatsby",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/react/create-react-app*/package.json"],
+      "groupName": "CRA Examples",
+      "groupSlug": "allCRA",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/react/next*/package.json"],
+      "groupName": "Next.js Examples",
+      "groupSlug": "allNextjs",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/vue/**/package.json"],
+      "groupName": "Vue Examples",
+      "groupSlug": "allVue",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/vanillajs/**/package.json"],
+      "groupName": "VanillaJS Examples",
+      "groupSlug": "allVanilla",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["npm"],
+      "paths": ["node/svelte/**/package.json"],
+      "groupName": "Svelte Examples",
+      "groupSlug": "allSvelte",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    },
+    {
+      "enabled": true,
+      "enabledManagers": ["cargo", "npm"],
+      "paths": ["rust/**"],
+      "groupName": "Rust Examples",
+      "groupSlug": "allRustExamples",
+      "commitMessagePrefix": "chore(examples)",
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "prPriority": -1,
+      "automerge": true,
+      "rebaseConflictedPrs": true
+    }
+  ]
+}
