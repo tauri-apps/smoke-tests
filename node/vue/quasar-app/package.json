@@ -12,8 +12,8 @@
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build",
     "tauri:prod": "tauri",
-    "tauri:source": "node ../../../cli/tauri.js/bin/tauri",
-    "tauri:source:init": "yarn tauri:source init --tauriPath ../../../tauri",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
+    "tauri:source:init": "yarn tauri:source init --tauriPath ../../../../tauri",
     "tauri:prod:init": "yarn tauri:prod init",
     "tauri:source:dev": "yarn tauri:source dev",
     "tauri:prod:dev": "yarn tauri:prod dev",
@@ -36,7 +36,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.1.2",
-    "tauri": "file:../../../cli/tauri.js"
+    "tauri": "0.4.0"
   },
   "engines": {
     "node": ">= 8.9.0",
