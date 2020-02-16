@@ -27,6 +27,7 @@ jobs:
         with:
           repository: tauri-apps/tauri
           ref: dev
+          path: examples
       - name: checkout examples
         uses: actions/checkout@v2
         with:
