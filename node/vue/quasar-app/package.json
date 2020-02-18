@@ -25,7 +25,7 @@
     "quasar": "1.9.2"
   },
   "devDependencies": {
-    "@quasar/app": "1.5.6",
+    "@quasar/app": "1.5.8",
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "5.1.2",
     "babel-eslint": "10.0.3",
@@ -35,7 +35,7 @@
     "eslint-plugin-node": "11.0.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
-    "eslint-plugin-vue": "6.2.0",
+    "eslint-plugin-vue": "6.2.1",
     "tauri": "0.4.1"
   },
   "engines": {

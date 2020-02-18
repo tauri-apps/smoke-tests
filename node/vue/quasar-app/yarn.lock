@@ -918,10 +918,10 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@1.5.6":
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.5.6.tgz#d83b07e3d530cdf061b364baaadf6de66df9d9ba"
-  integrity sha512-32yRDb5QqJ0bja7sCcdL+2S0krA56ah9nhFB53Ri1QXApPD5sj7UCHDca21nxxiapIlKsi6wO2GuI6uzLIzihg==
+"@quasar/app@1.5.8":
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.5.8.tgz#2e55c1a0ff593ac776f0afbc01c7c65d3f8c72ef"
+  integrity sha512-fIbVmHW7AHzWk0cWIsUY1gecqlYN6KqZIyNKJ+xzt2iHc9x5AYE/lMqw9Ku4DxTl0LvFli9aHNh0pJnDdwz6Tg==
   dependencies:
     "@quasar/babel-preset-app" "1.1.9"
     "@quasar/fastclick" "1.1.4"
@@ -4197,10 +4197,10 @@ eslint-plugin-standard@4.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-4.0.1.tgz#ff0519f7ffaff114f76d1bd7c3996eef0f6e20b4"
   integrity sha512-v/KBnfyaOMPmZc/dmc6ozOdWqekGp7bBGq4jLAecEfPGmfKiWS4sA8sC0LqiV9w5qmXAtXVn4M3p1jSyhY85SQ==
 
-eslint-plugin-vue@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-6.2.0.tgz#d700a61c0354da125c764385f06fa751c6b2753a"
-  integrity sha512-6AnZKycVWbwQtL/RyX77Rytm9r16bfYsd5oy65eoSkNFzWQ5qAisdmqUG08v1InTmAh6mbR24X1HMEvoI24wGQ==
+eslint-plugin-vue@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-6.2.1.tgz#ca802df5c33146aed1e56bb21d250c1abb6120a3"
+  integrity sha512-MiIDOotoWseIfLIfGeDzF6sDvHkVvGd2JgkvjyHtN3q4RoxdAXrAMuI3SXTOKatljgacKwpNAYShmcKZa4yZzw==
   dependencies:
     natural-compare "^1.4.0"
     semver "^5.6.0"
