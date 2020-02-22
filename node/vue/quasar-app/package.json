@@ -21,7 +21,7 @@
     "tauri:prod:build": "yarn tauri:prod build"
   },
   "dependencies": {
-    "@quasar/extras": "1.5.1",
+    "@quasar/extras": "1.5.2",
     "quasar": "1.9.3"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "eslint-plugin-vue": "6.2.1",
-    "tauri": "0.4.1"
+    "tauri": "0.4.3"
   },
   "engines": {
     "node": ">= 8.9.0",
