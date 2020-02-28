@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@emotion/core": "10.0.27",
+    "@emotion/core": "10.0.28",
     "@jbolda/gatsby-theme-articles": "0.3.0",
     "@jbolda/gatsby-theme-homepage": "0.3.1",
     "@jbolda/gatsby-theme-layout": "0.3.2",
@@ -38,7 +38,7 @@
     "gatsby-plugin-sharp": "2.4.5",
     "gatsby-plugin-theme-ui": "0.3.0",
     "gatsby-source-filesystem": "2.1.48",
-    "gatsby-transformer-sharp": "2.3.15",
+    "gatsby-transformer-sharp": "2.3.16",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-helmet": "5.2.1",
