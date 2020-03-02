@@ -12,7 +12,7 @@
       "active": true
     },
     "whitelist": {
-      "all": false
+      "all": true
     },
     "window": {
       "title": "Tauri App"
