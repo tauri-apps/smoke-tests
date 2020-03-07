@@ -6,8 +6,15 @@
     "start": "bsb -make-world -w -ws _ ",
     "clean": "bsb -clean-world",
     "server": "moduleserve ./ --port 8000",
+    "bundle": "webpack --config webpack.config.js",
+    "tauri:prod": "tauri",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
+    "tauri:source:init": "yarn tauri:source init --tauriPath ../../../../tauri",
     "tauri:prod:init": "yarn tauri:prod init",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tauri:source:dev": "yarn tauri:source dev",
+    "tauri:prod:dev": "yarn tauri:prod dev",
+    "tauri:source:build": "yarn tauri:source build",
+    "tauri:prod:build": "yarn tauri:prod build"
   },
   "keywords": [
     "BuckleScript",
