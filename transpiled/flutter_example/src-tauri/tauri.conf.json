@@ -1,0 +1,50 @@
+{
+  "build": {
+    "distDir": "../build/web",
+    "devPath": "http://localhost:4000"
+  },
+  "ctx": {},
+  "tauri": {
+    "embeddedServer": {
+      "active": true
+    },
+    "bundle": {
+      "active": true,
+      "identifier": "com.tauri.dev",
+      "icon": [
+        "icons/icon.ico",
+        "icons/icon-129.png",
+        "icons/icon-512.png"
+      ],
+      "resources": [],
+      "externalBin": [],
+      "copyright": "",
+      "category": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "deb": {
+        "depends": []
+      },
+      "osx": {
+        "frameworks": [],
+        "minimumSystemVersion": ""
+      },
+      "exceptionDomain": ""
+    },
+    "whitelist": {
+      "all": true
+    },
+    "window": {
+      "title": "Tauri App"
+    },
+    "security": {
+      "csp": "default-src blob: data: filesystem: ws: http: https: 'unsafe-eval' 'unsafe-inline'"
+    },
+    "edge": {
+      "active": true
+    },
+    "inliner": {
+      "active": true
+    }
+  }
+}
