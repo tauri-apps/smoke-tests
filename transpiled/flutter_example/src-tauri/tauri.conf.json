@@ -12,6 +12,7 @@
       "active": true,
       "identifier": "com.tauri.dev",
       "icon": [
+        "icons/icon.ico",
         "icons/icon-129.png",
         "icons/icon-512.png"
       ],
