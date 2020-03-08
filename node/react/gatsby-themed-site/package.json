@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.28",
-    "@jbolda/gatsby-theme-articles": "0.3.0",
-    "@jbolda/gatsby-theme-homepage": "0.3.1",
-    "@jbolda/gatsby-theme-layout": "0.3.2",
+    "@jbolda/gatsby-theme-articles": "0.4.1",
+    "@jbolda/gatsby-theme-homepage": "0.3.2",
+    "@jbolda/gatsby-theme-layout": "0.3.4",
     "@mdx-js/mdx": "1.5.7",
     "@mdx-js/react": "1.5.7",
     "gatsby": "2.19.32",

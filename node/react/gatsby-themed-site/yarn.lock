@@ -1115,45 +1115,45 @@
   resolved "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
-"@fortawesome/fontawesome-common-types@^0.2.26":
-  version "0.2.26"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.26.tgz#6e0b13a752676036f8196f8a1500d53a27b4adc1"
-  integrity sha512-CcM/fIFwZlRdiWG/25xE/wHbtyUuCtqoCTrr6BsWw7hH072fR++n4L56KPydAr3ANgMJMjT8v83ZFIsDc7kE+A==
+"@fortawesome/fontawesome-common-types@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.27.tgz#19706345859fc46adf3684ed01d11b40903b87e9"
+  integrity sha512-97GaByGaXDGMkzcJX7VmR/jRJd8h1mfhtA7RsxDBN61GnWE/PPCZhOdwG/8OZYktiRUF0CvFOr+VgRkJrt6TWg==
 
-"@fortawesome/fontawesome-svg-core@1.2.26":
-  version "1.2.26"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.26.tgz#671569271d6b532cdea5e3deb8ff16f8b7ac251d"
-  integrity sha512-3Dfd/v2IztP1TxKOxZiB5+4kaOZK9mNy0KU1vVK7nFlPWz3gzxrCWB+AloQhQUoJ8HhGqbzjliK89Vl7PExGbw==
+"@fortawesome/fontawesome-svg-core@^1.2.0":
+  version "1.2.27"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.27.tgz#e4db8e3be81a40988213507c3e3d0c158a6641a3"
+  integrity sha512-sOD3DKynocnHYpuw2sLPnTunDj7rLk91LYhi2axUYwuGe9cPCw7Bsu9EWtVdNJP+IYgTCZIbyARKXuy5K/nv+Q==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.26"
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
 
-"@fortawesome/free-brands-svg-icons@5.12.0":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.12.0.tgz#b0c78627f811ac030ee0ac88df376567cf74119d"
-  integrity sha512-50uCFzVUki3wfmFmrMNLFhOt8dP6YZ53zwR4dK9FR7Lwq1IVHXnSBb8MtGLe3urLJ2sA+CSu7Pc7s3i6/zLxmA==
+"@fortawesome/free-brands-svg-icons@^5.12.0":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.12.1.tgz#67977addd15e21e57aa1ed71cd2ddecdfaa88647"
+  integrity sha512-IYUYcgGsQuwiIHjRGfeSTCIQKUSZMb6FsV6mDj78K0D+YzGJkM4cvEBBUMHtnla5D2HCxncMI/9JX5YIk2GHeQ==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.26"
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
 
-"@fortawesome/free-regular-svg-icons@5.12.0":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.12.0.tgz#9b7ed5dbd7581aab47960802cc116fdc8b6c8b7d"
-  integrity sha512-FAvpmylTs0PosHwHrWPQX6/7ODc9M11kCE6AOAujFufDYzqTj2cPHT4yJO7zTEkKdAbbusJzbWpnOboMuyjeQA==
+"@fortawesome/free-regular-svg-icons@^5.12.0":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.12.1.tgz#4b378d93655acc5e432d5ed7ee127768dd351a99"
+  integrity sha512-bGda18seHXb+24K6DPUFzqn4kG7B+JViP/BscMcNUXvT00M86xNhdgP2TXSdflQXn53QWqymKjx/8rhaDOJyhA==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.26"
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
 
-"@fortawesome/free-solid-svg-icons@5.12.0":
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.12.0.tgz#8decac5844e60453cc0c7c51437d1461df053a35"
-  integrity sha512-CnpsWs6GhTs9ekNB3d8rcO5HYqRkXbYKf2YNiAlTWbj5eVlPqsd/XH1F9If8jkcR1aegryAbln/qYeKVZzpM0g==
+"@fortawesome/free-solid-svg-icons@^5.12.0":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.12.1.tgz#76b6f958a3471821ff146f8f955e6d7cfe87147c"
+  integrity sha512-k3MwRFFUhyL4cuCJSaHDA0YNYMELDXX0h8JKtWYxO5XD3Dn+maXOMrVAAiNGooUyM2v/wz/TOaM0jxYVKeXX7g==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.26"
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
 
-"@fortawesome/react-fontawesome@0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.8.tgz#cb6d4dd3aeec45b6ff2d48c812317a6627618511"
-  integrity sha512-I5h9YQg/ePA3Br9ISS18fcwOYmzQYDSM1ftH03/8nHkiqIVHtUyQBw482+60dnzvlr82gHt3mGm+nDUp159FCw==
+"@fortawesome/react-fontawesome@^0.1.8":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.9.tgz#c865b9286c707407effcec99958043711367cd02"
+  integrity sha512-49V3WNysLZU5fZ3sqSuys4nGRytsrxJktbv3vuaXkEoxv22C6T7TEG0TW6+nqVjMnkfCQd5xOnmJoZHMF78tOw==
   dependencies:
-    prop-types "^15.5.10"
+    prop-types "^15.7.2"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1187,10 +1187,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@jbolda/gatsby-theme-articles@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-articles/-/gatsby-theme-articles-0.3.0.tgz#a16d86de1aaa0777b8d6b748fb430d10bede2f9e"
-  integrity sha512-9E3Ovppngh9XfVX3SB4vdmXAxfVD0eYCZgF4h52iE5tHKzu5FL1fpZR2Cj7FA8fBnEJdQokidEs3ZjjbjnKUIg==
+"@jbolda/gatsby-theme-articles@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-articles/-/gatsby-theme-articles-0.4.1.tgz#dfaaf4bb0d1f350357501ce9d048fa98aef91408"
+  integrity sha512-D7jsUlfds0h7wgzyoTmtiyYT6aU+Yz38Ib90zsnCEZHefYoe2P85TY1AAHjs4l6gIeQk73MjKC5CTAEitwu3KQ==
   dependencies:
     "@jbolda/gatsby-theme-components" "0.0.1"
 
@@ -1199,24 +1199,24 @@
   resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-components/-/gatsby-theme-components-0.0.1.tgz#cf44b5fc26611f1b1e9501e384e82e23e5c13e9b"
   integrity sha512-gHrtH26T9s1sMPDFLrL7aWl+w4h9NmnvDCwSSYHVoB0zMgI0OHI3zz8PZdLXRRKfF7nICMYGUmDg50VvPx1hZg==
 
-"@jbolda/gatsby-theme-homepage@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-homepage/-/gatsby-theme-homepage-0.3.1.tgz#80db5091f7be3d1c29a2cc0da6262ad72c080217"
-  integrity sha512-AXcss6xU5RiChOBlTIq6GBjjqw5NVtTkkBXO75kOVXkS+PBc5jPx7Vd2Tf0AHsjEMnM/SkyiXugPL1ItPomrfw==
+"@jbolda/gatsby-theme-homepage@0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-homepage/-/gatsby-theme-homepage-0.3.2.tgz#9d8318c99568006d3bb1f54f1b8cc5fe255b7634"
+  integrity sha512-q5Aksba+tN9EGp/swowBQoTaHwZnMNvtnEqdu/U0eKD3GkbIlnaSrusEcEQSdv2LvKfsMQJMGhElrouV4tl09A==
   dependencies:
     "@jbolda/gatsby-theme-components" "0.0.1"
 
-"@jbolda/gatsby-theme-layout@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-layout/-/gatsby-theme-layout-0.3.2.tgz#5bdffa0ffb9b8f5cc084f8a5e717983289f1aec5"
-  integrity sha512-zRC5Gd957eiNEVsMWzIS/Q6EPaUX3LtxpqJVOaGYXz/ELHL+z54JZV+HyV/cZMWz5pAUH4JG97HA00YwZF8Csg==
+"@jbolda/gatsby-theme-layout@0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-layout/-/gatsby-theme-layout-0.3.4.tgz#3eaa06bfc8e16403983c51b9323631605778d0ba"
+  integrity sha512-5lXM4DNwBhB41LxtAct8VQqtbmtquV19iOQ0zGN6nA4bOJonC2cLNjQ/IW55tTkuljdkd8p92+Ofb/kDPDd+UQ==
   dependencies:
-    "@fortawesome/fontawesome-svg-core" "1.2.26"
-    "@fortawesome/free-brands-svg-icons" "5.12.0"
-    "@fortawesome/free-regular-svg-icons" "5.12.0"
-    "@fortawesome/free-solid-svg-icons" "5.12.0"
-    "@fortawesome/react-fontawesome" "0.1.8"
-    react-use "13.22.3"
+    "@fortawesome/fontawesome-svg-core" "^1.2.0"
+    "@fortawesome/free-brands-svg-icons" "^5.12.0"
+    "@fortawesome/free-regular-svg-icons" "^5.12.0"
+    "@fortawesome/free-solid-svg-icons" "^5.12.0"
+    "@fortawesome/react-fontawesome" "^0.1.8"
+    react-use "^13.22.0"
 
 "@jimp/bmp@^0.6.8":
   version "0.6.8"
@@ -1820,10 +1820,10 @@
   resolved "https://registry.npmjs.org/@types/history/-/history-4.7.3.tgz#856c99cdc1551d22c22b18b5402719affec9839a"
   integrity sha512-cS5owqtwzLN5kY+l+KgKdRJ/Cee8tlmQoGQuIE9tWnSmS3JMKzmxo2HIAk2wODMifGwO20d62xZQLYz+RLfXmw==
 
-"@types/js-cookie@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@types/js-cookie/-/js-cookie-2.2.4.tgz#f79720b4755aa197c2e15e982e2f438f5748e348"
-  integrity sha512-WTfSE1Eauak/Nrg6cA9FgPTFvVawejsai6zXoq0QYTQ3mxONeRtGhKxa7wMlUzWWmzrmTeV+rwLjHgsCntdrsA==
+"@types/js-cookie@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@types/js-cookie/-/js-cookie-2.2.5.tgz#38dfaacae8623b37cc0b0d27398e574e3fc28b1e"
+  integrity sha512-cpmwBRcHJmmZx0OGU7aPVwGWGbs4iKwVYchk9iuMtxNCA2zorwdaTz4GkLgs2WGxiRZRFKnV1k6tRUHX7tBMxg==
 
 "@types/json-schema@^7.0.3":
   version "7.0.3"
@@ -2111,10 +2111,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@xobotyi/scrollbar-width@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@xobotyi/scrollbar-width/-/scrollbar-width-1.7.0.tgz#909fdec8a4b45f7bbc1d13fa063d6d7cf4d4a8a4"
-  integrity sha512-ZWY971YPPU4Yf2gwBA2QBmZr4XZQZ1+CVPG2+DohvzcEK5Pze+lPkqVi5tDVhKplkcMktTqxpomPqu6qiORHAQ==
+"@xobotyi/scrollbar-width@1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@xobotyi/scrollbar-width/-/scrollbar-width-1.9.4.tgz#a7dce20b7465bcad29cd6bbb557695e4ea7863cb"
+  integrity sha512-o12FCQt/X5n3pgKEWGpt0f/7Eg4mfv3uRwPUrctiOT8ZuxbH3cNLGWfH/8y6KxVJg4L2885ucuXQ6XECZzUiJA==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -5701,6 +5701,11 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
+
+fast-deep-equal@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
+  integrity sha512-8UEa58QDLauDNfpbrX55Q9jrGHThw2ZMdOky5Gl1CDtVeJDPVrG4Jxx1N8jw2gkWaff5UUuX1KJd+9zGe2B+ZA==
 
 fast-glob@3.2.2:
   version "3.2.2"
@@ -11317,7 +11322,7 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
-react-fast-compare@^2.0.2, react-fast-compare@^2.0.4:
+react-fast-compare@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
@@ -11373,18 +11378,18 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
-react-use@13.22.3:
-  version "13.22.3"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.22.3.tgz#ce26cdda086b6ae8b9b14b71d3cebb306f6a0df9"
-  integrity sha512-8aboVs/OfKsNnhi4eXhkCA4tFp0aZlFpK/9LwulVlz8/50lzK5mtseC6NZHdlJ2l95/d8z4V2G+5NCMuz11ANw==
+react-use@^13.22.0:
+  version "13.27.0"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.27.0.tgz#53a619dc9213e2cbe65d6262e8b0e76641ade4aa"
+  integrity sha512-2lyTyqJWyvnaP/woVtDcFS4B5pUYz0FQWI9pVHk/6TBWom2x3/ziJthkEn/LbCA9Twv39xSQU7Dn0zdIWfsNTQ==
   dependencies:
-    "@types/js-cookie" "2.2.4"
-    "@xobotyi/scrollbar-width" "1.7.0"
+    "@types/js-cookie" "2.2.5"
+    "@xobotyi/scrollbar-width" "1.9.4"
     copy-to-clipboard "^3.2.0"
+    fast-deep-equal "^3.1.1"
     fast-shallow-equal "^1.0.0"
     js-cookie "^2.2.1"
     nano-css "^5.2.1"
-    react-fast-compare "^2.0.4"
     resize-observer-polyfill "^1.5.1"
     screenfull "^5.0.0"
     set-harmonic-interval "^1.0.1"
