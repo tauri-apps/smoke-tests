@@ -18,19 +18,39 @@
  * and also whitelist them based upon the developer's settings.
  */
 
- // makes the window.external.invoke API available after window.location.href changes
-if (navigator.platform != "Win64" && navigator.plaform != "Win32") {
-  window.external = this
-  if (navigator.platform == "MacIntel") {
+// polyfills
+if (!String.prototype.startsWith) {
+  String.prototype.startsWith = function (searchString, position) {
+    position = position || 0
+    return this.substr(position, searchString.length) === searchString
+  }
+}
+
+// makes the window.external.invoke API available after window.location.href changes
+
+switch (navigator.platform) {
+  case "Macintosh":
+  case "MacPPC":
+  case "MacIntel":
+  case "Mac68K":
+    window.external = this
     invoke = function (x) {
       webkit.messageHandlers.invoke.postMessage(x);
     }
-  } else {
+    break;
+  case "Windows":
+  case "WinCE":
+  case "Win32":
+  case "Win64":
+    break;
+  default: 
+    window.external = this
     invoke = function (x) {
       window.webkit.messageHandlers.external.postMessage(x);
     }
-  }
+    break;
 }
+
 
 function s4() {
   return Math.floor((1 + Math.random()) * 0x10000)
@@ -71,30 +91,30 @@ window.tauri = {
   listen: function listen(event, handler) {
     
     var once = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
-    this.invoke({
-      cmd: 'listen',
-      event: event,
-      handler: window.tauri.transformCallback(handler, once),
-      once: once
-    });
+      this.invoke({
+        cmd: 'listen',
+        event: event,
+        handler: window.tauri.transformCallback(handler, once),
+        once: once
+      });
     
   },
 
   
   emit: function emit(evt, payload) {
     
-    this.invoke({
-      cmd: 'emit',
-      event: evt,
-      payload: payload || ''
-    });
+      this.invoke({
+        cmd: 'emit',
+        event: evt,
+        payload: payload
+      });
     
   },
 
   
   transformCallback: function transformCallback(callback) {
     var once = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-    var identifier = Object.freeze(uid());
+    var identifier = uid();
 
     window[identifier] = function (result) {
       if (once) {
@@ -122,79 +142,74 @@ window.tauri = {
   
   readTextFile: function readTextFile(path) {
     
-    Object.freeze(path);
-    return this.promisified({
-      cmd: 'readTextFile',
-      path: path
-    });
+      return this.promisified({
+        cmd: 'readTextFile',
+        path: path
+      });
     
   },
 
   
   readBinaryFile: function readBinaryFile(path) {
     
-    Object.freeze(path);
-    return this.promisified({
-      cmd: 'readBinaryFile',
-      path: path
-    });
+      return this.promisified({
+        cmd: 'readBinaryFile',
+        path: path
+      });
     
   },
 
   
   writeFile: function writeFile(cfg) {
     
-    Object.freeze(cfg);
-    this.invoke({
-      cmd: 'writeFile',
-      file: cfg.file,
-      contents: cfg.contents
-    });
+      if (_typeof(cfg) === 'object') {
+        Object.freeze(cfg);
+      }
+      this.invoke({
+        cmd: 'writeFile',
+        file: cfg.file,
+        contents: cfg.contents
+      });
     
   },
 
   
   listFiles: function listFiles(path) {
     
-
-    Object.freeze(path);
-    return this.promisified({
-      cmd: 'listFiles',
-      path: path
-    });
+      return this.promisified({
+        cmd: 'listFiles',
+        path: path
+      });
     
   },
 
   
   listDirs: function listDirs(path) {
     
-    Object.freeze(path);
-    return this.promisified({
-      cmd: 'listDirs',
-      path: path
-    });
+      return this.promisified({
+        cmd: 'listDirs',
+        path: path
+      });
     
   },
 
   
   setTitle: function setTitle(title) {
     
-    Object.freeze(title);
-    this.invoke({
-      cmd: 'setTitle',
-      title: title
-    });
+      this.invoke({
+        cmd: 'setTitle',
+        title: title
+      });
     
   },
 
   
   open: function open(uri) {
     
-    Object.freeze(uri);
-    this.invoke({
-      cmd: 'open',
-      uri: uri
-    });
+      this.invoke({
+        cmd: 'open',
+        uri: uri
+      });
     
   },
 
@@ -202,44 +217,25 @@ window.tauri = {
   execute: function execute(command, args) {
     
 
-    Object.freeze(command);
+      if (_typeof(args) === 'object') {
+        Object.freeze(args);
+      }
 
-    if (typeof args === 'string' || _typeof(args) === 'object') {
-      Object.freeze(args);
-    }
-
-    return this.promisified({
-      cmd: 'execute',
-      command: command,
-      args: typeof args === 'string' ? [args] : args
-    });
+      return this.promisified({
+        cmd: 'execute',
+        command: command,
+        args: typeof args === 'string' ? [args] : args
+      });
     
   },
 
-  bridge: function bridge(command, payload) {
-    
-
-    Object.freeze(command);
-
-    if (typeof payload === 'string' || _typeof(payload) === 'object') {
-      Object.freeze(payload);
-    }
-
-    return this.promisified({
-      cmd: 'bridge',
-      command: command,
-      payload: _typeof(payload) === 'object' ? [payload] : payload
-    });
-    
-  },
-
-  loadAsset: function loadAsset(assetName, assetType) {
-    return this.promisified({
-      cmd: 'loadAsset',
-      asset: assetName,
-      asset_type: assetType || 'unknown'
-    })
-  }
+loadAsset: function loadAsset(assetName, assetType) {
+  return this.promisified({
+    cmd: 'loadAsset',
+    asset: assetName,
+    asset_type: assetType || 'unknown'
+  })
+}
 };
 
 // init tauri API
@@ -260,7 +256,7 @@ document.addEventListener('error', function (e) {
   while (target != null) {
     if (target.matches ? target.matches('img') : target.msMatchesSelector('img')) {
       window.tauri.loadAsset(target.src, 'image')
-        .then(img => {
+        .then(function (img) {
           target.src = img
         })
       break
@@ -269,14 +265,15 @@ document.addEventListener('error', function (e) {
   }
 }, true)
 
-  // open <a href="..."> links with the Tauri API
-function __openLinks () {
+// open <a href="..."> links with the Tauri API
+function __openLinks() {
   document.querySelector('body').addEventListener('click', function (e) {
     var target = e.target
     while (target != null) {
       if (target.matches ? target.matches('a') : target.msMatchesSelector('a')) {
         if (target.href && target.href.startsWith('http') && target.target === '_blank') {
           window.tauri.open(target.href)
+          e.preventDefault()
         }
         break
       }
