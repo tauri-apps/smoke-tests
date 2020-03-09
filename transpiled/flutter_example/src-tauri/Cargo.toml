@@ -19,7 +19,6 @@ icon = [
   "icons/icon.ico"
 ]
 
-
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = [ "derive" ] }
@@ -36,3 +35,10 @@ no-server = [ "tauri/no-server" ]
 [[bin]]
 name = "app"
 path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+incremental = false
+opt-level = "z"
