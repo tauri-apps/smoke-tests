@@ -31,7 +31,7 @@ fn main() {
           .lines()
           .filter_map(|line| line.ok())
           .for_each(|line| {
-            tauri::event::emit(&handle1, String::from("node"), format!("'{}'", line))
+            tauri::event::emit(&handle1, String::from("node"), Some(format!("'{}'", line)))
           });
       });
 
@@ -44,17 +44,17 @@ fn main() {
         }
 
         let reply = Reply {
-          msg: format!("{}", msg).to_string(),
+          msg: format!("{:?}", msg).to_string(),
           rep: "something else".to_string(),
         };
 
         tauri::event::emit(
           &handle2,
           String::from("reply"),
-          serde_json::to_string(&reply).unwrap(),
+          Some(serde_json::to_string(&reply).unwrap()),
         );
 
-        println!("Message from emit:hello => {}", msg);
+        println!("Message from emit:hello => {:?}", msg);
       });
     })
     .build()
