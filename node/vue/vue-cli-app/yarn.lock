@@ -10489,10 +10489,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-cli-plugin-tauri@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tauri/-/vue-cli-plugin-tauri-0.0.5.tgz#2ad027612b8b5186e14980f52dbad2fde9736c9f"
-  integrity sha512-mKn2b1XryvG0AycXq8lXNnTe/WTe27PFb1CGUG2HLbn5C3Xf4OuhDxAjj9NkaZNY8ukOzZnEKUThnDkM71vKqg==
+vue-cli-plugin-tauri@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tauri/-/vue-cli-plugin-tauri-0.0.6.tgz#8615d19b44dc57f16048fbe44eedbdee94eb5d76"
+  integrity sha512-7MhqvZ/r3lCdkHAYek59jUDVAHN0BiQuXJK18yhWPXYD/jNC1AxEY39R/f2WwffRbJE4q7fN7OQKN2HR4d4+VQ==
   dependencies:
     "@tauri-apps/tauri-webpack" "^0.2.0"
     "@vue/cli-shared-utils" "^4.1.1"
