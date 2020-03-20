@@ -6,8 +6,8 @@
     "@testing-library/jest-dom": "5.1.1",
     "@testing-library/react": "10.0.1",
     "@testing-library/user-event": "10.0.0",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-scripts": "3.4.0"
   },
   "scripts": {
