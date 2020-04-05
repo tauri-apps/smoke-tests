@@ -1972,10 +1972,10 @@ rollup-plugin-node-resolve@5.2.0:
     resolve "^1.11.1"
     rollup-pluginutils "^2.8.1"
 
-rollup-plugin-svelte@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-5.2.0.tgz#7d05bb00437643d0b11b5eac21f0eabab517aed1"
-  integrity sha512-6B7gRsJC/rS/ATEy3J51McsNgNcDFibRQ/L3rHsDMUYeCDCm3dsw3KEqf3WaxX0ZdApzZ1XWcnTXGQlwVPYpnQ==
+rollup-plugin-svelte@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-5.2.1.tgz#f9d362d1b1d8cef0fa3782f2270f9261b715644c"
+  integrity sha512-wc93cN66sRpX6uFljVFqvWT6NU3V5ab/uLXKt2UiARuexFU/ctolzkmdXM7WM5iKdTX9scToS9sabJTJV4DUMA==
   dependencies:
     require-relative "^0.8.7"
     rollup-pluginutils "^2.8.2"
@@ -1999,10 +1999,10 @@ rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.3.2.tgz#afa68e4f3325bcef4e150d082056bef450bcac60"
-  integrity sha512-p66+fbfaUUOGE84sHXAOgfeaYQMslgAazoQMp//nlR519R61213EPFgrMZa48j31jNacJwexSAR1Q8V/BwGKBA==
+rollup@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.3.3.tgz#5982df700d7aae8907075ba68122bb57d98e9cd0"
+  integrity sha512-uJ9VNWk80mb4wDCSfd1AyHoSc9TrWbkZtnO6wbsMTp9muSWkT26Dvc99MX1yGCOTvUN1Skw/KpFzKdUDuZKTXA==
   optionalDependencies:
     fsevents "~2.1.2"
 
