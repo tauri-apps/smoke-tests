@@ -18,7 +18,6 @@ tauri = { version = "0.4", features = [ "all-api", "edge" ] }
 winres = "0.1"
 
 [features]
-dev-server = [ "tauri/dev-server" ]
 embedded-server = [ "tauri/embedded-server" ]
 no-server = [ "tauri/no-server" ]
 
