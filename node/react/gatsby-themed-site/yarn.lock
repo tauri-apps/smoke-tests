@@ -1140,10 +1140,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@jbolda/gatsby-theme-articles@0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-articles/-/gatsby-theme-articles-0.4.3.tgz#6d37573c85631c1b13132c96885d8e1198486dea"
-  integrity sha512-lav4CJZuaVz0D6Cu88tZEM2utAVTZBLPctewjUlNZvqlveNnNNaJTHum0syBMnPGaNwYrpplvAMpm7yiws4SPA==
+"@jbolda/gatsby-theme-articles@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-articles/-/gatsby-theme-articles-0.4.4.tgz#e04041c91bac604e10d28d558fec2e967d34f0e8"
+  integrity sha512-o/54nII/BCBr6mJOiK/k8oJ/nQ/kVMlSscviIRvO/q6eFJ7magJUEUDsL7D5t1ZajnYdwEglSKjlfUtbxFwwsg==
   dependencies:
     "@jbolda/gatsby-theme-components" "0.0.1"
 
@@ -1152,24 +1152,24 @@
   resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-components/-/gatsby-theme-components-0.0.1.tgz#cf44b5fc26611f1b1e9501e384e82e23e5c13e9b"
   integrity sha512-gHrtH26T9s1sMPDFLrL7aWl+w4h9NmnvDCwSSYHVoB0zMgI0OHI3zz8PZdLXRRKfF7nICMYGUmDg50VvPx1hZg==
 
-"@jbolda/gatsby-theme-homepage@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-homepage/-/gatsby-theme-homepage-0.3.2.tgz#9d8318c99568006d3bb1f54f1b8cc5fe255b7634"
-  integrity sha512-q5Aksba+tN9EGp/swowBQoTaHwZnMNvtnEqdu/U0eKD3GkbIlnaSrusEcEQSdv2LvKfsMQJMGhElrouV4tl09A==
+"@jbolda/gatsby-theme-homepage@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-homepage/-/gatsby-theme-homepage-0.3.3.tgz#871b9aeceed7e5a833a84981ff78f2ba866d5daa"
+  integrity sha512-GBv2EB5HnjlWlOjAY1QMEiv3ikxXqwzn8wAoUA2eH1/ibpluGbYZM/8rVuqxsWfIqFspQVD2IrjBQZD3v7Pdsw==
   dependencies:
     "@jbolda/gatsby-theme-components" "0.0.1"
 
-"@jbolda/gatsby-theme-layout@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-layout/-/gatsby-theme-layout-0.3.4.tgz#3eaa06bfc8e16403983c51b9323631605778d0ba"
-  integrity sha512-5lXM4DNwBhB41LxtAct8VQqtbmtquV19iOQ0zGN6nA4bOJonC2cLNjQ/IW55tTkuljdkd8p92+Ofb/kDPDd+UQ==
+"@jbolda/gatsby-theme-layout@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@jbolda/gatsby-theme-layout/-/gatsby-theme-layout-0.3.5.tgz#3fa04b6c46d7d50dd28bfea8681fae477e8b5191"
+  integrity sha512-+ePrsILp2g5T2wpj6a4APtEWjoC0XpsMOZ+e3H3DgSBVrwky6lRAEeVItZMqCzyvE1vAbQKdHHlwhLMyOVGBXQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.0"
     "@fortawesome/free-brands-svg-icons" "^5.12.0"
     "@fortawesome/free-regular-svg-icons" "^5.12.0"
     "@fortawesome/free-solid-svg-icons" "^5.12.0"
     "@fortawesome/react-fontawesome" "^0.1.8"
-    react-use "^13.22.0"
+    react-use "^14.0.0"
 
 "@jimp/bmp@^0.9.8":
   version "0.9.8"
@@ -2142,10 +2142,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@xobotyi/scrollbar-width@1.9.4":
-  version "1.9.4"
-  resolved "https://registry.yarnpkg.com/@xobotyi/scrollbar-width/-/scrollbar-width-1.9.4.tgz#a7dce20b7465bcad29cd6bbb557695e4ea7863cb"
-  integrity sha512-o12FCQt/X5n3pgKEWGpt0f/7Eg4mfv3uRwPUrctiOT8ZuxbH3cNLGWfH/8y6KxVJg4L2885ucuXQ6XECZzUiJA==
+"@xobotyi/scrollbar-width@1.9.5":
+  version "1.9.5"
+  resolved "https://registry.yarnpkg.com/@xobotyi/scrollbar-width/-/scrollbar-width-1.9.5.tgz#80224a6919272f405b87913ca13b92929bdf3c4d"
+  integrity sha512-N8tkAACJx2ww8vFMneJmaAgmjAG1tnVBZJRLRcx061tmsLRZHSEZSLuGWnwPtunsSLvSqXQ2wfp7Mgqg1I+2dQ==
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -6306,10 +6306,10 @@ gatsby-graphiql-explorer@^0.3.1:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-image@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.3.1.tgz#6898e03a489e9b43242562d70079bd8ed10c5d99"
-  integrity sha512-VCJIb2Sp7Dcql+seZ14pqP2yL8oUlLin+HNEb5u8hcn3txkZhzIW3zwPQ3UwfPvi9Em3gBsEClCR6TQSw96J8g==
+gatsby-image@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.3.2.tgz#12e6cac9d6cc1a8152a35693ddf7729d5e59759f"
+  integrity sha512-xaFo2Bsox0aRvRXORLyYf9Rgzp/7aBR4aSmb8CuLLGs4c+IbeSlK0XofkLMZ9c52pxijVRfO3WLSVTB7dtHv+Q==
   dependencies:
     "@babel/runtime" "^7.8.7"
     object-fit-images "^3.2.4"
@@ -6338,10 +6338,10 @@ gatsby-page-utils@^0.1.1:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-mdx@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.1.4.tgz#1f3e9773bfc1fd4806ceacab7a130441f3e19b0d"
-  integrity sha512-id2/LALN7eseTGN05v1n16XCYggrl2UTzWOJOQME9rh25jNK+KT5ywaPY6vNYimeAW7wWdad3rl6hORpv4L6yw==
+gatsby-plugin-mdx@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.1.6.tgz#6b476dca3c46387ac17cc2ac73b9523ea95ac096"
+  integrity sha512-JlHOROD9M/HtBNutWKuCnaoGgbDlaqSqY1l1BdNlDNzY6BiFPRLN3MBftNsIZaKYsvgs+RQJ6Whkz7hACwnWMA==
   dependencies:
     "@babel/core" "^7.8.7"
     "@babel/generator" "^7.8.8"
@@ -6506,10 +6506,10 @@ gatsby-transformer-sharp@2.4.4:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby@2.20.12:
-  version "2.20.12"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.12.tgz#0312f99aaa51d7a18c51abb2bee2d32b5f3fd918"
-  integrity sha512-HoyjJA432ZUKOgkzsOSEdSbo3Vhi3lhr5uw8JnebO4S9Cqc6J2kw9HNASwtYFGzZVClGrsYwXVaLcOnSKtZmxA==
+gatsby@2.20.14:
+  version "2.20.14"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.14.tgz#63c2637605c6b394fc4b8255f69ccf244b8df2b5"
+  integrity sha512-+5QAWaak1VaW+6dCa7dFlaZ8T+vM6z8k5zK4WpUTW6SLxyDgJLSOk4s3BkpElg9CK4tJvkueeQsCK+IRvTHFgw==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.8.7"
@@ -11675,13 +11675,13 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
-react-use@^13.22.0:
-  version "13.27.0"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-13.27.0.tgz#53a619dc9213e2cbe65d6262e8b0e76641ade4aa"
-  integrity sha512-2lyTyqJWyvnaP/woVtDcFS4B5pUYz0FQWI9pVHk/6TBWom2x3/ziJthkEn/LbCA9Twv39xSQU7Dn0zdIWfsNTQ==
+react-use@^14.0.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-14.1.0.tgz#62a5d2d5b5af29b753acaa690207981f8e434dde"
+  integrity sha512-ps4r2mbwoFxaWaAuKdv8Ow7ygHGtglwshuHCMxRz0SGJqUo/k4Cg1W41WgAEVaXm0XMYyrSch9nOp5x7QylMDQ==
   dependencies:
     "@types/js-cookie" "2.2.5"
-    "@xobotyi/scrollbar-width" "1.9.4"
+    "@xobotyi/scrollbar-width" "1.9.5"
     copy-to-clipboard "^3.2.0"
     fast-deep-equal "^3.1.1"
     fast-shallow-equal "^1.0.0"
