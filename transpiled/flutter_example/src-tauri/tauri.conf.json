@@ -31,7 +31,8 @@
         "frameworks": [],
         "minimumSystemVersion": ""
       },
-      "exceptionDomain": ""
+      "exceptionDomain": "",
+      "targets": ["deb", "osx", "msi", "appimage"]
     },
     "whitelist": {
       "all": true
