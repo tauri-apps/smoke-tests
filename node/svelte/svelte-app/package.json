@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.0",
+    "@babel/preset-env": "7.9.5",
     "@rollup/plugin-node-resolve": "7.1.1",
     "core-js": "3.6.4",
-    "rollup": "2.3.3",
+    "rollup": "2.3.4",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-livereload": "1.1.0",
