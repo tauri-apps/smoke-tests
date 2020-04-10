@@ -918,23 +918,21 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.6.1.tgz#c87e19c50bdf04383fdcfe762154ed9d41f870df"
-  integrity sha512-k/mTbQK5G9zvqldd8KJzQ7GYIMwGZvKk90QlSoi4W1ncfPWmLUvvweKZnWd4Qk0GFOYhAQCbO+YRLyR5rAeuWQ==
+"@quasar/app@1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.6.2.tgz#925d2a18faf99dc0d1dfbab1d15122beb9385c16"
+  integrity sha512-0cSM6+RkrZwVv2Je5gKsMOL0JeB0b0UtyzPKeyG3OT8VyhGWFOY/ZgVq8W8wrEX1pyFfbmdSNwZZN1ho9lTmnw==
   dependencies:
     "@quasar/babel-preset-app" "1.1.9"
     "@quasar/fastclick" "1.1.4"
     "@types/cordova" "0.0.34"
     "@types/electron-packager" "14.0.0"
     "@types/express" "4.17.4"
-    "@types/fs-extra" "8.1.0"
     "@types/lru-cache" "5.1.0"
     "@types/terser-webpack-plugin" "2.2.0"
     "@types/webpack" "4.41.10"
     "@types/webpack-bundle-analyzer" "2.13.3"
     "@types/webpack-dev-server" "3.10.1"
-    "@types/yargs" "15.0.4"
     "@vue/preload-webpack-plugin" "1.1.1"
     autoprefixer "9.7.5"
     chalk "4.0.0"
@@ -1026,10 +1024,10 @@
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-imports "^1.0.0"
 
-"@quasar/extras@1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.6.2.tgz#92e8d1d40392d9372098b8acfb2701f9c859b534"
-  integrity sha512-+NkZ57kde4xXFkim8fyvMB20Q0OyhPLBguPTvjoHGSgR8uSZcGWHCBB0AawLQAB+WkNO/ZfyeXLCj+SjjTk3wg==
+"@quasar/extras@1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.6.4.tgz#eb97a5f543e17db38a12fe6e9fd5285ff28fffb8"
+  integrity sha512-OfVlzQhrIo4XImyVARvje85bf8D/OOYprUYjRNypEED5v64xt4nrT0lsh2wivleh7hwE9x22jQCB3o4GMLWkvg==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
@@ -1193,13 +1191,6 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
-"@types/fs-extra@8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.1.0.tgz#1114834b53c3914806cd03b3304b37b3bd221a4d"
-  integrity sha512-UoOfVEzAUpeSPmjm7h1uk5MH6KZma2z2O7a75onTGjnNvAvMVrPzPL/vBbT65iIGHWj6rokwfmYcmxmlSf2uwg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/glob@^7.1.1":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
@@ -1343,18 +1334,6 @@
     "@types/uglify-js" "*"
     "@types/webpack-sources" "*"
     source-map "^0.6.0"
-
-"@types/yargs-parser@*":
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-15.0.0.tgz#cb3f9f741869e20cce330ffbeb9271590483882d"
-  integrity sha512-FA/BWv8t8ZWJ+gEOnLLd8ygxH/2UFbAvgEonyfN6yWGLKc7zVjbpl2Y4CTjid9h2RfgPP6SEt6uHwEOply00yw==
-
-"@types/yargs@15.0.4":
-  version "15.0.4"
-  resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.4.tgz#7e5d0f8ca25e9d5849f2ea443cf7c402decd8299"
-  integrity sha512-9T1auFmbPZoxHz0enUFlUuKRy3it01R+hlggyVUMtnCTQRunsQYifnSGb8hET4Xo8yiC0o0r1paW3ud5+rbURg==
-  dependencies:
-    "@types/yargs-parser" "*"
 
 "@vue/component-compiler-utils@^3.1.0":
   version "3.1.1"
