@@ -31,6 +31,6 @@
     "sirv-cli": "0.4.5"
   },
   "dependencies": {
-    "svelte": "3.20.1"
+    "svelte": "3.21.0"
   }
 }
