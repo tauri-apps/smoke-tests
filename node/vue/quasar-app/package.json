@@ -21,7 +21,7 @@
     "tauri:prod:build": "yarn tauri:prod build"
   },
   "dependencies": {
-    "@quasar/extras": "1.6.4",
+    "@quasar/extras": "1.7.0",
     "quasar": "1.9.16"
   },
   "devDependencies": {
