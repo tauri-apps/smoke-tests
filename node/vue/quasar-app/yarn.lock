@@ -2777,6 +2777,21 @@ chokidar@3.3.1:
   optionalDependencies:
     fsevents "~2.1.2"
 
+chokidar@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.0.tgz#b30611423ce376357c765b9b8f904b9fba3c0be8"
+  integrity sha512-aXAaho2VJtisB/1fg1+3nlLJqGOuewTzQpd/Tz0yTg2R0e4IGtshYvtjowyEumcBv2z+y4+kc75Mz7j5xJskcQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -6527,11 +6542,6 @@ isbinaryfile@4.0.2:
   resolved "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-4.0.2.tgz#bfc45642da645681c610cca831022e30af426488"
   integrity sha512-C3FSxJdNrEr2F4z6uFtNzECDM5hXk+46fxaa+cwBe5/XrWSmzdG8DDgyjfX6/NRdBB21q2JXuRAzPCUs+fclnQ==
 
-isbinaryfile@4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-4.0.5.tgz#7193454fdd7fc0b12855c36c48d4ac7368fa3ec9"
-  integrity sha512-Jvz0gpTh1AILHMCBUyqq7xv1ZOQrxTDwyp1/QUq1xFpOBvp4AH5uEobPePJht8KnBGqQIH7We6OR73mXsjG0cA==
-
 isbinaryfile@4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-4.0.6.tgz#edcb62b224e2b4710830b67498c8e4e5a4d2610b"
@@ -9392,6 +9402,13 @@ readdirp@~3.3.0:
   dependencies:
     picomatch "^2.0.7"
 
+readdirp@~3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
+  integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+  dependencies:
+    picomatch "^2.2.1"
+
 redent@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz#cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
@@ -10849,16 +10866,16 @@ tar@^6.0.1:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.5.2.tgz#cc7846a462025219030c26104cdcd1980736a4c3"
-  integrity sha512-vX4SELmEwHU2AaV5dndbGXNqz1iHj486w+ami++gKOH5gLny9i3vdoz3MmO5aeNuB/PcxZlfExSfB1k0nSnNjQ==
+tauri@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.6.0.tgz#9ea49c84033f9553e779bc4b56b06176f90d1e70"
+  integrity sha512-NyjH3Q0TXez/ismp+dJ7rhSJvtp7K+NIC6EW5s0ImcZo7xz4XgtVHZ/08uGoOic8IR3M1cOwONCzMtYXMj4+RQ==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
-    chalk "3.0.0"
-    chokidar "3.3.1"
-    cross-spawn "7.0.1"
+    chalk "4.0.0"
+    chokidar "3.4.0"
+    cross-spawn "7.0.2"
     fast-glob "3.2.2"
     fs-extra "9.0.0"
     imagemin "7.0.1"
@@ -10866,7 +10883,7 @@ tauri@0.5.2:
     imagemin-pngquant "8.0.0"
     imagemin-zopfli "6.0.0"
     is-png "2.0.0"
-    isbinaryfile "4.0.5"
+    isbinaryfile "4.0.6"
     jsdom "16.2.2"
     lodash "4.17.15"
     minimist "1.2.5"
