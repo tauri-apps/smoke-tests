@@ -16,7 +16,7 @@ tauri = { path = "../../../../../tauri", features = [ "edge" ] }
 ```
 to
 ```toml
-tauri = { version = "0.5.1", features = [ "edge" ] }
+tauri = { version = "*", features = [ "edge" ] }
 ```
 
 
