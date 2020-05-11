@@ -9,7 +9,7 @@ Ensure that you have read the readme of the example to check that your first-tim
 
 The examples assume by default that the main Tauri repo is in the root of your drive ( on windows c:/tauri/)
 
-To change a exsample to be self contained:
+To change an example to be self-contained:
 go to /example/src-tauri/cargo.toml
 and change the dependency 
 ```toml
