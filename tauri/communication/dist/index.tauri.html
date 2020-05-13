@@ -72,8 +72,56 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
+/**
+ * @typedef {number} BaseDirectory
+ */
+/**
+ * @enum {BaseDirectory}
+ */
+var Dir = {
+  Audio: 1,
+  Cache: 2,
+  Config: 3, 
+  Data: 4,
+  LocalData: 5,
+  Desktop: 6,
+  Document: 7,
+  Download: 8,
+  Executable: 9,
+  Font: 10,
+  Home: 11,
+  Picture: 12,
+  Public: 13,
+  Runtime: 14,
+  Template: 15,
+  Video: 16,
+  Resource: 17,
+  App: 18
+}
 
 
+/**
+ * @name return __whitelistWarning
+ * @description Present a stylish warning to the developer that their API
+ * call has not been whitelisted in tauri.conf.json
+ * @param {String} func - function name to warn
+ * @private
+ */
+var __whitelistWarning = function (func) {
+    console.warn('%c[Tauri] Danger \ntauri.' + func + ' not whitelisted 💣\n%c\nAdd to tauri.conf.json: \n\ntauri: \n  whitelist: { \n    ' + func + ': true \n\nReference: https://github.com/tauri-apps/tauri/wiki' + func, 'background: red; color: white; font-weight: 800; padding: 2px; font-size:1.5em', ' ')
+    return __reject()
+  }
+    
+
+
+  /**
+   * @name __reject
+   * @description generates a promise used to deflect un-whitelisted tauri API calls
+   * Its only purpose is to maintain thenable structure in client code without
+   * breaking the application
+   *  * @type {Promise<any>}
+   * @private
+   */
 
 var __reject = function () {
   return new Promise(function (_, reject) {
@@ -82,11 +130,26 @@ var __reject = function () {
 }
 
 window.tauri = {
+  Dir: Dir,
+  
+    /**
+     * @name invoke
+     * @description Calls a Tauri Core feature, such as setTitle
+     * @param {Object} args
+     */
   
   invoke: function invoke(args) {
     window.external.invoke(JSON.stringify(args));
   },
 
+  
+    /**
+     * @name listen
+     * @description Add an event listener to Tauri backend
+     * @param {String} event
+     * @param {Function} handler
+     * @param {Boolean} once
+     */
   
   listen: function listen(event, handler) {
     
@@ -101,6 +164,13 @@ window.tauri = {
   },
 
   
+    /**
+     * @name emit
+     * @description Emits an evt to the Tauri back end
+     * @param {String} evt
+     * @param {Object} payload
+     */
+  
   emit: function emit(evt, payload) {
     
       this.invoke({
@@ -111,6 +181,14 @@ window.tauri = {
     
   },
 
+  
+    /**
+     * @name transformCallback
+     * @description Registers a callback with a uid
+     * @param {Function} callback
+     * @param {Boolean} once
+     * @returns {*}
+     */
   
   transformCallback: function transformCallback(callback) {
     var once = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
@@ -128,6 +206,13 @@ window.tauri = {
   },
 
   
+    /**
+     * @name promisified
+     * @description Turns a request into a chainable promise
+     * @param {Object} args
+     * @returns {Promise<any>}
+     */
+  
   promisified: function promisified(args) {
     var _this = this;
 
@@ -140,59 +225,211 @@ window.tauri = {
   },
 
   
-  readTextFile: function readTextFile(path) {
+    /**
+     * @name readTextFile
+     * @description Accesses a non-binary file on the user's filesystem
+     * and returns the content. Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  readTextFile: function readTextFile(path, options) {
     
       return this.promisified({
         cmd: 'readTextFile',
-        path: path
+        path: path,
+        options: options
       });
     
   },
 
   
-  readBinaryFile: function readBinaryFile(path) {
+    /**
+     * @name readBinaryFile
+     * @description Accesses a binary file on the user's filesystem
+     * and returns the content. Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  readBinaryFile: function readBinaryFile(path, options) {
     
       return this.promisified({
         cmd: 'readBinaryFile',
-        path: path
+        path: path,
+        options: options
       });
     
   },
 
   
-  writeFile: function writeFile(cfg) {
+    /**
+     * @name writeFile
+     * @description Write a file to the Local Filesystem.
+     * Permissions based on the app's PID owner
+     * @param {Object} cfg
+     * @param {String} cfg.file
+     * @param {String|Binary} cfg.contents
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     */
+  
+  writeFile: function writeFile(cfg, options) {
     
       if (_typeof(cfg) === 'object') {
         Object.freeze(cfg);
       }
-      this.invoke({
+      return this.promisified({
         cmd: 'writeFile',
         file: cfg.file,
-        contents: cfg.contents
+        contents: cfg.contents,
+        options: options
       });
     
   },
 
   
-  listFiles: function listFiles(path) {
+    /**
+     * @name readDir
+     * @description Reads a directory
+     * Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {Boolean} [options.recursive]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  readDir: function readDir(path, options) {
     
       return this.promisified({
-        cmd: 'listFiles',
-        path: path
+        cmd: 'readDir',
+        path: path,
+        options: options
       });
     
   },
 
   
-  listDirs: function listDirs(path) {
+    /**
+     * @name createDir
+     * @description Creates a directory
+     * Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {Boolean} [options.recursive]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  createDir: function createDir(path, options) {
     
       return this.promisified({
-        cmd: 'listDirs',
-        path: path
+        cmd: 'createDir',
+        path: path,
+        options: options
       });
     
   },
 
+  
+    /**
+     * @name removeDir
+     * @description Removes a directory
+     * Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {Boolean} [options.recursive]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  removeDir: function removeDir(path, options) {
+    
+      return this.promisified({
+        cmd: 'removeDir',
+        path: path,
+        options: options
+      });
+    
+  },
+
+  
+    /**
+     * @name copyFile
+     * @description Copy file
+     * Permissions based on the app's PID owner
+     * @param {String} source
+     * @param {String} destination
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  copyFile: function copyFile(source, destination, options) {
+    
+      return this.promisified({
+        cmd: 'copyFile',
+        source: source,
+        destination: destination,
+        options: options
+      });
+    
+  },
+
+  
+    /**
+     * @name removeFile
+     * @description Removes a file
+     * Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  removeFile: function removeFile(path, options) {
+    
+      return this.promisified({
+        cmd: 'removeFile',
+        path: path,
+        options: options
+      });
+    
+  },
+
+  
+    /**
+     * @name renameFile
+     * @description Renames a file
+     * Permissions based on the app's PID owner
+     * @param {String} path
+     * @param {Object} [options]
+     * @param {BaseDirectory} [options.dir]
+     * @returns {*|Promise<any>|Promise}
+     */
+  
+  renameFile: function renameFile(oldPath, newPath, options) {
+    
+      return this.promisified({
+        cmd: 'renameFile',
+        old_path: oldPath,
+        new_path: newPath,
+        options: options
+      });
+    
+  },
+
+  
+    /**
+     * @name setTitle
+     * @description Set the application's title
+     * @param {String} title
+     */
   
   setTitle: function setTitle(title) {
     
@@ -204,6 +441,12 @@ window.tauri = {
   },
 
   
+    /**
+     * @name open
+     * @description Open an URI
+     * @param {String} uri
+     */
+  
   open: function open(uri) {
     
       this.invoke({
@@ -213,6 +456,15 @@ window.tauri = {
     
   },
 
+  
+    /**
+     * @name execute
+     * @description Execute a program with arguments.
+     * Permissions based on the app's PID owner
+     * @param {String} command
+     * @param {String|Array} args
+     * @returns {*|Promise<any>|Promise}
+     */
   
   execute: function execute(command, args) {
     
@@ -225,6 +477,56 @@ window.tauri = {
         cmd: 'execute',
         command: command,
         args: typeof args === 'string' ? [args] : args
+      });
+    
+  },
+
+  
+    /**
+     * @name openDialog
+     * @description Open a file/directory selection dialog
+     * @param {String} [options]
+     * @param {String} [options.filter]
+     * @param {String} [options.defaultPath]
+     * @param {Boolean} [options.multiple=false]
+     * @param {Boolean} [options.directory=false]
+     * @returns {Promise<String|String[]>} promise resolving to the select path(s)
+     */
+  
+  openDialog: function openDialog(options) {
+    
+      var opts = options || {}
+      if (_typeof(options) === 'object') {
+        opts.default_path = opts.defaultPath
+        Object.freeze(options);
+      }
+      return this.promisified({
+        cmd: 'openDialog',
+        options: opts
+      });
+    
+  },
+
+  
+    /**
+     * @name saveDialog
+     * @description Open a file/directory save dialog
+     * @param {String} [options]
+     * @param {String} [options.filter]
+     * @param {String} [options.defaultPath]
+     * @returns {Promise<String>} promise resolving to the select path
+     */
+  
+  saveDialog: function saveDialog(options) {
+    
+      var opts = options || {}
+      if (_typeof(options) === 'object') {
+        opts.default_path = opts.defaultPath
+        Object.freeze(options);
+      }
+      return this.promisified({
+        cmd: 'saveDialog',
+        options: opts
       });
     
   },
@@ -289,44 +591,4 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
     __openLinks()
   }, true)
 }
-</script>
-    <div>
-      <button id="log">Call Log API</button>
-      <button id="request">Call Request (async) API</button>
-      <button id="event">Send event to Rust</button>
-      <div id="response"></div>
-    </div>
-    <script>
-      window.onTauriInit = function () {
-        window.tauri.listen('rust-event', function (res) {
-          document.getElementById('response').innerHTML = JSON.stringify(res)
-        })
-      }
-
-      document.getElementById('log').addEventListener('click', function () {
-        window.tauri.invoke({
-          cmd: 'logOperation',
-          event: 'tauri-click',
-          payload: 'this payload is optional because we used Option in Rust'
-        })
-      })
-
-      document.getElementById('request').addEventListener('click', function () {
-        window.tauri.promisified({
-          cmd: 'performRequest',
-          endpoint: 'dummy endpoint arg',
-          body: {
-            id: 5,
-            name: 'test'
-          }
-        }).then(function (response) {
-          document.getElementById('response').innerHTML = JSON.stringify(response)
-        })
-      })
-
-      document.getElementById('event').addEventListener('click', function () {
-        window.tauri.emit('js-event', 'this is the payload string')
-      })
-    </script>
-  
-</body></html>
+</script> <div> <button id="log">Call Log API</button> <button id="request">Call Request (async) API</button> <button id="event">Send event to Rust</button> <div id="response"></div> </div> <script>window.onTauriInit=function(){window.tauri.listen("rust-event",function(e){document.getElementById("response").innerHTML=JSON.stringify(e)})},document.getElementById("log").addEventListener("click",function(){window.tauri.invoke({cmd:"logOperation",event:"tauri-click",payload:"this payload is optional because we used Option in Rust"})}),document.getElementById("request").addEventListener("click",function(){window.tauri.promisified({cmd:"performRequest",endpoint:"dummy endpoint arg",body:{id:5,name:"test"}}).then(function(e){document.getElementById("response").innerHTML=JSON.stringify(e)})}),document.getElementById("event").addEventListener("click",function(){window.tauri.emit("js-event","this is the payload string")});</script>  </body></html>

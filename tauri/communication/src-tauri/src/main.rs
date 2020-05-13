@@ -28,6 +28,8 @@ fn main() {
           Some(serde_json::to_string(&reply).unwrap()),
         );
       });
+
+      webview.eval("window.onTauriInit()").unwrap();
     })
     .invoke_handler(|_webview, arg| {
       use cmd::Cmd::*;
