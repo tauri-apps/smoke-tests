@@ -5812,7 +5812,7 @@ http-proxy-middleware@0.19.1:
     lodash "^4.17.11"
     micromatch "^3.1.10"
 
-http-proxy@^1.17.0:
+http-proxy@^1.17.0, http-proxy@^1.18.0:
   version "1.18.0"
   resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
   integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
@@ -10866,10 +10866,10 @@ tar@^6.0.1:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.6.0.tgz#9ea49c84033f9553e779bc4b56b06176f90d1e70"
-  integrity sha512-NyjH3Q0TXez/ismp+dJ7rhSJvtp7K+NIC6EW5s0ImcZo7xz4XgtVHZ/08uGoOic8IR3M1cOwONCzMtYXMj4+RQ==
+tauri@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.6.1.tgz#8ad422a30a35f4a6106bce4e177771f69831830f"
+  integrity sha512-EqHLRsLhgnf+dXb2HdmkZQT/Hbm0cbM9cgX4DOcwSwYNMxPrR2IakocX22nccisYDXS8UJYNovcEm6U9S23HNg==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
@@ -10878,6 +10878,7 @@ tauri@0.6.0:
     cross-spawn "7.0.2"
     fast-glob "3.2.2"
     fs-extra "9.0.0"
+    http-proxy "^1.18.0"
     imagemin "7.0.1"
     imagemin-optipng "7.1.0"
     imagemin-pngquant "8.0.0"
