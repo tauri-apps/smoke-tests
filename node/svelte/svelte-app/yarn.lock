@@ -1535,10 +1535,10 @@ rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.10.2:
-  version "2.10.2"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.10.2.tgz#9adfcf8ab36861b5b0f8ca7b436f5866e3e9e200"
-  integrity sha512-tivFM8UXBlYOUqpBYD3pRktYpZvK/eiCQ190eYlrAyrpE/lzkyG2gbawroNdbwmzyUc7Y4eT297xfzv0BDh9qw==
+rollup@2.10.3:
+  version "2.10.3"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.10.3.tgz#b024155a93a13412ff547764f8fd4f67fbf64f51"
+  integrity sha512-Pw4isow3qDZvIozWtEBSZckSxpZgAj11hLijykaO/qZLNq4VGZVZOANBzoWlMabTtg9edQTe3pkLU39PoIkOeg==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -1637,10 +1637,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte@3.22.2:
-  version "3.22.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.2.tgz#06585244191bf7a112af2a0025610f33d77c3715"
-  integrity sha512-DxumO0+vvHA6NSc2jtVty08I8lFI43q8P2zX6JxZL8J1kqK5NVjad6TRM/twhnWXC+QScnwkZ15O6X1aTsEKTA==
+svelte@3.22.3:
+  version "3.22.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.22.3.tgz#6af3bdcfea44c2fadbf17a32c479f49bdf1aba4b"
+  integrity sha512-DumSy5eWPFPlMUGf3+eHyFSkt5yLqyAmMdCuXOE4qc5GtFyLxwTAGKZmgKmW2jmbpTTeFQ/fSQfDBQbl9Eo7yw==
 
 terser@^4.6.2:
   version "4.6.3"
