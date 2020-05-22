@@ -918,10 +918,10 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@1.8.8":
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.8.8.tgz#8248021f5701cc29c9078780cd6356948793ffb1"
-  integrity sha512-L+hLCfgj179/W7UqmwEYKh+Oi3x0/pnMA8UiJ94UMJoPssn5S2cQLU89NuyMFJ8fWhTztBqg3bioL5gowHpGuA==
+"@quasar/app@1.8.10":
+  version "1.8.10"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-1.8.10.tgz#e6411ae99af8bb51b6c8c05d60112df2d03fe6c5"
+  integrity sha512-tpPBVr/588cuH5mlv4+ntHvfmX2Fumx6Co+bnvJIghB1hWEF5yh3EbokurOgvCfIsv7CUjSrDbWx/JEXnE5Vsw==
   dependencies:
     "@quasar/babel-preset-app" "1.1.9"
     "@quasar/fastclick" "1.1.4"
@@ -10801,10 +10801,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.6.1.tgz#8ad422a30a35f4a6106bce4e177771f69831830f"
-  integrity sha512-EqHLRsLhgnf+dXb2HdmkZQT/Hbm0cbM9cgX4DOcwSwYNMxPrR2IakocX22nccisYDXS8UJYNovcEm6U9S23HNg==
+tauri@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.6.2.tgz#a9cefe985dc2328c7b00a2b8960cfd362ff80c7f"
+  integrity sha512-k6pTmoKmU68miXQFCo+gB+qscd2c04wbF3NJIhBolynkbXPmPuUUHBpPA8OaH6IQPy7F7DU6SnATDZw50aPlsw==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
