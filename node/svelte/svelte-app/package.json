@@ -21,13 +21,13 @@
     "@babel/preset-env": "7.9.6",
     "@rollup/plugin-node-resolve": "8.0.0",
     "core-js": "3.6.5",
-    "rollup": "2.10.8",
+    "rollup": "2.10.9",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-livereload": "1.3.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-svelte": "5.2.2",
-    "rollup-plugin-terser": "6.0.1",
+    "rollup-plugin-terser": "6.1.0",
     "sirv-cli": "0.4.6"
   },
   "dependencies": {
