@@ -17,8 +17,8 @@
     "tauri:prod:build": "yarn tauri:prod build"
   },
   "devDependencies": {
-    "@babel/core": "7.9.6",
-    "@babel/preset-env": "7.9.6",
+    "@babel/core": "7.10.0",
+    "@babel/preset-env": "7.10.0",
     "@rollup/plugin-node-resolve": "8.0.0",
     "core-js": "3.6.5",
     "rollup": "2.10.9",
@@ -31,6 +31,6 @@
     "sirv-cli": "0.4.6"
   },
   "dependencies": {
-    "svelte": "3.22.3"
+    "svelte": "3.23.0"
   }
 }
