@@ -45,7 +45,7 @@
     "theme-ui": "0.3.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "7.9.0",
+    "@babel/plugin-proposal-optional-chaining": "7.10.0",
     "tauri": "0.6.2"
   }
 }
