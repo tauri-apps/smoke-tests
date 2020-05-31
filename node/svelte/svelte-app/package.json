@@ -17,8 +17,8 @@
     "tauri:prod:build": "yarn tauri:prod build"
   },
   "devDependencies": {
-    "@babel/core": "7.10.1",
-    "@babel/preset-env": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
     "@rollup/plugin-node-resolve": "8.0.0",
     "core-js": "3.6.5",
     "rollup": "2.11.2",
