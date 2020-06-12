@@ -46,6 +46,6 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "7.10.1",
-    "tauri": "0.6.2"
+    "tauri": "0.6.3"
   }
 }
