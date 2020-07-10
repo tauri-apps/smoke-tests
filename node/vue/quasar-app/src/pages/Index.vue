@@ -10,7 +10,7 @@
 
 <script>
 import { uid } from 'quasar'
-import tauri from 'tauri/api'
+import { listen, emit } from 'tauri/api/event'
 
 export default {
   name: 'HelloWorld',
@@ -21,17 +21,17 @@ export default {
     }
   },
   mounted () {
-    tauri.listen('reply', res => {
+    listen('reply', res => {
       this.msg = res.payload.msg
     })
-    tauri.listen('node', res => {
+    listen('node', res => {
       this.nodeMsg = res.payload
     })
   },
   methods: {
     // set up an event listener
     eventToRust () {
-      tauri.emit('hello', uid())
+      emit('hello', uid())
     }
   }
 }
