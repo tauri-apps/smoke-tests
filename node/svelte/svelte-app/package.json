@@ -7,6 +7,7 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "test": "echo \"No test specified\" && exit 0",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
     "tauri:dev": "yarn tauri:source dev",
     "tauri:build": "yarn tauri:source build"
   },

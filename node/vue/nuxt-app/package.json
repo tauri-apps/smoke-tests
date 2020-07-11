@@ -9,6 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
     "tauri:dev": "yarn tauri:source dev",
     "tauri:build": "yarn tauri:source build"
   },
