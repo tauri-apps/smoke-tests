@@ -1,6 +1,6 @@
-# Quasar App
+# Communication example
 
-This project was bootstrapped with [Quasar CLI](https://github.com/quasarframework/quasar/).
+Demonstrates how to communicate between the backend and the frontend.
 
 ## Installation
 

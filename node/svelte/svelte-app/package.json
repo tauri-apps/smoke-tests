@@ -7,14 +7,8 @@
     "dev": "rollup -c -w",
     "build": "rollup -c",
     "test": "echo \"No test specified\" && exit 0",
-    "tauri:prod": "tauri",
-    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
-    "tauri:source:init": "yarn tauri:source init --tauriPath ../../../../tauri",
-    "tauri:prod:init": "yarn tauri:prod init",
-    "tauri:source:dev": "yarn tauri:source dev",
-    "tauri:prod:dev": "yarn tauri:prod dev",
-    "tauri:source:build": "yarn tauri:source build",
-    "tauri:prod:build": "yarn tauri:prod build"
+    "tauri:dev": "yarn tauri:source dev",
+    "tauri:build": "yarn tauri:source build"
   },
   "devDependencies": {
     "@babel/core": "7.10.4",

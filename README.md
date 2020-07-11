@@ -1,27 +1,31 @@
 # Examples
-A collection of frameworks used as a suite of smoke-tests for tauri
+
+A collection of examples of Tauri apps using frontends written in Rust or JavaScript.
 
 These examples are a great way to see how Tauri works with a variety of frameworks.
 
-## How to run 
-Ensure that you have read the readme of the example to check that your first-time setup is done.
+Uses the template project of each framework.
 
-The examples assume by default that the main Tauri repo is in the root of your drive ( on windows c:/tauri/)
+## How to run
 
-To change an example to be self-contained:
-Go to `/%example_path%/src-tauri/cargo.toml`:
-and change the dependency 
-```toml
-tauri = { path = "../../../../../tauri", features = [ "edge" ] }
+Ensure that you have read the README of the example to check that your first-time setup is done.
+
+The examples assume that this git repository was cloned in the root of the [tauri repo](https://github.com/tauri-apps/tauri) clone on your machine.
+The recommended way of running the examples is using [mask](https://github.com/jakedeichert/mask):
+
+```bash
+$ cargo install mask
+$ git clone https://github.com/tauri-apps/tauri
+$ cd tauri
+$ mask prepare
+$ mask list examples # this will show all the examples names
+$ mask run example some-example-name # run an example listed on the previous command
 ```
-to
-```toml
-tauri = { version = "*", features = [ "edge" ] }
-```
-
 
 ## Error reporting
+
 Please report all library errors at https://github.com/tauri-apps/tauri
 
 ## License
+
 Everything in this repo is MIT License unless otherwise specified.

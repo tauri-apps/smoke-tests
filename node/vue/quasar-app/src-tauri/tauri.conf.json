@@ -1,7 +1,9 @@
 {
   "build": {
     "distDir": "../dist/spa",
-    "devPath": "http://localhost:7334"
+    "devPath": "http://localhost:7334",
+    "beforeDevCommand": "quasar dev",
+    "beforeBuildCommand": "quasar build"
   },
   "ctx": {},
   "tauri": {
@@ -10,10 +12,10 @@
     },
     "bundle": {
       "active": true,
-       "identifier": "com.tauri.dev",
-       "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
-       "resources": ["resources"],
-       "targets": ["deb", "osx", "msi", "appimage"]
+      "identifier": "com.tauri.dev",
+      "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+      "resources": ["resources"],
+      "targets": ["deb", "osx", "msi", "appimage"]
     },
     "whitelist": {
       "all": true

@@ -1,6 +1,6 @@
-# Quasar App
+# Monolith Vanilla JavaScript App
 
-This project was bootstrapped with [Quasar CLI](https://github.com/quasarframework/quasar/).
+A Tauri app that uses Vanilla JavaScript with a monolith index.html.
 
 ## Installation
 

@@ -1,24 +1,21 @@
-# vue-cli-app
+# Vue CLI App
 
-## Project setup
-```
-yarn install
-```
+This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 
-### Compiles and hot-reloads for development
+## Installation
+
 ```
-yarn serve
+$ yarn
 ```
 
-### Compiles and minifies for production
+## Dev
+
 ```
-yarn build
+$ yarn tauri:serve
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Build
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+$ yarn tauri:build
+```

@@ -1,24 +1,21 @@
-## Running Example
+# Next.js App
 
-Ensure you have setup and installed all the project dependencies.
+This project was bootstrapped with [Create Next App](https://github.com/vercel/create-next-app).
 
-```
-npm install -g tauri
-git clone https://github.com/tauri-apps/tauri
-cd examples/react/next.js
-yarn
-cargo install tauri-bundler
-```
-
-### Development
+## Installation
 
 ```
-yarn dev & tauri dev
+$ yarn
 ```
 
-### Production
+## Dev
 
 ```
-yarn build
-tauri build
+$ yarn tauri dev
+```
+
+## Build
+
+```
+$ yarn tauri build
 ```

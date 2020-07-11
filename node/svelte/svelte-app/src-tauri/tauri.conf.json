@@ -1,7 +1,9 @@
 {
   "build": {
     "distDir": "../public",
-    "devPath": "http://localhost:5000"
+    "devPath": "http://localhost:5000",
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build"
   },
   "ctx": {},
   "tauri": {
