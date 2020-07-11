@@ -9,7 +9,7 @@
     "html:dev": "quasar serve ./dist",
     "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
     "tauri:dev": "yarn tauri:source dev",
-    "tauri:build": "yarn tauri:source build",
+    "tauri:build": "yarn tauri:source build"
   },
   "author": "",
   "license": "MIT",
