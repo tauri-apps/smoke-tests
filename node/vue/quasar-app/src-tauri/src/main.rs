@@ -32,6 +32,7 @@ fn main() {
           .filter_map(|line| line.ok())
           .for_each(|line| {
             tauri::event::emit(&handle1, String::from("node"), Some(format!("'{}'", line)))
+              .expect("failed to emit event");
           });
       });
 
@@ -52,7 +53,8 @@ fn main() {
           &handle2,
           String::from("reply"),
           Some(serde_json::to_string(&reply).unwrap()),
-        );
+        )
+        .expect("failed to emit event");
 
         println!("Message from emit:hello => {:?}", msg);
       });
