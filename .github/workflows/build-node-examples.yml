@@ -95,9 +95,6 @@ jobs:
       - name: install via yarn
         working-directory: ./examples/node/${{ matrix.example.folder }}
         run: yarn
-      - name: build example
-        working-directory: ./examples/node/${{ matrix.example.folder }}
-        run: yarn build
       - name: yarn tauri build
         working-directory: ./examples/node/${{ matrix.example.folder }}
         run: yarn tauri:build
