@@ -5,6 +5,7 @@ This is the default Svelte template.
 ## Installation
 
 ```
+$ cargo install tauri-bundler
 $ yarn
 ```
 
