@@ -1,22 +1,22 @@
-# nuxt-app
+# Nuxt App
 
-> My good Nuxt.js project
+This project was bootstrapped with [create-nuxt-app](https://github.com/nuxt/create-nuxt-app/).
 
-## Build Setup
+## Installation
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```
+$ cargo install tauri-bundler
+$ yarn
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Dev
+
+```
+$ yarn tauri dev
+```
+
+## Build
+
+```
+$ yarn tauri build
+```

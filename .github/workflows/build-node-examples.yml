@@ -100,7 +100,7 @@ jobs:
         run: yarn build
       - name: yarn tauri build
         working-directory: ./examples/node/${{ matrix.example.folder }}
-        run: yarn tauri:source:build
+        run: yarn tauri:build
       - uses: actions/upload-artifact@v1
         if: success()
         with:

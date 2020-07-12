@@ -1,26 +1,22 @@
-# Quasar App (quasar-app)
+# Quasar App
 
-A Quasar Framework app
+This project was bootstrapped with [Quasar CLI](https://github.com/quasarframework/quasar/).
 
-## Install the dependencies
-```bash
-yarn
+## Installation
+
+```
+$ cargo install tauri-bundler
+$ yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
+## Dev
+
+```
+$ yarn tauri dev
 ```
 
-### Lint the files
-```bash
-yarn run lint
-```
+## Build
 
-### Build the app for production
-```bash
-quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+$ yarn tauri build
+```

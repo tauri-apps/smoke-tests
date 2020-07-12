@@ -1,6 +1,6 @@
-# React App
+# Monolith Vanilla JavaScript App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Tauri app that uses Vanilla JavaScript with a monolith index.html.
 
 ## Installation
 
