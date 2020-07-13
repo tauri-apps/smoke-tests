@@ -10855,10 +10855,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.9.0.tgz#8db4cadcc6560f99904cae0bd621b82c7251ea46"
-  integrity sha512-WrkDxeCiVGC9HCX30nTIS9JIlHFMfLXN2XrMg369AkLGSq74DXUifj7yRN/O1ia3gY/Buy8Hg3oXnAkV2mqETQ==
+tauri@0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.9.1.tgz#01eb661b83cfa39dfcd7abcaeb30c56e1f0f4a0b"
+  integrity sha512-9cWTqbw0z8kNGb0NJmD1x4nRzq6rGHcRXMBHb6grqYJBeLpbnVUic2nS2rQzzvPs1SApN7lr2BMmkolCpVmAXQ==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
