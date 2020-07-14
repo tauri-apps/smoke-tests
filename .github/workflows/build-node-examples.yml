@@ -38,10 +38,10 @@ jobs:
           - platform: macos-latest
             CARGO_HOME: ~/.cargo
             releaseFolder: target/release/bundle/osx
-            ext: _0.1.0_x86_64.app
+            ext: _0.1.0_x64.app
           - platform: windows-latest
             CARGO_HOME: ~/.cargo
-            releaseFolder: target/release/bundle/wix
+            releaseFolder: target/release/bundle/msi
             ext: _0.1.0_x64.msi
 
     steps:
