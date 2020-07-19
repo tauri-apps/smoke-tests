@@ -12,7 +12,8 @@ use std::io::BufRead;
 fn main() {
   tauri::AppBuilder::new()
     .setup(|webview, _| {
-      let handle1 = webview.handle();
+      let mut webview = webview.as_mut();
+      let mut webview2 = webview.clone();
       std::thread::spawn(move || {
         let resource_dir =
           tauri::api::platform::resource_dir().expect("failed to get resource dir");
@@ -31,12 +32,15 @@ fn main() {
           .lines()
           .filter_map(|line| line.ok())
           .for_each(|line| {
-            tauri::event::emit(&handle1, String::from("node"), Some(format!("'{}'", line)))
-              .expect("failed to emit event");
+            tauri::event::emit(
+              &mut webview,
+              String::from("node"),
+              Some(format!("'{}'", line)),
+            )
+            .expect("failed to emit event");
           });
       });
 
-      let handle2 = webview.handle();
       tauri::event::listen(String::from("hello"), move |msg| {
         #[derive(Serialize)]
         pub struct Reply {
@@ -50,7 +54,7 @@ fn main() {
         };
 
         tauri::event::emit(
-          &handle2,
+          &mut webview2,
           String::from("reply"),
           Some(serde_json::to_string(&reply).unwrap()),
         )
