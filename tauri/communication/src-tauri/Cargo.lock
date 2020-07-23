@@ -1145,7 +1145,7 @@ dependencies = [
 
 [[package]]
 name = "tauri"
-version = "0.7.5"
+version = "0.8.0"
 dependencies = [
  "anyhow",
  "base64 0.12.3",
@@ -1166,12 +1166,12 @@ dependencies = [
  "urlencoding",
  "uuid",
  "webbrowser",
- "webview_rust",
+ "webview_official",
 ]
 
 [[package]]
 name = "tauri-api"
-version = "0.7.2"
+version = "0.7.3"
 dependencies = [
  "anyhow",
  "attohttpc",
@@ -1410,9 +1410,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "webview_rust"
-version = "0.1.0"
-source = "git+https://github.com/webview/webview_rust.git?branch=dev#ed33f31a883f27769906068fd5120c04406ae2bd"
+name = "webview_official"
+version = "0.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6572132855073d999a06a56f7e8b9d26959923d74c4f30503507b698f556fe1"
 dependencies = [
  "cc",
  "pkg-config",
