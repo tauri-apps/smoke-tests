@@ -1058,10 +1058,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.8.2.tgz#54ff5e0c8fc17763c083c4f0dcd3a60e1b00b4a8"
-  integrity sha512-y3A4OO4DGDxuFyh/X4k5fS17TTxhpPauZv8Qr/0bso+RTk5f+3X4lLAcP7aaiqcBLOV8HsUKpGzNArMleClYgg==
+"@quasar/extras@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.0.tgz#658b9fc0099388f33737bc9a9dd8ede17d7eae82"
+  integrity sha512-+kWpgSMxvOuGLLQPT0PJL+SL7NPqhima4RfbJLRYbA8A3RAvFm8Ay5wE6CQKTn1sDHLBx/y/Zp+wvYlt1bfFLw==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
@@ -6099,10 +6099,10 @@ inquirer@7.2.0:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-inquirer@^7.3.0:
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.3.1.tgz#ac6aba1abdfdd5ad34e7069370411edba17f6439"
-  integrity sha512-/+vOpHQHhoh90Znev8BXiuw1TDQ7IDxWsQnFafUEoK5+4uN5Eoz1p+3GqOj/NtzEi9VzWKQcV9Bm+i8moxedsA==
+inquirer@7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-7.3.2.tgz#25245d2e32dc9f33dbe26eeaada231daa66e9c7c"
+  integrity sha512-DF4osh1FM6l0RJc5YWYhSDB6TawiBRlbV9Cox8MWlidU218Tb7fm3lQTULyUJDfJ0tjbzl0W4q651mrCCEM55w==
   dependencies:
     ansi-escapes "^4.2.1"
     chalk "^4.1.0"
@@ -6454,7 +6454,7 @@ is-potential-custom-element-name@^1.0.0:
   resolved "https://registry.yarnpkg.com/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.0.tgz#0c52e54bcca391bb2c494b21e8626d7336c6e397"
   integrity sha1-DFLlS8yjkbssSUsh6GJtczbG45c=
 
-is-reachable@^4.0.0:
+is-reachable@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/is-reachable/-/is-reachable-4.0.0.tgz#dcd6fe1d011eb1298030723979b785ce55186400"
   integrity sha512-eCTBKm9K6nO3H1S3BrJBAqZJIVXKNdwDuGl6KHf1bnf/bn02BvEe+l+MypjsxbqZ7mt5oMhu+bS/mm7G2FRW3A==
@@ -6694,10 +6694,10 @@ jsdom@15.2.1:
     ws "^7.0.0"
     xml-name-validator "^3.0.0"
 
-jsdom@16.2.2:
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-16.2.2.tgz#76f2f7541646beb46a938f5dc476b88705bedf2b"
-  integrity sha512-pDFQbcYtKBHxRaP55zGXCJWgFHkDAYbKcsXEK/3Icu9nKYZkutUXfLBwbD+09XDutkYSHcgfQLZ0qvpAAm9mvg==
+jsdom@16.3.0:
+  version "16.3.0"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-16.3.0.tgz#75690b7dac36c67be49c336dcd7219bbbed0810c"
+  integrity sha512-zggeX5UuEknpdZzv15+MS1dPYG0J/TftiiNunOeNxSl3qr8Z6cIlQpN0IdJa44z9aFxZRIVqRncvEhQ7X5DtZg==
   dependencies:
     abab "^2.0.3"
     acorn "^7.1.1"
@@ -6719,7 +6719,7 @@ jsdom@16.2.2:
     tough-cookie "^3.0.1"
     w3c-hr-time "^1.0.2"
     w3c-xmlserializer "^2.0.0"
-    webidl-conversions "^6.0.0"
+    webidl-conversions "^6.1.0"
     whatwg-encoding "^1.0.5"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
@@ -9206,10 +9206,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@1.12.12:
-  version "1.12.12"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.12.12.tgz#a06031b99eb55fa059ab40417f41ac6d07cfeae4"
-  integrity sha512-5q+sHCmfaCDqlFRyaZGKUjOHxxiYnlH8RUlr5yfIsAbvv7BZhTJAjZf4MuvdxqI8DBt4G8CAzHdUhaKlhVTIBQ==
+quasar@1.12.13:
+  version "1.12.13"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.12.13.tgz#236331b55a5403e42db5202ef8e66629aef4adf5"
+  integrity sha512-e5cU3cxwZEc+MIJ6/a5IyV5HJ4B1WJscpEqDi+1BpIfVu4/9/WS9a0dnki5jVEvcsbuV4G133XCHQ09fdXoL1A==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -10855,10 +10855,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.9.1.tgz#01eb661b83cfa39dfcd7abcaeb30c56e1f0f4a0b"
-  integrity sha512-9cWTqbw0z8kNGb0NJmD1x4nRzq6rGHcRXMBHb6grqYJBeLpbnVUic2nS2rQzzvPs1SApN7lr2BMmkolCpVmAXQ==
+tauri@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.10.0.tgz#b98408d6bc655294c1052b6c6d9c77f15586dd5d"
+  integrity sha512-PtLPofatxD97Qi7LRLQAiMh9N2D3CoVSZOil/KZHPUm1N0eJ55vpk9+VZfj/ux5EH4cmQDnMY9/IMfc9Lonq1Q==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
@@ -10872,16 +10872,17 @@ tauri@0.9.1:
     imagemin-optipng "8.0.0"
     imagemin-pngquant "9.0.0"
     imagemin-zopfli "7.0.0"
-    inquirer "^7.3.0"
+    inquirer "7.3.2"
     is-png "2.0.0"
-    is-reachable "^4.0.0"
+    is-reachable "4.0.0"
     isbinaryfile "4.0.6"
-    jsdom "16.2.2"
+    jsdom "16.3.0"
     lodash "4.17.19"
     minimist "1.2.5"
     ms "2.1.2"
     png2icons "2.0.1"
     read-chunk "3.2.0"
+    semver "7.3.2"
     sharp "0.25.4"
     webpack-merge "5.0.9"
     webpack-shell-plugin "0.5.0"
@@ -11735,7 +11736,7 @@ webidl-conversions@^5.0.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-5.0.0.tgz#ae59c8a00b121543a2acc65c0434f57b0fc11aff"
   integrity sha512-VlZwKPCkYKxQgeSbH5EyngOmRp7Ww7I9rQLERETtf5ofd9pGeswWiOtogpEO850jziPRarreGxn5QIiTqpb2wA==
 
-webidl-conversions@^6.0.0:
+webidl-conversions@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
