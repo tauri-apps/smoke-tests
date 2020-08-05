@@ -9,8 +9,11 @@ use serde::Serialize;
 
 use std::io::BufRead;
 
+#[derive(tauri::FromTauriConfig)]
+struct Config;
+
 fn main() {
-  tauri::AppBuilder::new()
+  tauri::AppBuilder::<Config>::new()
     .setup(|webview, _| {
       let mut webview = webview.as_mut();
       let mut webview2 = webview.clone();
@@ -64,5 +67,6 @@ fn main() {
       });
     })
     .build()
+    .unwrap()
     .run();
 }
