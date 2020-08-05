@@ -12,8 +12,11 @@ struct Reply {
   data: String,
 }
 
+#[derive(tauri::FromTauriConfig)]
+struct Config;
+
 fn main() {
-  tauri::AppBuilder::new()
+  tauri::AppBuilder::<Config>::new()
     .setup(|webview, _source| {
       let mut webview = webview.as_mut();
       let mut webview_clone = webview.clone();
@@ -74,5 +77,6 @@ fn main() {
       }
     })
     .build()
+    .unwrap()
     .run();
 }

@@ -4,7 +4,10 @@
   "description": "A Tauri example showcasing the JS-Rust communication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri:source": "node ../../../cli/tauri.js/bin/tauri",
+    "tauri:dev": "yarn tauri:source dev",
+    "tauri:build": "yarn tauri:source build"
   },
   "private": true
 }
