@@ -10066,10 +10066,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tauri@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.11.0.tgz#6f62308383086897c601cce391f08ddba3de5d47"
-  integrity sha512-2iWw7QCb2/wzZuu4HAPboKb4y158PxnIR9jTLmKFofKn0/uLx20wdUX4fOJg2caT2ahbaT3HQZ0LYD2iYk8vuQ==
+tauri@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/tauri/-/tauri-0.11.1.tgz#a49cd1412ad42c810f812942aabd14b85500231a"
+  integrity sha512-rcnUBpK4vwfc+O0tQcFNNxd8ItHg0DH7CrtzTlWBukrHw7HxuoOQgzqu+o2+UZNlgL4togVky16UhUEG2Djgrw==
   dependencies:
     "@tauri-apps/tauri-inliner" "1.14.1"
     "@tauri-apps/toml" "2.2.4"
@@ -10736,14 +10736,14 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-cli-plugin-tauri@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tauri/-/vue-cli-plugin-tauri-0.11.0.tgz#9b57a510a85611fe47b0fde71761d97911c560b5"
-  integrity sha512-fVD7vyZc7zjYAtwzUnLP2L+TRGRcvmFRtJ2kSaq0FlX8pYj5LdVME6tT/FmT69NdgJoLaqVVWikVHEmPQ+8CQQ==
+vue-cli-plugin-tauri@0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-tauri/-/vue-cli-plugin-tauri-0.11.1.tgz#706dff1097a91326942cccd61920390019a0380f"
+  integrity sha512-GdJjESZBrr8S2fFHBwX40kIkhry5zEQoS3g2MfBL7kceOJxMfJKQCZQp1iFI13CWI80kku42yDMZuM5ETBm2WQ==
   dependencies:
     "@vue/cli-shared-utils" "^4.1.1"
     execa "^3.4.0"
-    tauri "^0.11.0"
+    tauri "^0.11.1"
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
