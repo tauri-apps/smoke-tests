@@ -25,14 +25,14 @@
     "@jbolda/gatsby-theme-layout": "0.3.5",
     "@mdx-js/mdx": "1.6.16",
     "@mdx-js/react": "1.6.16",
-    "gatsby": "2.24.27",
+    "gatsby": "2.24.31",
     "gatsby-image": "2.4.14",
-    "gatsby-plugin-mdx": "1.2.33",
+    "gatsby-plugin-mdx": "1.2.34",
     "gatsby-plugin-netlify": "2.3.11",
     "gatsby-plugin-react-helmet": "3.3.10",
-    "gatsby-plugin-sharp": "2.6.24",
+    "gatsby-plugin-sharp": "2.6.25",
     "gatsby-plugin-theme-ui": "0.3.0",
-    "gatsby-source-filesystem": "2.3.23",
+    "gatsby-source-filesystem": "2.3.24",
     "gatsby-transformer-sharp": "2.5.12",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "7.11.0",
-    "babel-preset-gatsby": "0.5.4",
+    "babel-preset-gatsby": "0.5.5",
     "tauri": "0.11.1"
   }
 }
