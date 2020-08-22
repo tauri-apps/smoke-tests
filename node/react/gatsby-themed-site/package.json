@@ -42,6 +42,6 @@
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "7.11.0",
     "babel-preset-gatsby": "0.5.5",
-    "tauri": "0.11.1"
+    "tauri": "0.12.0"
   }
 }
