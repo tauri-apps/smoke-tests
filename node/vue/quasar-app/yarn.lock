@@ -965,10 +965,10 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@2.0.8":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.0.8.tgz#d7480b4d7982cb57ff40ec6689fb150f55150f8a"
-  integrity sha512-EHomvTxJ1coLAErceDNp0qFy9FRMI6Uw694OIWvuXQqFGB0myJdPr958u5MWaEP8zVhWUNv/lyFTYcI/R+k59Q==
+"@quasar/app@2.0.9":
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.0.9.tgz#9a8c47cafb0e5618964604a31997c7faa5b7c39e"
+  integrity sha512-Iy7W2R6sF8y0iZVudYjOYAWUBu7chuGA0w9eDopUoSW5g4qahXMFeDgAUsQXfL3PquJFZogzyTcu7EHoj6XuGg==
   dependencies:
     "@quasar/babel-preset-app" "2.0.1"
     "@quasar/fastclick" "1.1.4"
@@ -1014,7 +1014,7 @@
     minimist "1.2.5"
     node-loader "1.0.1"
     node-sass "4.14.1"
-    open "7.2.0"
+    open "7.1.0"
     optimize-css-assets-webpack-plugin "5.0.3"
     ouch "2.0.0"
     postcss-loader "3.0.0"
@@ -8104,10 +8104,10 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-open@7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/open/-/open-7.2.0.tgz#212959bd7b0ce2e8e3676adc76e3cf2f0a2498b4"
-  integrity sha512-4HeyhxCvBTI5uBePsAdi55C5fmqnWZ2e2MlmvWi5KW5tdH5rxoiv/aMtbeVxKZc3eWkT1GymMnLG8XC4Rq4TDQ==
+open@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-7.1.0.tgz#68865f7d3cb238520fa1225a63cf28bcf8368a1c"
+  integrity sha512-lLPI5KgOwEYCDKXf4np7y1PBEkj7HYIyP2DY8mVDRnx0VIIu6bNrRB0R66TuO7Mack6EnTNLm4uvcl1UoklTpA==
   dependencies:
     is-docker "^2.0.0"
     is-wsl "^2.1.1"
@@ -9284,10 +9284,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.13.1.tgz#7ad95cc4783a3d071982f2496f1eb56627101f90"
-  integrity sha512-8oyECYkT8xoe4+wfJ7Rn+SrISe/s0+KhmQj5ZkaFI9D1kxKAR5Qjj04ikc7UoyQoHtAoy+7imkO+eStpExE9Xg==
+quasar@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.13.2.tgz#8f7fa5103cb3e4d5cdf088e37beda6ee25d21d6a"
+  integrity sha512-HJtWz38rLXLvTJqZ5c9GIS6SSwLjN0t8iTwAwD2AQ5FOsUTji6sq3XzzoPll5degXFevnVJlyFH5YTqMYnawVg==
 
 query-string@^4.1.0:
   version "4.3.4"
