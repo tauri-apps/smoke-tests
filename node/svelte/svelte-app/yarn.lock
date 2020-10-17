@@ -14,16 +14,16 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.1.tgz#d7386a689aa0ddf06255005b4b991988021101a0"
   integrity sha512-725AQupWJZ8ba0jbKceeFblZTY90McUBWMwHhkFQ9q1zKPJ95GUktljFcgcsIVwRnTnRKlcYzfiNImg5G9m6ZQ==
 
-"@babel/core@7.12.1":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.1.tgz#980b115a05929ef3ce1b6af9bf50e5a5cf668667"
-  integrity sha512-6bGmltqzIJrinwRRdczQsMhruSi9Sqty9Te+/5hudn4Izx/JYRhW1QELpR+CIL0gC/c9A7WroH6FmkDGxmWx3w==
+"@babel/core@7.12.3":
+  version "7.12.3"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.3.tgz#1b436884e1e3bff6fb1328dc02b208759de92ad8"
+  integrity sha512-0qXcZYKZp3/6N2jKYVxZv0aNCsxTSVCiK72DTiTYZAu7sjg73W0/aynWjMbiGd87EQL4WyA8reiJVh92AVla9g==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/generator" "^7.12.1"
     "@babel/helper-module-transforms" "^7.12.1"
     "@babel/helpers" "^7.12.1"
-    "@babel/parser" "^7.12.1"
+    "@babel/parser" "^7.12.3"
     "@babel/template" "^7.10.4"
     "@babel/traverse" "^7.12.1"
     "@babel/types" "^7.12.1"
@@ -331,6 +331,11 @@
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.1.tgz#dc03f543a0ed51396d4081463df66ecb3a2efa53"
   integrity sha512-xjZsx0sBjb6J2+QkoHI69UeD2EWbsyUW0WyZKOoJ9sBrQLxfOApWEefR9dIVOYJVj97VRXnLKLDvnn3dPDNgww==
+
+"@babel/parser@^7.12.3":
+  version "7.12.3"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.3.tgz#a305415ebe7a6c7023b40b5122a0662d928334cd"
+  integrity sha512-kFsOS0IbsuhO5ojF8Hc8z/8vEIOkylVBrjiZUbLTE3XFe0Qi+uu6HjzQixkFaqr0ZPAMZcBVxEwmsnsLPZ2Xsw==
 
 "@babel/plugin-proposal-async-generator-functions@^7.12.1":
   version "7.12.1"
@@ -1682,10 +1687,10 @@ rollup-pluginutils@^2.8.1, rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.31.0:
-  version "2.31.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.31.0.tgz#b845345fabb9998aed9f43b114e5cdb7f0f9bbd7"
-  integrity sha512-0d8S3XwEZ7aCP910/9SjnelgLvC+ZXziouVolzxPOM1zvKkHioGkWGJIWmlOULlmvB8BZ6S0wrgsT4yMz0eyMg==
+rollup@2.32.0:
+  version "2.32.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.32.0.tgz#ac58c8e85782bea8aa2d440fc05aba345013582a"
+  integrity sha512-0FIG1jY88uhCP2yP4CfvtKEqPDRmsUwfY1kEOOM+DH/KOGATgaIFd/is1+fQOxsvh62ELzcFfKonwKWnHhrqmw==
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -1733,10 +1738,10 @@ serialize-javascript@^4.0.0:
   dependencies:
     randombytes "^2.1.0"
 
-sirv-cli@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/sirv-cli/-/sirv-cli-1.0.6.tgz#a4924254d965b23a518512f70010e710185de2f1"
-  integrity sha512-K/iY1OHG7hTw4GzLoqMhwzKCbgWmx5joYAAF2+CwyiamWCpVzAgNVWgAc0JmSA2Gf3wseov05il2QbFTGTZMVg==
+sirv-cli@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/sirv-cli/-/sirv-cli-1.0.7.tgz#51dbba8ecfc29d85fdd62b7d16fce3317dfa07be"
+  integrity sha512-Ln9oXA+HVXWbj/SM/Am6TIVesF6pgAGxnUtn6pw9ofOVEyazv6Gf/J9vU2u6VbE14+pf/NNRGQbVJ6ZWuOruuA==
   dependencies:
     console-clear "^1.1.0"
     get-port "^3.2.0"
@@ -1744,13 +1749,13 @@ sirv-cli@1.0.6:
     local-access "^1.0.1"
     sade "^1.6.0"
     semiver "^1.0.0"
-    sirv "^1.0.6"
+    sirv "^1.0.7"
     tinydate "^1.0.0"
 
-sirv@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.6.tgz#178c13bffccc0dea715a0e50894cf3a6c74a715e"
-  integrity sha512-LRGu7Op4Xl9hhigOy2kcB53zAYTjNDdpooey49dIU0cMdpOv9ithVf7nstk3jvs8EhMiT/VORoyazZYGgw4vnA==
+sirv@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.7.tgz#ad8ca1f84430777a59162592626c2b8e9b9f1384"
+  integrity sha512-QMT2OTD3CTr8de9VByPmvSEeyt6k8/Cxg0J2kQJ5HNhIWfhFg9ypcIWWzez9rPWnGj+WtJ7AZD/MdT/vdilV/A==
   dependencies:
     "@polka/url" "^1.0.0-next.9"
     mime "^2.3.1"
