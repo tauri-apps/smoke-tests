@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "5.11.4",
-    "@testing-library/react": "11.1.0",
-    "@testing-library/user-event": "12.1.8",
+    "@testing-library/jest-dom": "5.11.5",
+    "@testing-library/react": "11.1.1",
+    "@testing-library/user-event": "12.2.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-scripts": "3.4.3"
@@ -34,6 +34,6 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "5.7.0"
+    "@craco/craco": "5.8.0"
   }
 }
