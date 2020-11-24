@@ -9,17 +9,23 @@ use serde::Serialize;
 
 use std::io::BufRead;
 
+fn get_bin_command(name: &str) -> String {
+  tauri::api::command::command_path(
+    tauri::api::command::binary_command(name.to_string()).unwrap(),
+  )
+  .unwrap()
+}
+
 fn main() {
   tauri::AppBuilder::new()
     .setup(|webview, _| {
       let mut webview = webview.as_mut();
       let mut webview2 = webview.clone();
       std::thread::spawn(move || {
-        let resource_dir =
-          tauri::api::platform::resource_dir().expect("failed to get resource dir");
-        let node_package_path = resource_dir.join("resources/packaged-node.js");
-        let stdout = std::process::Command::new("node")
-          .args(vec![node_package_path])
+        // the binaries/logger-${targetTriple} binary will be copied to the same folder as the app's binary
+        let logger_binary = get_bin_command("logger");
+        println!("{:?}", logger_binary);
+        let stdout = std::process::Command::new(logger_binary)
           .stdout(std::process::Stdio::piped())
           .spawn()
           .expect("Failed to spawn packaged node")
