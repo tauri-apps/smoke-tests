@@ -31,6 +31,7 @@
     "eslint-plugin-standard": "4.1.0",
     "eslint-plugin-vue": "7.1.0",
     "execa": "^4.1.0",
+    "pkg": "^4.4.9",
     "tauri": "0.13.0",
     "workbox-webpack-plugin": "5.1.4"
   },
