@@ -1,6 +1,6 @@
 {
   "build": {
-    "distDir": "../todomvc/target/deploy",
+    "distDir": "../todomvc/dist",
     "devPath": "http://localhost:8000"
   },
   "ctx": {},

@@ -1,6 +1,6 @@
 [tasks.install]
 script = [
-  "cargo install cargo-web --force",
+  "cargo install --locked trunk --force",
   "yarn install",
   "cargo install tauri-bundler --force"
 ]
