@@ -11,5 +11,3 @@ flutter config --enable-web
 flutter channel dev
 flutter build web
 ```
-
-To build the tauri app, make sure to get the tauri-bundler with `cargo install tauri-bundler`.  Also install Tauri either by installing it locally or globally with yarn or npm. Run `tauri build prod` to build a production build of the application.

@@ -5,7 +5,6 @@ This project was bootstrapped with [Create Next App](https://github.com/vercel/c
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 

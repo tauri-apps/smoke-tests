@@ -6,7 +6,6 @@ This _does_ use an API key to Airtable, but we have made it optional. (Although 
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 

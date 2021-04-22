@@ -5,7 +5,6 @@ A Tauri app that uses Vanilla JavaScript with a monolith index.html.
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 

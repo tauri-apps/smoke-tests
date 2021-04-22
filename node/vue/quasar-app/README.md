@@ -5,7 +5,6 @@ This project was bootstrapped with [Quasar CLI](https://github.com/quasarframewo
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 
