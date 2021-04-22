@@ -94,6 +94,8 @@ jobs:
       - name: install via yarn
         working-directory: ./smoke-tests/node/${{ matrix.test.folder }}
         run: yarn
+      - name: install pkg
+        run: npm install -g pkg
       - name: yarn tauri build
         working-directory: ./smoke-tests/node/${{ matrix.test.folder }}
         run: yarn tauri:build
