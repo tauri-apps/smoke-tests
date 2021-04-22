@@ -1,4 +1,5 @@
 const execa = require('execa')
+const path = require('path')
 
 async function main () {
   const rustTargetInfo = JSON.parse(
@@ -16,7 +17,7 @@ async function main () {
   )
   const platformPostfix = rustTargetInfo['llvm-target']
 
-  await execa('pkg', ['src-tauri/scripts/logger.js', '--output', `src-tauri/binaries/logger-${platformPostfix}`])
+  await execa(path.resolve(__dirname, '../node_modules/.bin/pkg'), ['src-tauri/scripts/logger.js', '--output', `src-tauri/binaries/logger-${platformPostfix}`])
 }
 
 main().catch((e) => {

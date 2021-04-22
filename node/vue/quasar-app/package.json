@@ -9,12 +9,13 @@
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
     "build": "quasar build && node ./scripts/compile-node.js",
-    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
+    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
     "tauri:dev": "yarn tauri:source dev",
     "tauri:build": "yarn tauri:source build"
   },
   "dependencies": {
     "@quasar/extras": "1.9.11",
+    "@tauri-apps/api": "^1.0.0-beta-rc.2",
     "core-js": "3.8.1",
     "quasar": "1.14.7"
   },
@@ -31,6 +32,7 @@
     "eslint-plugin-standard": "4.1.0",
     "eslint-plugin-vue": "7.2.0",
     "execa": "5.0.0",
+    "pkg": "^5.0.0",
     "tauri": "0.13.0",
     "workbox-webpack-plugin": "6.0.2"
   },

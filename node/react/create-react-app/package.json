@@ -14,7 +14,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
+    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
     "tauri:dev": "yarn tauri:source dev",
     "tauri:build": "yarn tauri:source build"
   },

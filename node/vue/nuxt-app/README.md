@@ -5,7 +5,6 @@ This project was bootstrapped with [create-nuxt-app](https://github.com/nuxt/cre
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 
