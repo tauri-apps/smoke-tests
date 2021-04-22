@@ -5,7 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation
 
 ```
-$ cargo install tauri-bundler
 $ yarn
 ```
 

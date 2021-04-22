@@ -3,10 +3,9 @@
 use serde_derive::{Deserialize, Serialize};
 use strum::IntoEnumIterator;
 use strum_macros::{EnumIter, ToString};
-use yew::events::IKeyboardEvent;
 use yew::format::Json;
 use yew::services::storage::{Area, StorageService};
-use yew::{html, Component, ComponentLink, Href, Html, InputData, KeyPressEvent, ShouldRender};
+use yew::{html, Component, ComponentLink, Href, Html, InputData, KeyboardEvent, ShouldRender};
 
 const KEY: &'static str = "yew.todomvc.self";
 
@@ -49,8 +48,12 @@ impl Component for Model {
     type Message = Msg;
     type Properties = ();
 
+    fn change(&mut self, _: ()) -> bool {
+        true
+    }
+
     fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
-        let storage = StorageService::new(Area::Local);
+        let storage = StorageService::new(Area::Local).expect("Could not acquire storage");
         let entries = {
             if let Json(Ok(restored_model)) = storage.restore(KEY) {
                 restored_model
@@ -184,7 +187,7 @@ impl Model {
                    placeholder="What needs to be done?"
                    value=&self.state.value
                    oninput=self.link.callback(|e: InputData| Msg::Update(e.value))
-                   onkeypress=self.link.callback(|e: KeyPressEvent| {
+                   onkeypress=self.link.callback(|e: KeyboardEvent| {
                        if e.key() == "Enter" { Msg::Add } else { Msg::Nope }
                    }) />
             /* Or multiline:
@@ -211,7 +214,7 @@ impl Model {
                         class="toggle"
                         checked=entry.completed
                         onclick=self.link.callback(move |_| Msg::Toggle(idx)) />
-                    <label ondoubleclick=self.link.callback(move |_| Msg::ToggleEdit(idx))>{ &entry.description }</label>
+                    <label ondblclick=self.link.callback(move |_| Msg::ToggleEdit(idx))>{ &entry.description }</label>
                     <button class="destroy" onclick=self.link.callback(move |_| Msg::Remove(idx)) />
                 </div>
                 { self.view_entry_edit_input((idx, &entry)) }
@@ -227,7 +230,7 @@ impl Model {
                        value=&entry.description
                        oninput=self.link.callback(|e: InputData| Msg::UpdateEdit(e.value))
                        onblur=self.link.callback(move |_| Msg::Edit(idx))
-                       onkeypress=self.link.callback(move |e: KeyPressEvent| {
+                       onkeypress=self.link.callback(move |e: KeyboardEvent| {
                           if e.key() == "Enter" { Msg::Edit(idx) } else { Msg::Nope }
                        }) />
             }

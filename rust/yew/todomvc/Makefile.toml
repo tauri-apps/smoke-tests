@@ -1,8 +1,7 @@
 [tasks.install]
 script = [
-  "cargo install cargo-web --force",
-  "yarn install",
-  "cargo install tauri-bundler --force"
+  "cargo install --locked trunk --force",
+  "yarn install"
 ]
 
 [tasks.build-todomvc]
