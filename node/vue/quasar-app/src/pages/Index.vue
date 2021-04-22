@@ -10,7 +10,7 @@
 
 <script>
 import { uid } from 'quasar'
-import { listen, emit } from 'tauri/api/event'
+import { listen, emit } from '@tauri-apps/api/event'
 
 export default {
   name: 'HelloWorld',

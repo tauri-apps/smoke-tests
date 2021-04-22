@@ -3,51 +3,34 @@
   windows_subsystem = "windows"
 )]
 
-mod cmd;
-
 use serde::Serialize;
-
-use std::io::BufRead;
-
-fn get_bin_command(name: &str) -> String {
-  tauri::api::command::command_path(
-    tauri::api::command::binary_command(name.to_string()).unwrap(),
-  )
-  .unwrap()
-}
+use tauri::Manager;
 
 fn main() {
-  tauri::AppBuilder::new()
-    .setup(|webview, _| {
-      let mut webview = webview.as_mut();
-      let mut webview2 = webview.clone();
+  tauri::Builder::default()
+    .setup(|app| {
+      let window = app.get_window(&"main".into()).unwrap();
+      let window_ = window.clone();
       std::thread::spawn(move || {
         // the binaries/logger-${targetTriple} binary will be copied to the same folder as the app's binary
-        let logger_binary = get_bin_command("logger");
-        println!("{:?}", logger_binary);
-        let stdout = std::process::Command::new(logger_binary)
-          .stdout(std::process::Stdio::piped())
+        let (mut rx, _child) = tauri::api::command::Command::new_sidecar("logger")
+          .expect("failed to setup logger sidecar")
           .spawn()
-          .expect("Failed to spawn packaged node")
-          .stdout
-          .expect("Failed to get packaged node stdout");
+          .expect("Failed to spawn packaged node");
 
-        let reader = std::io::BufReader::new(stdout);
-
-        reader
-          .lines()
-          .filter_map(|line| line.ok())
-          .for_each(|line| {
-            tauri::event::emit(
-              &mut webview,
-              String::from("node"),
-              Some(format!("'{}'", line)),
-            )
-            .expect("failed to emit event");
-          });
+        tauri::async_runtime::spawn(async move {
+          while let Some(event) = rx.recv().await {
+            if let tauri::api::command::CommandEvent::Stdout(line) = event {
+              window
+                .emit(&"node".into(), Some(format!("'{}'", line)))
+                .expect("failed to emit event");
+            }
+          }
+        });
       });
 
-      tauri::event::listen(String::from("hello"), move |msg| {
+      let window__ = window_.clone();
+      window_.listen("hello".into(), move |msg| {
         #[derive(Serialize)]
         pub struct Reply {
           pub msg: String,
@@ -59,16 +42,17 @@ fn main() {
           rep: "something else".to_string(),
         };
 
-        tauri::event::emit(
-          &mut webview2,
-          String::from("reply"),
-          Some(serde_json::to_string(&reply).unwrap()),
-        )
-        .expect("failed to emit event");
+        window__
+          .emit(
+            &"reply".into(),
+            Some(serde_json::to_string(&reply).unwrap()),
+          )
+          .expect("failed to emit event");
 
         println!("Message from emit:hello => {:?}", msg);
       });
+      Ok(())
     })
-    .build()
-    .run();
+    .run(tauri::generate_context!())
+    .expect("error while running tauri application");
 }

@@ -37,7 +37,7 @@ jobs:
             ext: _0.1.0_amd64.deb
           - platform: macos-latest
             CARGO_HOME: ~/.cargo
-            releaseFolder: target/release/bundle/osx
+            releaseFolder: target/release/bundle/macos
             ext: _0.1.0_x64.app
           - platform: windows-latest
             CARGO_HOME: ~/.cargo

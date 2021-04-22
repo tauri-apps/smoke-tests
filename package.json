@@ -2,5 +2,8 @@
   "name": "tauri-examples",
   "description": "Examples of Tauri in use.",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "tauri": "link:../../tooling/cli.js"
+  }
 }
