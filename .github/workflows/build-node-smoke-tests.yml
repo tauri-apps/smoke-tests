@@ -38,7 +38,7 @@ jobs:
           - platform: macos-latest
             CARGO_HOME: ~/.cargo
             releaseFolder: target/release/bundle/macos
-            ext: _0.1.0_x64.app
+            ext: .app
           - platform: windows-latest
             CARGO_HOME: ~/.cargo
             releaseFolder: target/release/bundle/msi
