@@ -1637,10 +1637,10 @@
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
   integrity sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
 
-"@quasar/app@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.2.4.tgz#4d85568d279d8ada21979291197567fe25ac6cea"
-  integrity sha512-6Y7R5oFJ9UbEDjAbw5bPamcZWSZ0rSyFTB8IOxKkt0QFFIzKKbGkpzvYlp+gMj/SBBS92PnNyof77fjVF0U6Pg==
+"@quasar/app@2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.2.6.tgz#f728a845bd93a7feba3d5d59038b3b302fb804ae"
+  integrity sha512-wYgY11e6VLtBU5tEgbCny6h+C8mr1//F4XvaJYLolE7+1HFxUF5Z9QukPkMLxtwf+N/ms5woT29/Y2T1j6rbqw==
   dependencies:
     "@quasar/babel-preset-app" "2.0.1"
     "@quasar/fastclick" "1.1.4"
@@ -1819,10 +1819,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tauri-apps/api@1.0.0-beta-rc.2":
-  version "1.0.0-beta-rc.2"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.0.0-beta-rc.2.tgz#85a8220be584b1cfeeb8b6f6106b0d529e44ddb3"
-  integrity sha512-bWHW9bDPe2xfsyEAFeNipstNKzVdYX3iWaVb/9Kc1lXu8htcJcy3wWDH9IyUw0PdQh2TF2rQ4Zkdia0FAkGLXQ==
+"@tauri-apps/api@1.0.0-beta-rc.3":
+  version "1.0.0-beta-rc.3"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.0.0-beta-rc.3.tgz#2a37d3e429829c45b34827e41cedba727a1713d0"
+  integrity sha512-oDwHfUlUMQtT3f4g+fRx5nGtQKQQcWCEKa8v+1MEexaS3Q51GALWKgwucFt92BaTGElYNKYoqbcdBs5xwOiuBw==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
@@ -3969,10 +3969,10 @@ core-js-compat@^3.8.0:
     browserslist "^4.15.0"
     semver "7.0.0"
 
-core-js@3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.11.0.tgz#05dac6aa70c0a4ad842261f8957b961d36eb8926"
-  integrity sha512-bd79DPpx+1Ilh9+30aT5O1sgpQd4Ttg8oqkqi51ZzhedMM1omD2e6IOF48Z/DzDCZ2svp49tN/3vneTK6ZBkXw==
+core-js@3.11.2:
+  version "3.11.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.11.2.tgz#af087a43373fc6e72942917c4a4c3de43ed574d6"
+  integrity sha512-3tfrrO1JpJSYGKnd9LKTBPqgUES/UYiCzMKeqwR1+jF16q4kD1BY2NvqkfuzXwQ6+CIWm55V9cjD7PQd+hijdw==
 
 core-js@^3.6.5:
   version "3.6.5"
@@ -9147,10 +9147,10 @@ pkg-dir@^4.1.0:
   dependencies:
     find-up "^4.0.0"
 
-pkg-fetch@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/pkg-fetch/-/pkg-fetch-3.0.3.tgz#3395e02f0164c971a98e6a59a20b386d483ad909"
-  integrity sha512-w8Nn7EZZFtTcdeERUH5IcMRAbrn4xL55X05dtjIaBlrkkNzMvbgAyTAwEDGmK3cxBU1d/Eh+uZVueeUzIG0AEA==
+pkg-fetch@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/pkg-fetch/-/pkg-fetch-3.0.4.tgz#8321eff936bf4eb088a333cf23494be0ded173b7"
+  integrity sha512-XgMXcco5hy0/Q7OXfQ/FbBnPvS4e7gWB9BCcUWUgaHYo3JretihmJjr62EZWmxAjvodoWLGMZ3E7XHf8Q2LfBg==
   dependencies:
     axios "^0.21.1"
     chalk "^4.1.0"
@@ -9166,10 +9166,10 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-pkg@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/pkg/-/pkg-5.0.0.tgz#616f8d51c6a0ac50c6c0a22c2f385492c285bacb"
-  integrity sha512-B/bZZp51wUP00XHme4qoA/VHsRDIL1ldN+oEdg/L8E7mE9B8Oz/mximyQWbKFrMu85Uh3H9jy55ln5Ms6jspwg==
+pkg@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/pkg/-/pkg-5.1.0.tgz#25f92666a4164bbc5495c862de9370ed48788667"
+  integrity sha512-rWTwvLJakQnEVg03s97KNtGkhM3pPfxk7XinjR7H1bToMZQMNpBTwahrAPoFHdQyfn6odI76DP6vX3Br9VubNQ==
   dependencies:
     "@babel/parser" "7.13.13"
     "@babel/types" "7.13.12"
@@ -9180,7 +9180,7 @@ pkg@5.0.0:
     into-stream "^6.0.0"
     minimist "^1.2.5"
     multistream "^4.1.0"
-    pkg-fetch "3.0.3"
+    pkg-fetch "3.0.4"
     prebuild-install "6.0.1"
     progress "^2.0.3"
     resolve "^1.20.0"
@@ -9795,10 +9795,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@1.15.10:
-  version "1.15.10"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.15.10.tgz#83325993a500fbe37537f773f5089b648f22fcfd"
-  integrity sha512-75NXx4EHN2oWxQwbCBxfICs8xbZ5QWHNf5+09CY3YDo4gTAYITtJGdEu2hqxKUTstYAdJ/996HzKq88G0Kq7rQ==
+quasar@1.15.13:
+  version "1.15.13"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.15.13.tgz#04ca97bcdcd6fc8117e306216bf85af7233116f9"
+  integrity sha512-71h+IwSC5NocvinNHaxXqRWvIyx4DClcwi4iANHqmgYcpXPwWEgGAiE8lSaZMGyTkUC+e/yshRj57s6RvhoHHw==
 
 query-string@^4.1.0:
   version "4.3.4"
