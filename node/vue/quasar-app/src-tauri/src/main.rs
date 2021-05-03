@@ -9,20 +9,20 @@ use tauri::Manager;
 fn main() {
   tauri::Builder::default()
     .setup(|app| {
-      let window = app.get_window(&"main".into()).unwrap();
+      let window = app.get_window("main").unwrap();
       let window_ = window.clone();
       std::thread::spawn(move || {
         // the binaries/logger-${targetTriple} binary will be copied to the same folder as the app's binary
-        let (mut rx, _child) = tauri::api::command::Command::new_sidecar("logger")
+        let (mut rx, _child) = tauri::api::process::Command::new_sidecar("logger")
           .expect("failed to setup logger sidecar")
           .spawn()
           .expect("Failed to spawn packaged node");
 
         tauri::async_runtime::spawn(async move {
           while let Some(event) = rx.recv().await {
-            if let tauri::api::command::CommandEvent::Stdout(line) = event {
+            if let tauri::api::process::CommandEvent::Stdout(line) = event {
               window
-                .emit(&"node".into(), Some(format!("'{}'", line)))
+                .emit("node", Some(format!("'{}'", line)))
                 .expect("failed to emit event");
             }
           }
@@ -30,7 +30,7 @@ fn main() {
       });
 
       let window__ = window_.clone();
-      window_.listen("hello".into(), move |msg| {
+      window_.listen("hello", move |msg| {
         #[derive(Serialize)]
         pub struct Reply {
           pub msg: String,
@@ -43,10 +43,7 @@ fn main() {
         };
 
         window__
-          .emit(
-            &"reply".into(),
-            Some(serde_json::to_string(&reply).unwrap()),
-          )
+          .emit("reply", Some(serde_json::to_string(&reply).unwrap()))
           .expect("failed to emit event");
 
         println!("Message from emit:hello => {:?}", msg);
