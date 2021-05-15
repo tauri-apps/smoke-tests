@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "tauri": "link:../../../tooling/cli.js"
+  "scripts": {
+    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
+    "tauri:dev": "yarn tauri:source dev",
+    "tauri:build": "yarn tauri:source build"
   }
 }
