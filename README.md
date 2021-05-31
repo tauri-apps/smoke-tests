@@ -18,8 +18,8 @@ $ cargo install mask
 $ git clone https://github.com/tauri-apps/tauri
 $ cd tauri
 $ mask prepare
-$ mask list examples # this will show all the examples names
-$ mask run example some-example-name # run an example listed on the previous command
+$ mask list smoke-tests # this will show all the examples names
+$ mask run smoke-test some-example-name # run an example listed on the previous command
 ```
 
 ## Error reporting
