@@ -10,18 +10,18 @@
     "tauri:dev": "vue-cli-service tauri:serve"
   },
   "dependencies": {
-    "core-js": "3.13.1",
-    "vue": "2.6.12"
+    "core-js": "3.23.2",
+    "vue": "2.6.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.5.13",
-    "@vue/cli-plugin-eslint": "4.5.13",
-    "@vue/cli-service": "4.5.13",
+    "@vue/cli-plugin-babel": "4.5.18",
+    "@vue/cli-plugin-eslint": "4.5.18",
+    "@vue/cli-service": "4.5.18",
     "babel-eslint": "10.1.0",
-    "eslint": "7.27.0",
-    "eslint-plugin-vue": "7.10.0",
+    "eslint": "7.32.0",
+    "eslint-plugin-vue": "7.20.0",
     "vue-cli-plugin-tauri": "0.14.0",
-    "vue-template-compiler": "2.6.12"
+    "vue-template-compiler": "2.6.14"
   },
   "eslintConfig": {
     "root": true,
