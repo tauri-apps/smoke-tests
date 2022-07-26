@@ -28,7 +28,7 @@
     "gatsby": "4.19.2",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-mdx": "3.19.0",
-    "gatsby-plugin-netlify": "5.0.0",
+    "gatsby-plugin-netlify": "5.0.1",
     "gatsby-plugin-react-helmet": "5.19.0",
     "gatsby-plugin-sharp": "4.19.0",
     "gatsby-plugin-theme-ui": "0.14.6",
