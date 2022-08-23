@@ -12,7 +12,7 @@
     "tauri:build": "yarn tauri:source build"
   },
   "devDependencies": {
-    "@babel/core": "7.18.10",
+    "@babel/core": "7.18.13",
     "@babel/preset-env": "7.18.10",
     "@rollup/plugin-commonjs": "22.0.2",
     "@rollup/plugin-node-resolve": "13.3.0",
