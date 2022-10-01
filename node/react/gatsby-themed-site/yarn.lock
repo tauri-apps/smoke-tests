@@ -6659,7 +6659,7 @@ gatsby-page-utils@^2.24.0:
     lodash "^4.17.21"
     micromatch "^4.0.5"
 
-gatsby-parcel-config@^0.15.0:
+gatsby-parcel-config@0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-parcel-config/-/gatsby-parcel-config-0.15.0.tgz#4dc8df4ee59c24e18e7bdf75efb39630e8636641"
   integrity sha512-hdJVL6QNygQT8BRuhyV5YjMZz2A27gJGLH8vWJJjCIsXX2/qi5nJRaEqRI0mRccA8G8/P7ezxKQiFQSwK8RZlA==
@@ -6872,10 +6872,10 @@ gatsby-worker@^1.24.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.24.0:
-  version "4.24.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.24.0.tgz#bbb3b5f90c90ce2594197e538608af7ae091e22a"
-  integrity sha512-NS57z11p9mZ6OctLgO/ba2DmBRTyYFi4DU+AHJD1B3cL8jVKIVsTrzafMEsUyIgE0ikSi4mJ9FzHt8DCb+b/ww==
+gatsby@4.24.1:
+  version "4.24.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.24.1.tgz#1c72fa484ed84942cdd8439a4528fcb1b6d14194"
+  integrity sha512-3+1RGtXpMmN5AQzcJHy1c0L5RDLI92KF3z97uJ3cnbw2fSr5uxHoaenMJLNIoSfNViZ5FzIoYaqWzDyJHyvNMQ==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
@@ -6963,7 +6963,7 @@ gatsby@4.24.0:
     gatsby-legacy-polyfills "^2.24.0"
     gatsby-link "^4.24.0"
     gatsby-page-utils "^2.24.0"
-    gatsby-parcel-config "^0.15.0"
+    gatsby-parcel-config "0.15.0"
     gatsby-plugin-page-creator "^4.24.0"
     gatsby-plugin-typescript "^4.24.0"
     gatsby-plugin-utils "^3.18.0"
