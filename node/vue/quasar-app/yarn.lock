@@ -3603,10 +3603,10 @@ core-js-compat@^3.8.0:
     browserslist "^4.15.0"
     semver "7.0.0"
 
-core-js@3.25.3:
-  version "3.25.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.3.tgz#cbc2be50b5ddfa7981837bd8c41639f27b166593"
-  integrity sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==
+core-js@3.25.4:
+  version "3.25.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.4.tgz#76f6bc330a79aafbaf77e9645293351ea5d09b5b"
+  integrity sha512-JDLxg61lFPFYQ7U0HKoyKwVUV63VbbVTb/K73Yf+k4Mf4ZBZxCjfyrWZjTk1ZM7ZrgFSqhSIOmuzYAxG2f/reQ==
 
 core-js@^3.6.5:
   version "3.6.5"
@@ -8870,10 +8870,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.8.4.tgz#d32d7f0c1c4f313ee45f8f3d72028f3085727172"
-  integrity sha512-bygg0GgSwQyrUJJTaHmYV50nVrz779QsNeH/cg2R/SHOQ4UmJI2FBA1hxU/nlpJ6DbmezNab1COa5ID57PvKfw==
+quasar@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.9.1.tgz#58127af5dbb4e108fb7250c070992bddedf19946"
+  integrity sha512-8IxD7tPbkBLibrtwHbveagB8tAzE7AG0u8UffGNdUEb5tnWRMh9PAr+DcnMYfax0C5pjvlvzxwIjm+axKg6GTg==
 
 query-string@^5.0.1:
   version "5.1.1"
