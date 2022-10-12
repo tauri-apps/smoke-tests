@@ -2139,10 +2139,10 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.3.tgz#c72e8b6faae31d925d23a6db0379cc3fe0216fdd"
   integrity sha512-cK+Elf3RjEzrm3SerAhrFWL5oQAsZSJ/LmjL1joIpTfEP1etJJ9CTRvdaV6XLYAxaEkfdhk/9hOvHLbR9yIhCA==
 
-"@mdx-js/mdx@2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-2.1.4.tgz#547c99c459d8ad89138bdc2bc104fffdbc5ea4bd"
-  integrity sha512-47drTDRr6QiMx1SXIoIyjTL8izoC+IBP5nmOLTUbuFJZYXdV9TPLuZJic0i96FGKfL7DpRN4WylpsxOVlpufMg==
+"@mdx-js/mdx@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-2.1.5.tgz#577937349fd555154382c2f805f5f52834a64903"
+  integrity sha512-zEG0lt+Bl/r5U6e0TOS7qDbsXICtemfAPquxWFsMbdzrvlWaqMGemLl+sjVpqlyaaiCiGVQBSGdCk0t1qXjkQg==
   dependencies:
     "@types/estree-jsx" "^1.0.0"
     "@types/mdx" "^2.0.0"
@@ -2185,10 +2185,10 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
-"@mdx-js/react@2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.1.4.tgz#9ea62ff768a22e923fa59df7065d7e9a13f58756"
-  integrity sha512-PRwLjoAxhSA6xTB2+FA5CPGUCOsIK3bJD0RYsoju+nUIyOpIZUSw6SJChfILByLizzxqslE0R+l8IjARo0N+hA==
+"@mdx-js/react@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.1.5.tgz#8225a867dae6f845ae5b0ec15bb454c23be3f576"
+  integrity sha512-3Az1I6SAWA9R38rYjz5rXBrGKeZhq96CSSyQtqY+maPj8stBsoUH5pNcmIixuGkufYsh8F5+ka2CVPo2fycWZw==
   dependencies:
     "@types/mdx" "^2.0.0"
     "@types/react" ">=16"
