@@ -2093,10 +2093,10 @@ rollup-plugin-babel@4.4.0:
     "@babel/helper-module-imports" "^7.0.0"
     rollup-pluginutils "^2.8.1"
 
-rollup-plugin-css-only@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-css-only/-/rollup-plugin-css-only-4.1.1.tgz#99d3b9975430b0bbb4384fa1e6506f252cdbc45b"
-  integrity sha512-Dd5Nsv6UA1F4alDCdB95kAb7SkOjkddvA/+6J6cEc1z5C9p1SfjztRPH2ABy/2OFlUPuS6XLk0XPtIDEA7RtWw==
+rollup-plugin-css-only@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-css-only/-/rollup-plugin-css-only-4.2.0.tgz#d1c599720f8925e8795a4b214d8bd6420b8257cd"
+  integrity sha512-X/8hJvi4Sst0BbFSxxdDVFkiYfNHIHEXiayUnPA7FLWmDlpwTSKMV1yLKv3pgmUlUoxlct9jELRQ3osrEcZFiw==
   dependencies:
     "@rollup/pluginutils" "5"
 
