@@ -6881,10 +6881,10 @@ gatsby-worker@^1.24.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.24.5:
-  version "4.24.5"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.24.5.tgz#1c8612d142127154691812853e9e09edea5d4d08"
-  integrity sha512-f47r+RQldDkBpmcQqixmvafwEqUNUKvtmov+n04uCKOdfkuiiSMPm2pGAWx3vesfut2Kf7nIVgZLZz9sRjXqKA==
+gatsby@4.24.6:
+  version "4.24.6"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.24.6.tgz#0af107c0699e829fe543f602b53d478f3f455360"
+  integrity sha512-LFfgmZ38gUJO7Z/dYfbKPFPu+fl1d711pFFiKsUcffehcJ6lYUgJmR0MoRMIZiG9yUlVgo1V0T8GC1azbdYzkA==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
