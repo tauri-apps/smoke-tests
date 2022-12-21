@@ -6884,10 +6884,10 @@ gatsby-worker@^2.3.0:
     fs-extra "^10.0.0"
     signal-exit "^3.0.5"
 
-gatsby@5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.3.2.tgz#d16d17efd6c5fbd72dce48d33a0d274a55d2e500"
-  integrity sha512-zBhh76mALss4500DTZiIqhAxw3rEvzTyGgt1hButVHzn/AQLvPoV15zGeJFX+4UfDhBT22iqar/PliZDGgB0CA==
+gatsby@5.3.3:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.3.3.tgz#d4584bd4dc026fb672e2b2db4fd8e7c79fdf8635"
+  integrity sha512-YKQAmm6X6I5Dx8CsCbrJpFFQo+LwGtosUSq6oSB2GxoH6HfOYjczxCMcvNVUOPJDId49YHuxG9ryykBPgWDR1w==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
