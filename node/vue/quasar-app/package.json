@@ -17,7 +17,7 @@
     "@quasar/extras": "1.15.9",
     "@tauri-apps/api": "1.2.0",
     "core-js": "3.27.1",
-    "quasar": "2.11.4"
+    "quasar": "2.11.5"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
@@ -26,7 +26,7 @@
     "babel-eslint": "10.1.0",
     "eslint": "8.31.0",
     "eslint-loader": "4.0.2",
-    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-import": "2.27.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-standard": "4.1.0",
