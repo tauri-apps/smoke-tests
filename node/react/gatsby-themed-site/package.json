@@ -25,7 +25,7 @@
     "@jbolda/gatsby-theme-layout": "0.3.5",
     "@mdx-js/mdx": "2.2.1",
     "@mdx-js/react": "2.2.1",
-    "gatsby": "5.4.0",
+    "gatsby": "5.4.1",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-mdx": "5.4.0",
     "gatsby-plugin-netlify": "5.1.0",
