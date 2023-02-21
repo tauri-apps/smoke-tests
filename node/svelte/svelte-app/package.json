@@ -12,12 +12,12 @@
     "tauri:build": "yarn tauri:source build"
   },
   "devDependencies": {
-    "@babel/core": "7.20.12",
+    "@babel/core": "7.21.0",
     "@babel/preset-env": "7.20.2",
     "@rollup/plugin-commonjs": "24.0.1",
     "@rollup/plugin-node-resolve": "15.0.1",
     "core-js": "3.28.0",
-    "rollup": "3.17.1",
+    "rollup": "3.17.2",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-css-only": "4.3.0",
     "rollup-plugin-livereload": "2.0.5",
