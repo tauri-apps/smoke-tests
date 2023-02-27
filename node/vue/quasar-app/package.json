@@ -14,17 +14,17 @@
     "tauri:build": "yarn tauri:source build"
   },
   "dependencies": {
-    "@quasar/extras": "1.15.10",
+    "@quasar/extras": "1.15.11",
     "@tauri-apps/api": "1.2.0",
-    "core-js": "3.27.2",
-    "quasar": "2.11.5"
+    "core-js": "3.29.0",
+    "quasar": "2.11.6"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "8.0.1",
     "babel-eslint": "10.1.0",
-    "eslint": "8.33.0",
+    "eslint": "8.35.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
