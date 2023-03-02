@@ -17,7 +17,7 @@
     "@quasar/extras": "1.15.11",
     "@tauri-apps/api": "1.2.0",
     "core-js": "3.29.0",
-    "quasar": "2.11.6"
+    "quasar": "2.11.7"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
