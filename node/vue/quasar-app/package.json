@@ -23,7 +23,7 @@
     "@quasar/app": "3.3.3",
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "8.0.1",
-    "@babel/eslint-parser": "7.11.0",
+    "@babel/eslint-parser": "7.21.3",
     "eslint": "8.38.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.27.5",
