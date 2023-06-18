@@ -14,10 +14,10 @@
   "devDependencies": {
     "@babel/core": "7.22.5",
     "@babel/preset-env": "7.22.5",
-    "@rollup/plugin-commonjs": "25.0.0",
+    "@rollup/plugin-commonjs": "25.0.1",
     "@rollup/plugin-node-resolve": "15.1.0",
-    "core-js": "3.30.2",
-    "rollup": "3.24.0",
+    "core-js": "3.31.0",
+    "rollup": "3.25.1",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-css-only": "4.3.0",
     "rollup-plugin-livereload": "2.0.5",
