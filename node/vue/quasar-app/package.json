@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@quasar/extras": "1.16.4",
-    "@tauri-apps/api": "1.3.0",
-    "core-js": "3.30.2",
+    "@tauri-apps/api": "1.4.0",
+    "core-js": "3.31.0",
     "quasar": "2.12.0"
   },
   "devDependencies": {
@@ -24,13 +24,13 @@
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "8.0.1",
     "@babel/eslint-parser": "7.22.5",
-    "eslint": "8.42.0",
+    "eslint": "8.43.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-standard": "4.1.0",
-    "eslint-plugin-vue": "9.14.1",
+    "eslint-plugin-vue": "9.15.0",
     "execa": "7.1.1",
     "pkg": "5.8.1",
     "workbox-webpack-plugin": "7.0.0"
