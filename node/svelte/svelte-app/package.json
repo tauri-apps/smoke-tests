@@ -14,7 +14,7 @@
   "devDependencies": {
     "@babel/core": "7.22.5",
     "@babel/preset-env": "7.22.5",
-    "@rollup/plugin-commonjs": "25.0.1",
+    "@rollup/plugin-commonjs": "25.0.2",
     "@rollup/plugin-node-resolve": "15.1.0",
     "core-js": "3.31.0",
     "rollup": "3.25.1",
