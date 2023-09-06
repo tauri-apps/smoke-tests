@@ -6753,10 +6753,10 @@ functions-have-names@^1.2.2:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
-gatsby-cli@^5.12.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-5.12.0.tgz#1d245f9a2f9cfaa145a41d2910e4fec324045c3a"
-  integrity sha512-XLLwwq2l0AIM9O2OqT74EpxjTyJYwCLh1r0t1+dIt4p5owpNvpu9HSPPFgPGRfV0ADoBzrAHcixNOBtLPRax0Q==
+gatsby-cli@^5.12.1:
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-5.12.1.tgz#f1b783a11e6e7667e16dcf93c642ea309fd58c28"
+  integrity sha512-EvICudocJK71H3XYfxivwML5LaiTSVyS8wHEe86d+jKwDhXdzRrEvuWNlCDiJR3wMexwDuwrwcVjl/9sAsWTXA==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/core" "^7.20.12"
@@ -7096,10 +7096,10 @@ gatsby-worker@^2.12.0:
     fs-extra "^11.1.1"
     signal-exit "^3.0.7"
 
-gatsby@5.12.3:
-  version "5.12.3"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.12.3.tgz#3e3e1b503d759d445aaf0825f051632536bc6584"
-  integrity sha512-+qO2gKA95HH+b4RCf3AYHOW3Pz8YC1t3W9MOwbUQe7QgDXd0D9lRc7YAqk8XuXp8Pkp/NWuoeZY3d/1B8d8nng==
+gatsby@5.12.4:
+  version "5.12.4"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.12.4.tgz#0f22520ceb07e5dd36bae64b53b1f3f5ddb3e1e6"
+  integrity sha512-FVUKCrZUxA80uhrTMli5B3AVaJeJJfM4rVbHeoi1Vae4Z1/EBYPDxamVLRVPDHGluhThiyPlZ6/32DAop7NQiQ==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/core" "^7.20.12"
@@ -7182,7 +7182,7 @@ gatsby@5.12.3:
     find-cache-dir "^3.3.2"
     fs-exists-cached "1.0.0"
     fs-extra "^11.1.1"
-    gatsby-cli "^5.12.0"
+    gatsby-cli "^5.12.1"
     gatsby-core-utils "^4.12.0"
     gatsby-graphiql-explorer "^3.12.0"
     gatsby-legacy-polyfills "^3.12.0"
