@@ -6834,10 +6834,10 @@ gatsby-core-utils@^4.12.0:
     tmp "^0.2.1"
     xdg-basedir "^4.0.0"
 
-gatsby-graphiql-explorer@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.12.0.tgz#13122bcd742de0f4ad51ff87c9f4c7c4def78da1"
-  integrity sha512-vr86oLhif5uZ+VSTE34DYjtBDCIHWpJHh4+65fmgZh+WtDv1lyONJ/WWmyD+dNMHlGsZtR6wVvBjrj5iFRDGRw==
+gatsby-graphiql-explorer@^3.12.1:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/gatsby-graphiql-explorer/-/gatsby-graphiql-explorer-3.12.1.tgz#7ea2196467d5982bc3fb8e0326cd57161bc1b8c6"
+  integrity sha512-c2iG+4nAft2cTS9zgnPUAYNBtxTWGKjI26QIfjuo25j7/klnz8rLQYdj6TA4Z2Y3yyTyBspAHr9ho6zvOHlBJg==
 
 gatsby-image@3.11.0:
   version "3.11.0"
@@ -7087,10 +7087,10 @@ gatsby-worker@^2.12.0:
     fs-extra "^11.1.1"
     signal-exit "^3.0.7"
 
-gatsby@5.12.4:
-  version "5.12.4"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.12.4.tgz#0f22520ceb07e5dd36bae64b53b1f3f5ddb3e1e6"
-  integrity sha512-FVUKCrZUxA80uhrTMli5B3AVaJeJJfM4rVbHeoi1Vae4Z1/EBYPDxamVLRVPDHGluhThiyPlZ6/32DAop7NQiQ==
+gatsby@5.12.5:
+  version "5.12.5"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.12.5.tgz#7106771a66e5531cf8bae7a7041a11096448ffc3"
+  integrity sha512-7BCWmzY+Gmy8PpByzEpvQnZu0fOiDPSiU35HRnjL5yJjGm1j3d7YymIs54j14h5ENJ3ep6QhRbJ0z590CjNxDg==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/core" "^7.20.12"
@@ -7175,7 +7175,7 @@ gatsby@5.12.4:
     fs-extra "^11.1.1"
     gatsby-cli "^5.12.1"
     gatsby-core-utils "^4.12.0"
-    gatsby-graphiql-explorer "^3.12.0"
+    gatsby-graphiql-explorer "^3.12.1"
     gatsby-legacy-polyfills "^3.12.0"
     gatsby-link "^5.12.0"
     gatsby-page-utils "^3.12.0"
