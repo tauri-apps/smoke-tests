@@ -21,7 +21,7 @@
     "eslint": "8.52.0",
     "eslint-plugin-vue": "9.17.0",
     "vue-cli-plugin-tauri": "1.0.0",
-    "vue-template-compiler": "2.7.14"
+    "vue-template-compiler": "2.7.15"
   },
   "eslintConfig": {
     "root": true,
