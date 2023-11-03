@@ -2225,10 +2225,10 @@ resolve@^1.22.1:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-rollup-plugin-css-only@4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-css-only/-/rollup-plugin-css-only-4.3.0.tgz#d3d9374457a065aff623d7c7696f1a072c96ae7b"
-  integrity sha512-BsiCqJJQzZh2lQiHY5irejRoJ3I1EUFHEi5PjVqsr+EmOh54YrWVwd3YZEXnQJ2+fzlhif0YM/Kf0GuH90GAdQ==
+rollup-plugin-css-only@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-css-only/-/rollup-plugin-css-only-4.4.0.tgz#5d52bf6d52509910f36cb41bc6cbc1090bbc06e8"
+  integrity sha512-1NWsTbWD2i9t4MM2+xBYPu1GN+QNoo+8FFwhIUjzaxA1YjhiWU1AfTOsmWMJFyDPwSchCKhrhI03ZPjXo/RiQQ==
   dependencies:
     "@rollup/pluginutils" "5"
 
