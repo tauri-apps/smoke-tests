@@ -10,7 +10,7 @@
     "tauri:dev": "vue-cli-service tauri:serve"
   },
   "dependencies": {
-    "core-js": "3.33.3",
+    "core-js": "3.34.0",
     "vue": "3.3.10"
   },
   "devDependencies": {
