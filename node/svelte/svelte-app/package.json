@@ -16,7 +16,7 @@
     "@babel/preset-env": "7.23.8",
     "@rollup/plugin-commonjs": "25.0.7",
     "@rollup/plugin-node-resolve": "15.2.3",
-    "core-js": "3.35.0",
+    "core-js": "3.35.1",
     "rollup": "4.9.5",
     "@rollup/plugin-babel": "6.0.4",
     "rollup-plugin-css-only": "4.5.2",
