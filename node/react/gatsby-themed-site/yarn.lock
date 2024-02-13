@@ -2258,10 +2258,10 @@
   resolved "https://registry.yarnpkg.com/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.3.tgz#c72e8b6faae31d925d23a6db0379cc3fe0216fdd"
   integrity sha512-cK+Elf3RjEzrm3SerAhrFWL5oQAsZSJ/LmjL1joIpTfEP1etJJ9CTRvdaV6XLYAxaEkfdhk/9hOvHLbR9yIhCA==
 
-"@mdx-js/mdx@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-3.0.0.tgz#37ef87685143fafedf1165f0a79e9fe95fbe5154"
-  integrity sha512-Icm0TBKBLYqroYbNW3BPnzMGn+7mwpQOK310aZ7+fkCtiU3aqv2cdcX+nd0Ydo3wI5Rx8bX2Z2QmGb/XcAClCw==
+"@mdx-js/mdx@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@mdx-js/mdx/-/mdx-3.0.1.tgz#617bd2629ae561fdca1bb88e3badd947f5a82191"
+  integrity sha512-eIQ4QTrOWyL3LWEe/bu6Taqzq2HQvHcyTMaOrI95P2/LmJE7AsfPfgJGuFLPVqBUE1BC1rik3VIhU+s9u72arA==
   dependencies:
     "@types/estree" "^1.0.0"
     "@types/estree-jsx" "^1.0.0"
@@ -2310,10 +2310,10 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
-"@mdx-js/react@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-3.0.0.tgz#eaccaa8d6a7736b19080aff5a70448a7ba692271"
-  integrity sha512-nDctevR9KyYFyV+m+/+S4cpzCWHqj+iHDHq3QrsWezcC+B17uZdIWgCguESUkwFhM3n/56KxWVE3V6EokrmONQ==
+"@mdx-js/react@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-3.0.1.tgz#997a19b3a5b783d936c75ae7c47cfe62f967f746"
+  integrity sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==
   dependencies:
     "@types/mdx" "^2.0.0"
 
