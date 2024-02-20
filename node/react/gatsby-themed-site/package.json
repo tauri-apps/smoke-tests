@@ -31,13 +31,13 @@
     "gatsby-plugin-netlify": "5.1.1",
     "gatsby-plugin-react-helmet": "6.13.1",
     "gatsby-plugin-sharp": "5.13.1",
-    "gatsby-plugin-theme-ui": "0.16.1",
+    "gatsby-plugin-theme-ui": "0.16.2",
     "gatsby-source-filesystem": "5.13.1",
     "gatsby-transformer-sharp": "5.13.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0",
-    "theme-ui": "0.16.1"
+    "theme-ui": "0.16.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "7.21.0",
