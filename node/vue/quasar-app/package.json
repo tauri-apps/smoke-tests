@@ -27,13 +27,13 @@
     "eslint": "9.1.1",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.2.1",
+    "eslint-plugin-n": "17.3.1",
     "eslint-plugin-promise": "6.1.1",
     "eslint-plugin-standard": "5.0.0",
     "eslint-plugin-vue": "9.25.0",
     "execa": "8.0.1",
     "pkg": "5.8.1",
-    "workbox-webpack-plugin": "7.0.0"
+    "workbox-webpack-plugin": "7.1.0"
   },
   "engines": {
     "node": ">= 8.9.0",
