@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "core-js": "3.37.0",
-    "vue": "3.4.25"
+    "vue": "3.4.26"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-plugin-eslint": "5.0.8",
     "@vue/cli-service": "5.0.8",
-    "@babel/eslint-parser": "7.24.1",
+    "@babel/eslint-parser": "7.24.5",
     "eslint": "9.1.1",
     "eslint-plugin-vue": "9.25.0",
     "vue-cli-plugin-tauri": "1.0.0",
