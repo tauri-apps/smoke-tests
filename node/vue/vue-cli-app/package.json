@@ -11,14 +11,14 @@
   },
   "dependencies": {
     "core-js": "3.37.1",
-    "vue": "3.4.33"
+    "vue": "3.4.34"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.8",
     "@vue/cli-plugin-eslint": "5.0.8",
     "@vue/cli-service": "5.0.8",
-    "@babel/eslint-parser": "7.24.8",
-    "eslint": "9.7.0",
+    "@babel/eslint-parser": "7.25.1",
+    "eslint": "9.8.0",
     "eslint-plugin-vue": "9.27.0",
     "vue-cli-plugin-tauri": "1.0.0",
     "vue-template-compiler": "2.7.16"
