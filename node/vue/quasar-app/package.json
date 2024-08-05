@@ -16,8 +16,8 @@
   "dependencies": {
     "@quasar/extras": "1.16.12",
     "@tauri-apps/api": "1.6.0",
-    "core-js": "3.37.1",
-    "quasar": "2.16.6"
+    "core-js": "3.38.0",
+    "quasar": "2.16.7"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
@@ -27,7 +27,7 @@
     "eslint": "9.8.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-n": "17.10.1",
+    "eslint-plugin-n": "17.10.2",
     "eslint-plugin-promise": "7.0.0",
     "eslint-plugin-standard": "5.0.0",
     "eslint-plugin-vue": "9.27.0",
