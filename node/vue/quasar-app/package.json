@@ -24,7 +24,7 @@
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "8.0.1",
     "@babel/eslint-parser": "7.25.1",
-    "eslint": "9.9.0",
+    "eslint": "9.9.1",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.10.2",
