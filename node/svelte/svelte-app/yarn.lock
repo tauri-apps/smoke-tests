@@ -1979,10 +1979,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte@5.0.3:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.0.3.tgz#093663a1c71c887e592fb34b4886da9105b6a9b7"
-  integrity sha512-i8DopbAPRP9iaR3qqe++LPv4povQRshSseH3kSrzI4URZ9/7OTt3vCJPBp+5ACRQDik0S/tM1ZRA6EW/sGcKfw==
+svelte@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.0.5.tgz#0e29f0510822f137e7fba245a2d40abe798fc91b"
+  integrity sha512-f4WBlP5g8W6pEoDfx741lewMlemy+LIGpEqjGPWqnHVP92wqlQXl87U5O5Bi2tkSUrO95OxOoqwU8qlqiHmFKA==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@jridgewell/sourcemap-codec" "^1.5.0"
