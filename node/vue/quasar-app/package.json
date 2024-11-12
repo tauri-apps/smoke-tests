@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@quasar/extras": "1.16.13",
-    "@tauri-apps/api": "2.1.0",
+    "@tauri-apps/api": "2.1.1",
     "core-js": "3.39.0",
     "quasar": "2.17.2"
   },
@@ -30,7 +30,7 @@
     "eslint-plugin-n": "17.13.1",
     "eslint-plugin-promise": "7.1.0",
     "eslint-plugin-standard": "5.0.0",
-    "eslint-plugin-vue": "9.30.0",
+    "eslint-plugin-vue": "9.31.0",
     "execa": "9.5.1",
     "pkg": "5.8.1",
     "workbox-webpack-plugin": "7.3.0"

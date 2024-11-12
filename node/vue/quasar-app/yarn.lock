@@ -2156,10 +2156,10 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@tauri-apps/api@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.1.0.tgz#1ee5922319ca9dac63acbb53ebc371f47eabade2"
-  integrity sha512-1w/JygZOiUtdOU7qart78MaB4/qayZ2heB793KhbZRS7I9q4sxXcXaB7He6uFlprD8w5TI9P8HCuEByCvWRtfw==
+"@tauri-apps/api@2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.1.1.tgz#77d4ddb683d31072de4e6a47c8613d9db011652b"
+  integrity sha512-fzUfFFKo4lknXGJq8qrCidkUcKcH2UHhfaaCNt4GzgzGaW2iS26uFOg4tS3H4P8D6ZEeUxtiD5z0nwFF0UN30A==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
@@ -5398,10 +5398,10 @@ eslint-plugin-standard@5.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-5.0.0.tgz#c43f6925d669f177db46f095ea30be95476b1ee4"
   integrity sha512-eSIXPc9wBM4BrniMzJRBm2uoVuXz2EPa+NXPk2+itrVt+r5SbKFERx/IgrK/HmfjddyKVz2f+j+7gBRvu19xLg==
 
-eslint-plugin-vue@9.30.0:
-  version "9.30.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.30.0.tgz#801a7d2d7d3bb878fcf71932a1e11fd07529e2c4"
-  integrity sha512-CyqlRgShvljFkOeYK8wN5frh/OGTvkj1S7wlr2Q2pUvwq+X5VYiLd6ZjujpgSgLnys2W8qrBLkXQ41SUYaoPIQ==
+eslint-plugin-vue@9.31.0:
+  version "9.31.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.31.0.tgz#5da53c2826f8efd8a62835aad596826053b1085e"
+  integrity sha512-aYMUCgivhz1o4tLkRHj5oq9YgYPM4/EJc0M7TAKRLCUA5OYxRLAhYEVD2nLtTwLyixEFI+/QXSvKU9ESZFgqjQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     globals "^13.24.0"
