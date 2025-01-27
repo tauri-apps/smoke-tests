@@ -12,12 +12,12 @@
     "tauri:build": "yarn tauri:source build"
   },
   "devDependencies": {
-    "@babel/core": "7.26.0",
-    "@babel/preset-env": "7.26.0",
+    "@babel/core": "7.26.7",
+    "@babel/preset-env": "7.26.7",
     "@rollup/plugin-commonjs": "28.0.2",
     "@rollup/plugin-node-resolve": "16.0.0",
     "core-js": "3.40.0",
-    "rollup": "4.31.0",
+    "rollup": "4.32.0",
     "@rollup/plugin-babel": "6.0.4",
     "rollup-plugin-css-only": "4.5.2",
     "rollup-plugin-livereload": "2.0.5",
@@ -26,6 +26,6 @@
     "sirv-cli": "3.0.0"
   },
   "dependencies": {
-    "svelte": "5.19.2"
+    "svelte": "5.19.3"
   }
 }
