@@ -14,7 +14,7 @@
   "devDependencies": {
     "@babel/core": "7.26.9",
     "@babel/preset-env": "7.26.9",
-    "@rollup/plugin-commonjs": "28.0.2",
+    "@rollup/plugin-commonjs": "28.0.3",
     "@rollup/plugin-node-resolve": "16.0.0",
     "core-js": "3.41.0",
     "rollup": "4.34.9",
@@ -26,6 +26,6 @@
     "sirv-cli": "3.0.1"
   },
   "dependencies": {
-    "svelte": "5.22.5"
+    "svelte": "5.22.6"
   }
 }
