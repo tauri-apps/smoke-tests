@@ -17,14 +17,14 @@
     "@quasar/extras": "1.16.17",
     "@tauri-apps/api": "2.3.0",
     "core-js": "3.41.0",
-    "quasar": "2.18.0"
+    "quasar": "2.18.1"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "9.0.0",
     "@babel/eslint-parser": "7.26.8",
-    "eslint": "9.21.0",
+    "eslint": "9.22.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-n": "17.16.2",
