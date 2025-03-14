@@ -22,8 +22,8 @@
   "devDependencies": {
     "@quasar/app": "3.3.3",
     "@tauri-apps/tauri-webpack": "0.2.0",
-    "@vue/eslint-config-standard": "9.0.0",
-    "@babel/eslint-parser": "7.26.8",
+    "@vue/eslint-config-standard": "9.0.1",
+    "@babel/eslint-parser": "7.26.10",
     "eslint": "9.22.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.31.0",
