@@ -17,7 +17,7 @@
     "@rollup/plugin-commonjs": "28.0.3",
     "@rollup/plugin-node-resolve": "16.0.1",
     "core-js": "3.41.0",
-    "rollup": "4.39.0",
+    "rollup": "4.40.0",
     "@rollup/plugin-babel": "6.0.4",
     "rollup-plugin-css-only": "4.5.2",
     "rollup-plugin-livereload": "2.0.5",
@@ -26,6 +26,6 @@
     "sirv-cli": "3.0.1"
   },
   "dependencies": {
-    "svelte": "5.25.8"
+    "svelte": "5.26.2"
   }
 }
