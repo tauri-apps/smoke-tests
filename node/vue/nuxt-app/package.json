@@ -14,7 +14,7 @@
     "tauri:build": "yarn tauri:source build"
   },
   "dependencies": {
-    "nuxt": "3.17.1"
+    "nuxt": "3.17.2"
   },
   "devDependencies": {
     "@tauri-apps/tauri-webpack": "0.2.0"
