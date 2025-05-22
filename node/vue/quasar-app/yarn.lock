@@ -2157,10 +2157,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@1.16.17":
-  version "1.16.17"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.16.17.tgz#50741489c9cc8a403ae8c595276aa11500ad0b38"
-  integrity sha512-4aX9XU/oj1+8O2C7LQCgywmoIw7suyUEZMPFFLWI61f21mF55VOsMdLCBhjeFgL5U4EWy079mfOR6/J8thi/ag==
+"@quasar/extras@1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.17.0.tgz#966c0464a069d15f929d14f51b61fc8efefcf76c"
+  integrity sha512-KqAHdSJfIDauiR1nJ8rqHWT0diqD0QradZKoVIZJAilHAvgwyPIY7MbyR2z4RIMkUIMUSqBZcbshMpEw+9A30w==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
