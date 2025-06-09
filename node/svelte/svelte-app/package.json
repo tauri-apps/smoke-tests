@@ -16,7 +16,7 @@
     "@babel/preset-env": "7.27.2",
     "@rollup/plugin-commonjs": "28.0.3",
     "@rollup/plugin-node-resolve": "16.0.1",
-    "core-js": "3.42.0",
+    "core-js": "3.43.0",
     "rollup": "4.42.0",
     "@rollup/plugin-babel": "6.0.4",
     "rollup-plugin-css-only": "4.5.2",
@@ -26,6 +26,6 @@
     "sirv-cli": "3.0.1"
   },
   "dependencies": {
-    "svelte": "5.33.17"
+    "svelte": "5.33.18"
   }
 }
