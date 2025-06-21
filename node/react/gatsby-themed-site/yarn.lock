@@ -7409,10 +7409,10 @@ gatsby-worker@^2.14.0:
     fs-extra "^11.2.0"
     signal-exit "^3.0.7"
 
-gatsby@5.14.4:
-  version "5.14.4"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.14.4.tgz#c295a72db03cbff9fe7934e1299b50daa7ae3184"
-  integrity sha512-PZFbGk7/M0E3qWHJdFt2C1tzNeOf8Ou0akMMbZ5tqbu2CZ+7pj1bHUS8jezQfhnSVcvxAJEZ+Tm+M+wtdp17kQ==
+gatsby@5.14.5:
+  version "5.14.5"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-5.14.5.tgz#5066afb81b167b9d45368ba78b75cfdec7b9e212"
+  integrity sha512-j3OO6O1IrUl6jliXCZdLaT3TWgzFO6CvZE8rS0Eh/3f3S6tmv11/jfSeqXCCgKyCNOKhM2aW02rj0ffA7c0ttQ==
   dependencies:
     "@babel/code-frame" "^7.18.6"
     "@babel/core" "^7.20.12"
