@@ -17,7 +17,7 @@
     "@rollup/plugin-commonjs": "28.0.6",
     "@rollup/plugin-node-resolve": "16.0.1",
     "core-js": "3.43.0",
-    "rollup": "4.44.1",
+    "rollup": "4.44.2",
     "@rollup/plugin-babel": "6.0.4",
     "rollup-plugin-css-only": "4.5.2",
     "rollup-plugin-livereload": "2.0.5",
