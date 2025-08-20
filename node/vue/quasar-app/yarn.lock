@@ -2270,10 +2270,10 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@tauri-apps/api@2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.7.0.tgz#44319e7cd34e898d21cc770961209bd50ac4cefe"
-  integrity sha512-v7fVE8jqBl8xJFOcBafDzXFc8FnicoH3j8o8DNNs0tHuEBmXUDqrCOAzMRX0UkfpwqZLqvrvK0GNQ45DfnoVDg==
+"@tauri-apps/api@2.8.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.8.0.tgz#0348a2b3ba5982ec67a7d569f329b4a55d7d5f1e"
+  integrity sha512-ga7zdhbS2GXOMTIZRT0mYjKJtR9fivsXzsyq5U3vjDL0s6DTMwYRm0UHNjzTY5dh4+LSC68Sm/7WEiimbQNYlw==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
