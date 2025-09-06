@@ -1339,10 +1339,10 @@
     which "^5.0.0"
     ws "^8.18.3"
 
-"@nuxt/kit@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-4.1.0.tgz#b64ec02e2c8dc48675b0f7404dea7aba60634410"
-  integrity sha512-QY6wgano7szNP5hLUKNeZTLdx009F2n+a8L9M4Wzk1jhubvENc81jLWHAnaJOogRpqMeEqZcjHRfqTx+J1/lfQ==
+"@nuxt/kit@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-4.1.1.tgz#8e67ceccd8d49f054ccdffcf2e6c2fe224698258"
+  integrity sha512-2MGfOXtbcxdkbUNZDjyEv4xmokicZhTrQBMrmNJQztrePfpKOVBe8AiGf/BfbHelXMKio5PgktiRoiEIyIsX4g==
   dependencies:
     c12 "^3.2.0"
     consola "^3.4.2"
@@ -1424,10 +1424,10 @@
     unimport "^5.2.0"
     untyped "^2.0.0"
 
-"@nuxt/schema@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-4.1.0.tgz#95e873550579dcd6f5da279023725e2eac359071"
-  integrity sha512-LvcsO7XIYD+rqjxsjaBHUyOgN2Vw8MCF4rvuF09P/UqEogbck94zrwzSTYk6FVU7K6eQO/egvefanGMj/nPkMg==
+"@nuxt/schema@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-4.1.1.tgz#947934a8c14a54d2e5fc7e439ac74ec279bba411"
+  integrity sha512-s4ELQEw6er4kop4e9HkTZ2ByVEvOGic9YJmesr2QI3O+q01CLSZE6aepbRLsq1Hz6bbfq/UrFw8MLuHs7l03aA==
   dependencies:
     "@vue/shared" "^3.5.20"
     consola "^3.4.2"
@@ -1454,12 +1454,12 @@
     rc9 "^2.1.2"
     std-env "^3.8.1"
 
-"@nuxt/vite-builder@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-4.1.0.tgz#ce88e082b622d77387bb33e60be391bc594715d8"
-  integrity sha512-eya04QZ+j6n+Ru3zyYDGrXGKuBdgBro2FrDiQl5faKK9fK4dqNYuBGeYNKmBHNZg6fOnUUEaGrZmK/EfrLBmcw==
+"@nuxt/vite-builder@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/vite-builder/-/vite-builder-4.1.1.tgz#2b426b067de20d71dda6aa0fb172df349380b80b"
+  integrity sha512-hRIHu9a1x2HFFSXQt3+eG4s8GP1QhuzjiCmd/sciC55NISc0oP69tTmOmFOp3L8G2BapSZ/O1CZEnO/XoAqZkA==
   dependencies:
-    "@nuxt/kit" "4.1.0"
+    "@nuxt/kit" "4.1.1"
     "@rollup/plugin-replace" "^6.0.2"
     "@vitejs/plugin-vue" "^6.0.1"
     "@vitejs/plugin-vue-jsx" "^5.1.1"
@@ -7983,18 +7983,18 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-4.1.0.tgz#2c0ce5a7c72f1775ef796ad32e3204ebb5456471"
-  integrity sha512-bnHWcztOrxjBMcoiqO51cVR0kzycohTazrdEVgL2I6U5gCX3R63XWP+PQ2itO/DCdZPP5i9ZF9HsJGXYbc5w/g==
+nuxt@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-4.1.1.tgz#9c7f84bd8692ac17e307b4408f4e9237f7c36a4c"
+  integrity sha512-xLDbWgz3ggAfUjcbmTzmLLPWOEB61thnjnqyasZlYyh/Ty2EDT1qvOiM9HT+9ycBxElI2DmyYewY8WOPRxWMiQ==
   dependencies:
     "@nuxt/cli" "^3.28.0"
     "@nuxt/devalue" "^2.0.2"
     "@nuxt/devtools" "^2.6.3"
-    "@nuxt/kit" "4.1.0"
-    "@nuxt/schema" "4.1.0"
+    "@nuxt/kit" "4.1.1"
+    "@nuxt/schema" "4.1.1"
     "@nuxt/telemetry" "^2.6.6"
-    "@nuxt/vite-builder" "4.1.0"
+    "@nuxt/vite-builder" "4.1.1"
     "@unhead/vue" "^2.0.14"
     "@vue/shared" "^3.5.20"
     c12 "^3.2.0"
@@ -8037,7 +8037,6 @@ nuxt@4.1.0:
     scule "^1.3.0"
     semver "^7.7.2"
     std-env "^3.9.0"
-    strip-literal "^3.0.0"
     tinyglobby "0.2.14"
     ufo "^1.6.1"
     ultrahtml "^1.6.0"
