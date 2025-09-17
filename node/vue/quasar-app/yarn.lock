@@ -5726,10 +5726,10 @@ eslint-plugin-import@2.32.0:
     string.prototype.trimend "^1.0.9"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-n@17.22.0:
-  version "17.22.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.22.0.tgz#cb963e643a9191275da065e73beb86e4dec229a2"
-  integrity sha512-+YQ4dW8gg3eVZ3A8lL6zugEmA+Le5IEpCXsI8vKvDvSIB8gEh2N3PKqDwI+J8uLb7nphTJkwiv2e5OlnEDNvpQ==
+eslint-plugin-n@17.23.0:
+  version "17.23.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.23.0.tgz#36e4342e0d0f95f42f8f616df6b181fdd8e84bdc"
+  integrity sha512-aPePGxUr5LezcXmMRBF83eK1MmqUYY1NdLdHC+jdpfc5b98eL7yDXY20gXJ6DcTxrHBhrLsfYYqo7J+m0h9YXQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.5.0"
     enhanced-resolve "^5.17.1"
@@ -10633,10 +10633,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.18.2:
-  version "2.18.2"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.18.2.tgz#3bcf2e53371ec10bffc81b319b320e620e3953b7"
-  integrity sha512-SeSAamH4vgYH9alLTdVL2o1fTTwz7VZnS2+gvIwt6qsH3ndrn/tQW64sWE78VSvrHlWINYbXESVF/cvWEuTYxg==
+quasar@2.18.3:
+  version "2.18.3"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.18.3.tgz#6fcc35bf1c3fa9e6e9b544eaedf1537f647fa054"
+  integrity sha512-LyKunRAhE70YO30oBUppGZMS4+96aItjDsyuQIYxjhDvLn+EVuWvDetHb8EvLk60M3OMiyMuiIPVnDLDfu1Mcw==
 
 query-string@^5.0.1:
   version "5.1.1"
