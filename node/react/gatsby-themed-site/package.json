@@ -34,8 +34,8 @@
     "gatsby-plugin-theme-ui": "0.17.2",
     "gatsby-source-filesystem": "5.15.0",
     "gatsby-transformer-sharp": "5.15.0",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-helmet": "6.1.0",
     "theme-ui": "0.17.2"
   },
