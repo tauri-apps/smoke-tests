@@ -1560,6 +1560,11 @@ deepmerge@^4.2.2:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
 
+devalue@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.5.0.tgz#2b7d3959496773dfc6d83dbc909af3ddb65ba6bb"
+  integrity sha512-69sM5yrHfFLJt0AZ9QqZXGCPfJ7fQjvpln3Rq5+PS03LD32Ost1Q9N+eEnaQwGRIriKkMImXD56ocjQmfjbV3w==
+
 electron-to-chromium@^1.5.173:
   version "1.5.179"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.179.tgz#453d53f360014a2604d40ccd41c4ea0a6e31b99a"
@@ -2100,10 +2105,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte@5.43.14:
-  version "5.43.14"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.43.14.tgz#6efbfb8df096bfa7f7d15c5174b24811bbc24b4f"
-  integrity sha512-pHeUrp1A5S6RGaXhJB7PtYjL1VVjbVrJ2EfuAoPu9/1LeoMaJa/pcdCsCSb0gS4eUHAHnhCbUDxORZyvGK6kOQ==
+svelte@5.44.0:
+  version "5.44.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.44.0.tgz#43da54c48baeee11f88850adf5c6da6ca5812eb7"
+  integrity sha512-R7387No2zEGw4CtYtI2rgsui6BqjFARzoZFGLiLN5OPla0Pq4Ra2WwcP/zBomP3MYalhSNvF1fzDMuU0P0zPJw==
   dependencies:
     "@jridgewell/remapping" "^2.3.4"
     "@jridgewell/sourcemap-codec" "^1.5.0"
@@ -2113,6 +2118,7 @@ svelte@5.43.14:
     aria-query "^5.3.1"
     axobject-query "^4.1.0"
     clsx "^2.1.1"
+    devalue "^5.5.0"
     esm-env "^1.2.1"
     esrap "^2.1.0"
     is-reference "^3.0.3"
