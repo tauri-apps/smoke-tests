@@ -11,4 +11,4 @@ strum = "0.27.0"
 strum_macros = "0.27.0"
 serde = "1.0.200"
 serde_derive = "1.0.200"
-yew = {version = "0.21.0", features = ["web_sys"]}
+yew = {version = "0.22.0", features = ["web_sys"]}
