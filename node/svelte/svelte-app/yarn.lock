@@ -2169,10 +2169,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte@5.55.2:
-  version "5.55.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.55.2.tgz#83cde28cf26446d162bea9deed1b3161992073e1"
-  integrity sha512-z41M/hi0ZPTzrwVKLvB/R1/Oo08gL1uIib8HZ+FncqxxtY9MLb01emg2fqk+WLZ/lNrrtNDFh7BZLDxAHvMgLw==
+svelte@5.55.3:
+  version "5.55.3"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.55.3.tgz#9e9ff2975084df33c71b80bec7cbecfb6a3ba47c"
+  integrity sha512-dS1N+i3bA1v+c4UDb750MlN5vCO82G6vxh8HeTsPsTdJ1BLsN1zxSyDlIdBBqUjqZ/BxEwM8UrFf98aaoVnZFQ==
   dependencies:
     "@jridgewell/remapping" "^2.3.4"
     "@jridgewell/sourcemap-codec" "^1.5.0"
