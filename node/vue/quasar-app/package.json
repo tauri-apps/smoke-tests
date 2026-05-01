@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@quasar/extras": "1.18.0",
-    "@tauri-apps/api": "2.10.1",
+    "@tauri-apps/api": "2.11.0",
     "core-js": "3.49.0",
     "quasar": "2.19.3"
   },
@@ -24,7 +24,7 @@
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "9.0.1",
     "@babel/eslint-parser": "7.28.6",
-    "eslint": "10.2.1",
+    "eslint": "10.3.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-n": "17.24.0",
