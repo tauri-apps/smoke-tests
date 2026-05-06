@@ -30,7 +30,7 @@
     "eslint-plugin-n": "17.24.0",
     "eslint-plugin-promise": "7.3.0",
     "eslint-plugin-standard": "5.0.0",
-    "eslint-plugin-vue": "10.9.0",
+    "eslint-plugin-vue": "10.9.1",
     "execa": "9.6.1",
     "pkg": "5.8.1",
     "workbox-webpack-plugin": "7.4.1"
