@@ -2482,10 +2482,10 @@
     estraverse "^5.3.0"
     picomatch "^4.0.2"
 
-"@tauri-apps/api@2.11.0":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.11.0.tgz#00fb69996010178a5153798d4a84f6fe3a1e1182"
-  integrity sha512-7CinYODhky9lmO23xHnUFv0Xt43fbtWMyxZcLcRBlFkcgXKuEirBvHpmtJ89YMhyeGcq20Wuc47Fa4XjyniywA==
+"@tauri-apps/api@2.11.1":
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.11.1.tgz#cd6b13fc26403ca095a02e39ecdbec8048d2872d"
+  integrity sha512-M2FPuYND2m+wh5hfW9ZpSdxMPdEJovPBWwoHJmwUpysTYNHaOkVFN419m/K0LIgjb/7KU2vBgsUepJWugQCvAA==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
@@ -10916,10 +10916,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.20.0.tgz#fa23f5e88a23dd611cd7e6695d0e406769411b55"
-  integrity sha512-TIiEF6DG62TlbjivLU8puwWk0XXryTHW2aJMQu5/d37c2ysOp+vWg/1WH77nNRaK5b2lHIb30Y0POgPlqOs4xw==
+quasar@2.20.1:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.20.1.tgz#0077407518e8596c99e24f049fac64b31303033b"
+  integrity sha512-C+uFyt9/D2B2Dad/c9tGSlyWLMsrz+ROJLm3FKFdY9i+vc1Mk2q/+JyHBmQnuvQCEpUrdiXqcWQbpmZhuvo60A==
 
 query-string@^5.0.1:
   version "5.1.1"
