@@ -2264,10 +2264,10 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-2.0.3.tgz#b9cdc3fd8c584ee21a133598f27609ab92e559b2"
-  integrity sha512-tTw+5+2ZOugCpkagP20e/LJf7BgQyAQPlwyRwMYe2UpN1F4zYCZhvoAPio1hG2hr5FOlEiJVxSINJHhpdx5NZA==
+"@quasar/extras@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-2.0.4.tgz#d5dfe52f404b2343241231c22a730e877c931bf9"
+  integrity sha512-JWls5J+xkgEn6u86NSBLRUXf92RSTlImmYNcF77JtbOwuZgQfQTg7RpLskqRTmzpU3Kkpd3TLDcVT0xwWwiphA==
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
@@ -10925,10 +10925,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.25.0:
-  version "2.25.0"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.25.0.tgz#ee4d6469c1fab1f01afeb88d024dc0cda154986f"
-  integrity sha512-orpGzerOcbPHKT0ah6tljzQlYiY5a+qcCmIXzKSEa9pKgyfP6BfPjmi1k46yOddurbnXosjCZt3/qZUv2nMeIw==
+quasar@2.25.1:
+  version "2.25.1"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.25.1.tgz#5d08d41d646b43291546f4d2be062d18f7cc56a5"
+  integrity sha512-wDc+rLS0MHzp3wl1ILo7FXk6V15aotljHDO8DVpBlm1foATO4jbY8QTfZJW5e8tqAD/zJw6paHC6BeV4eSPMwg==
 
 query-string@^5.0.1:
   version "5.1.1"

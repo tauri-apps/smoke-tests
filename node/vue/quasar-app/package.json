@@ -14,10 +14,10 @@
     "tauri:build": "yarn tauri:source build"
   },
   "dependencies": {
-    "@quasar/extras": "2.0.3",
+    "@quasar/extras": "2.0.4",
     "@tauri-apps/api": "2.11.1",
     "core-js": "3.50.0",
-    "quasar": "2.25.0"
+    "quasar": "2.25.1"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
