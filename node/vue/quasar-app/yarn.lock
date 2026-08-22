@@ -6110,10 +6110,10 @@ eslint-visitor-keys@^5.0.0, eslint-visitor-keys@^5.0.1:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-5.0.1.tgz#9e3c9489697824d2d4ce3a8ad12628f91e9f59be"
   integrity sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==
 
-eslint@10.8.1:
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.8.1.tgz#fb37d514c19b6dd5b2d6b70169fd26fddfa97967"
-  integrity sha512-wqA7W2jbsC/BnV9Iv1UZpKVFkO1AdNoSmYW8NWG4HNOBbkAMvIqDZ27pI2f07dqn583NcIC44ckjAcOXDL1QbQ==
+eslint@10.9.0:
+  version "10.9.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-10.9.0.tgz#3d86068a06c6c78161a4062e69874d38f59d498b"
+  integrity sha512-5KeEOJZBfEVA47boFiBsf+6MmmJpffM7qEBg4pLla2e4nlKgdKlqCW0oSLOGsT8Wl5uCGJptLV1bkaiShj90Gw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.8.0"
     "@eslint-community/regexpp" "^4.12.2"
@@ -10925,10 +10925,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.25.1:
-  version "2.25.1"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.25.1.tgz#5d08d41d646b43291546f4d2be062d18f7cc56a5"
-  integrity sha512-wDc+rLS0MHzp3wl1ILo7FXk6V15aotljHDO8DVpBlm1foATO4jbY8QTfZJW5e8tqAD/zJw6paHC6BeV4eSPMwg==
+quasar@2.26.0:
+  version "2.26.0"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.26.0.tgz#6217b7763e8c2cd562cbd00876ea190ac5de8311"
+  integrity sha512-ywVtVRJIA12f5Py7Ld8xZJTg16Hw7yG2/mPdTGMEadQpKP1zZUlig9h9DSh/kS6k5z7l3Mr/sWvAUbCXFgrqtQ==
 
 query-string@^5.0.1:
   version "5.1.1"
