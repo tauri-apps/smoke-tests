@@ -2513,10 +2513,10 @@
     estraverse "^5.3.0"
     picomatch "^4.0.2"
 
-"@tauri-apps/api@2.11.1":
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.11.1.tgz#cd6b13fc26403ca095a02e39ecdbec8048d2872d"
-  integrity sha512-M2FPuYND2m+wh5hfW9ZpSdxMPdEJovPBWwoHJmwUpysTYNHaOkVFN419m/K0LIgjb/7KU2vBgsUepJWugQCvAA==
+"@tauri-apps/api@2.12.0":
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.12.0.tgz#9048cede2961ac8e255d2c023692a54b31bffd6a"
+  integrity sha512-fUSxFX8VABYe9W9K5ROdEaKVkNUFRcMSRofjruvaxztXA+I0XnQHcYHF8m/a6iExRUxsUf0HsFWhPBuH9IgzJw==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
@@ -6055,10 +6055,10 @@ eslint-plugin-import@2.32.0:
     string.prototype.trimend "^1.0.9"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-n@18.3.0:
-  version "18.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-18.3.0.tgz#c6dbf33e930eb7fef6b0d715a3938114dd0930f6"
-  integrity sha512-cPVguuDe6DrIPb/qUXHf8P89MaVTUmiYWwpt5gX5AILsvRIiZAxMFXcFR6QHYBksqKJpjfUBlL/RleCJUWcD7w==
+eslint-plugin-n@18.4.0:
+  version "18.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-18.4.0.tgz#333af847d8568468bedd6703b6422e854f1655a0"
+  integrity sha512-TEm6Nqn9+l7EWfJXOL6pmrEdpiM2ZTgo4fNMRDvBTM70jeQ7x3X3Akcx+sRCIRfpcSVwMypH3ZAA33PLyNKmYw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.5.0"
     enhanced-resolve "^5.17.1"
@@ -6067,6 +6067,7 @@ eslint-plugin-n@18.3.0:
     globals "^15.11.0"
     globrex "^0.1.2"
     ignore "^5.3.2"
+    js-yaml "^5.4.1"
     semver "^7.6.3"
 
 eslint-plugin-n@^17.16.2:
@@ -6102,10 +6103,10 @@ eslint-plugin-standard@5.0.0:
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-5.0.0.tgz#c43f6925d669f177db46f095ea30be95476b1ee4"
   integrity sha512-eSIXPc9wBM4BrniMzJRBm2uoVuXz2EPa+NXPk2+itrVt+r5SbKFERx/IgrK/HmfjddyKVz2f+j+7gBRvu19xLg==
 
-eslint-plugin-vue@10.11.0:
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-10.11.0.tgz#c2f72845a56a87dcac0c973c89a3f23c09b40c43"
-  integrity sha512-fGt38SsaPCZ2FmA3bX/3vOW2qdsPNx0/9x+7Aab6NMX++PhynMtK4LWC4vzXgfQBCqpUAler18H38GA+NBAd0Q==
+eslint-plugin-vue@10.11.1:
+  version "10.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-10.11.1.tgz#2cd8190d5163daf2e0e367d255390c79aabc8c89"
+  integrity sha512-pasVXhl7wUmIvhujoqs/m0mJ9r59QW1IR9XXYKGR0FETzSM+Hhlf4qKIYgWiDDP+9YKv4YfbwskD7LqIdVcgQw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.9.1"
     natural-compare "^1.4.0"
@@ -8635,6 +8636,13 @@ js-yaml@^4.1.0:
   dependencies:
     argparse "^2.0.1"
 
+js-yaml@^5.4.1:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-5.4.2.tgz#eebc7a57e0bbe1d6b6d9416a72e7463082c7da85"
+  integrity sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==
+  dependencies:
+    argparse "^2.0.1"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -10987,10 +10995,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@2.33.0:
-  version "2.33.0"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.33.0.tgz#d65cd809fde92857dd77393fb7acd167c46380e4"
-  integrity sha512-Vgt4C6Iy/0/AMkNaZaezQerRQB6DLrc9kIxvK4tObqTpl3nx38rmtAJHiGcRgsEPC1MMvcuZXsUqZO3oXrDLKQ==
+quasar@2.33.2:
+  version "2.33.2"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.33.2.tgz#4903889ddafb0e486c7b66478e718d673c2f9f4a"
+  integrity sha512-ZzskDpI34A7qo00VQuCo+zg6xyKzAIoTFDjYAdbY5R0udYl7KzwtojEDLRcrsybEcwe46GK0mPIA4oQWByKLiQ==
 
 query-string@^5.0.1:
   version "5.1.1"
