@@ -17,13 +17,13 @@
     "@quasar/extras": "2.1.0",
     "@tauri-apps/api": "2.12.1",
     "core-js": "3.50.0",
-    "quasar": "2.34.0"
+    "quasar": "2.35.0"
   },
   "devDependencies": {
     "@quasar/app": "3.3.3",
     "@tauri-apps/tauri-webpack": "0.2.0",
     "@vue/eslint-config-standard": "9.0.1",
-    "@babel/eslint-parser": "8.0.6",
+    "@babel/eslint-parser": "8.0.7",
     "eslint": "10.12.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.32.0",
@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "7.3.0",
     "eslint-plugin-standard": "5.0.0",
     "eslint-plugin-vue": "10.11.1",
-    "execa": "10.0.1",
+    "execa": "10.1.0",
     "pkg": "5.8.1",
     "workbox-webpack-plugin": "7.4.1"
   },
