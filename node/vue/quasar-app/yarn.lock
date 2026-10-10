@@ -2513,10 +2513,10 @@
     estraverse "^5.3.0"
     picomatch "^4.0.2"
 
-"@tauri-apps/api@2.12.1":
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.12.1.tgz#51dbfb830f6559dd13e808c0752ae022928d2853"
-  integrity sha512-DeyFHa3wynpyoqTDikDEDGTJIq4LQ5USfolQGRmGIWT6JMADyxZBTDa5cAdT3tDg73rUXufPaCwN7aXBos4OnQ==
+"@tauri-apps/api@2.12.2":
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-2.12.2.tgz#d3f718ebd8b5efe62314c505af608bd88c457761"
+  integrity sha512-cr0FYEsbSQIeEuIIoC8bwdiHW3YlziMYOZ0j3R7F6kkIHSVrrZnV6CSjv/VQvFoyuERGxFc8NMtLJDXi5wYOYg==
 
 "@tauri-apps/tauri-inliner@1.13.2":
   version "1.13.2"
