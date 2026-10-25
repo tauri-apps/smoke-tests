@@ -6287,10 +6287,10 @@ exec-buffer@^3.0.0:
     rimraf "^2.5.4"
     tempfile "^2.0.0"
 
-execa@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-10.2.0.tgz#0703134024f091c2887e39b7526fe11194d74bb6"
-  integrity sha512-j1pFOVxaybMVCTNHSBuISL2KQcDS3KIE1wBmUp4n2X+1FgaQI2ZDJVy9TYxDyMCzYojRIMh9O8X/UoWZtxTJdw==
+execa@10.2.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-10.2.1.tgz#9cc61f119fa0389a6a7f73cb1eb0edb834d8946c"
+  integrity sha512-/Bofl3ZBh2Q4/PG0W63qFzP5vDAypi8Zc90UWTBzaDNIYiX7apPOd0N6L8hG8CojUdq4V51adu8BObP+iVsSTw==
   dependencies:
     "@sindresorhus/merge-streams" "^4.0.0"
     figures "^6.1.0"
