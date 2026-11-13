@@ -29,3 +29,7 @@ Please report all library errors at https://github.com/tauri-apps/tauri
 ## License
 
 Everything in this repo is MIT License unless otherwise specified.
+
+## Badges
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/lauer3912/tauri-apps-smoke-tests/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/lauer3912/tauri-apps-smoke-tests)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:7cc9c8ee46f3f9d5b2f5966f2e15e28110e46278/)](https://archive.softwareheritage.org/swh:1:dir:7cc9c8ee46f3f9d5b2f5966f2e15e28110e46278;origin=https://github.com/lauer3912/tauri-apps-smoke-tests;visit=swh:1:snp:6108eaf188736a57fc483d7eb40d13305e2c838d;anchor=swh:1:rev:87b9a978f98195c8f7f96b8416bbe585c6c33739)
